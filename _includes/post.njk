@@ -1,0 +1,47 @@
+---
+layout: basenav.njk
+permalink: "/{{title | slug }}/"
+---
+
+
+
+<style>
+article p:first-of-type:first-letter {
+  padding-right: .3rem;
+  margin-top: 0.4rem;
+
+  font-size: 5.2rem;
+  float: left;
+  font-weight: 900;
+}
+article h1 {
+    /*
+    background: #FFA000;
+    color: #3E2723;
+    */
+    font-weight: 900;
+    font-size: 3.0rem;
+    text-transform: uppercase;
+}
+article p:first-of-type{
+    font-size: 1.3rem;
+}
+article p {
+    /*
+    text-align: justify;
+    text-justify: auto ;
+    hyphens: auto;
+    */
+}
+body {
+    background-color: #212121;
+}
+</style>
+
+<article>
+<h1>{{title}}</h1>
+<address>{{author}}
+</address>
+
+{{content | safe }}
+</article>

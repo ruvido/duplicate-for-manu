@@ -1,0 +1,100 @@
+---
+title: TEST offri un caffè
+layout: base.njk
+permalink: "chi-siamo/"
+memberships:
+-
+    name: starter
+    label: giovani
+    description: Ogni contributo conta! Questo piano è pensato per chi è studente o in cerca di lavoro e non ha grandi disponibilità economiche. Se vuoi supportare il lavoro di 5pani2pesci, iscriviti a questo piano.
+    amount: 5
+    sku: 05-monthly
+    currency: EUR
+-
+    name : supporter
+    label: consigliato
+    description: Pensato per chi ha un lavoro, le famiglie o i sacerdoti, questo piano ci aiuta a supportare in maniera stabile 5pani2pesci. Siamo sempre stati contrari all'utilizzo di pubblicità o sponsorizzazioni perché crediamo che se il nostro lavoro è di aiuto la Provvidenza si farà presente. Grazie per il tuo contributo (vale tanto!)
+    amount: 10
+    sku: 10-monthly
+    currency: EUR
+-
+    name : premium
+    label: no confort zone
+    description: Ci sono persone che vogliono dare di più. Sanno che è donando che si riceve e desiderano mettersi in gioco, uscendo dalla loro zona di confort per sperimentare qualcosa di grande. Se vuoi metterti in gioco di più supportnado in maniera notevole 5pani2pesci questo piano è per te!
+    amount: 50
+    sku: 50-monthly
+    currency: EUR
+---
+
+<script src="https://js.stripe.com/v3/"></script>
+
+<div class="products"></div>
+
+<script type="module">
+    //export async function handleFormSubmission(event) {
+    async function superCazFormSubmission(event) {
+        event.preventDefault();
+        console.log(event)
+        const form = new FormData(event.target);
+
+        const data = {
+        sku:         form.get('sku'),
+        name:        form.get('name'),
+        description: form.get('description'),
+        amount:      form.get('amount'),
+        currency:    form.get('currency'),
+        };
+        console.log(data)
+
+        const response = await fetch('/.netlify/functions/create-checkout', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(data),
+        }).then((res) => res.json());
+      
+        const stripe = Stripe(response.publishableKey);
+        const { error } = await stripe.redirectToCheckout({
+          sessionId: response.sessionId,
+        });
+      
+        if (error) {
+          console.error(error);
+        }
+    }
+
+
+
+    const forms = document.querySelectorAll('form');
+    forms.forEach(f => {
+        const skuValue = f.querySelector('[name=sku').value
+        console.log('submit' + skuValue)
+        //f.addEventListener('submit', async e => {
+        //    console.log('submitCLICK' + skuValue)
+        //})
+        f.addEventListener('submit', superCazFormSubmission)
+    })
+
+</script>
+
+
+
+
+{% for plan in memberships %}
+
+    <form>
+        <input class="hidden" name="sku"    value="{{plan.sku}}" />
+        <input class="hidden" name="name"   value="{{plan.name}}" />
+        <input class="hidden" name="description" value="{{plan.description}}" />
+        <input class="hidden" name="amount" value="{{plan.amount}}" />
+        <input class="hidden" name="currency" value="{{plan.currency}}" />
+
+        <div>{{plan.name}} - {{plan.amount}}</div>
+        <button type="submit" class="btn btn-secondary uppercase">
+            {{plan.sku}}
+        </button>
+    </form>
+
+{% endfor %}
+

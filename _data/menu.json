@@ -1,0 +1,30 @@
+[
+    {
+        "name": "home",
+        "url": "/"
+    },
+    {
+        "name": "archivio",
+        "url": "/archivio/"
+    },
+    {
+        "name": "podcast",
+        "url": "/podcast/"
+    },
+    {
+        "name": "offri un caffè",
+        "url": "/caffe/"
+    },
+    {
+        "name": "chi siamo",
+        "url": "/chi-siamo/"
+    },
+    {
+        "name": "scrivici",
+        "url": "/scrivici/"
+    },
+    {
+        "name": "todo",
+        "url": "/todo/"
+    }
+]

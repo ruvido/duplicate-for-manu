@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <title>
+        {% block title %}
+        {{title}}{% endblock %}
+    </title>
+    <meta charset="UTF-8"/>
+    {% if description %}
+      <meta name="description" content="{{description}}"/>
+    {% endif %}
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover"/>
+    <link rel="stylesheet" href="/style.css"/>
+    <script defer src="/alpine.js"></script>
+
+  </head>
+  <body>
+      <header>
+          {% include 'navbar.njk' %}
+      </header>
+      <main class="container px-20 py-40">
+          <article class="prose mx-auto">
+          {{ content | safe }}
+          </article>
+      </main>
+  </body>
+</html>

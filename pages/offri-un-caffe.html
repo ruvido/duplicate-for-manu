@@ -1,0 +1,57 @@
+---
+title: offri un caffè
+layout: base.njk
+permalink: "caffe/"
+memberships:
+-
+    name: starter
+    label: giovani
+    description: Ogni contributo conta! Questo piano è pensato per chi è studente o in cerca di lavoro e non ha grandi disponibilità economiche. Se vuoi supportare il lavoro di 5pani2pesci, iscriviti a questo piano.
+    amount: 5
+-
+    name : supporter
+    label: consigliato
+    description: Pensato per chi ha un lavoro, le famiglie o i sacerdoti, questo piano ci aiuta a supportare in maniera stabile 5pani2pesci. Siamo sempre stati contrari all'utilizzo di pubblicità o sponsorizzazioni perché crediamo che se il nostro lavoro è di aiuto la Provvidenza si farà presente. Grazie per il tuo contributo (vale tanto!)
+    amount: 10
+-
+    name : premium
+    label: no confort zone
+    description: Ci sono persone che vogliono dare di più. Sanno che è donando che si riceve e desiderano mettersi in gioco, uscendo dalla loro zona di confort per sperimentare qualcosa di grande. Se vuoi metterti in gioco di più supportnado in maniera notevole 5pani2pesci questo piano è per te!
+    amount: 50
+---
+
+<script src="https://js.stripe.com/v3/"></script>
+
+<div class="products"></div>
+
+<script type="module">
+    import { loadProductsTmp } from '/js/load-products-tmp.js';
+
+  loadProductsTmp();
+</script>
+
+
+
+
+{% for plan in memberships %}
+
+    <div class="card card-bordered" id="product">
+        <div class="bg-neutral py-20">
+            <div class="text-center text-5xl font-bold">
+                {{plan.amount}} euro/m
+            </div>
+        </div>
+        <div class="card-body">
+            <h2 class="card-title">{{plan.name}}
+                <div class="badge mx-2 badge-secondary uppercase">{{plan.label}}</div>
+            </h2>
+            <p>{{plan.description}}</p> 
+            <div class="justify-end card-actions">
+                <button type="submit" class="btn btn-secondary uppercase" id="supercazzola">
+                    Iscriviti</button>
+            </div>
+        </div>
+    </div> 
+
+{% endfor %}
+
