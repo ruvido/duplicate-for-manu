@@ -20,6 +20,18 @@ formElem.addEventListener("submit", function(e) {
 
         let payload = JSON.stringify(Object.fromEntries(formData))
 
-        console.log({payload})
+        fetch(
+                "/functions/newsletter-subscription",
+                {
+method: "POST",
+body: payload,
+headers: {'Content-Type': 'application/json;charset=utf-8'}
+}
+)
+        .then(resp => {
+            console.log(resp)
+            })
+
+
         })
 </script>
