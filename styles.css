@@ -4,11 +4,14 @@ html { font-family: 'Inter', sans-serif; }
     html { font-family: 'Inter var', sans-serif; }
 }
 
-nav, nav a, mark {
+s mark {  
+    text-decoration-line: line-through;
+    text-decoration-color: inherit;
+}
+nav, nav a, mark, s mark, mark a {
     background: #ffd54f;
     color: #000a12;
 }
-
 h1 {
     font-weight: 900;
     font-size: 3.0rem;

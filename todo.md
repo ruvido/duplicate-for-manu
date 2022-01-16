@@ -2,26 +2,46 @@
 title: todo
 ---
 
+## ==priority== 
+###### (for launching)
+
+- ==Newsletter build==
+- ==import old content== 
+    - blog posts
+    - (podcast episodes)
+    - (youtube videos)
+- navigation menu
+
+---
+###### 2nd stage
+- search (preview)
+
+---
+
+## newsletter
+- form build ✅
+- netlify functions ✅
+- faunadb integration ✅
+- send emails through postmark
+    - [postmark manual](https://postmarkapp.com/manual)
+- check open rate (purge list) through fauna and postmark
+- send emails from the command line
+- send emails via netlify functions
+
 ## content
 - ~~new.css~~
 - ~~add version in link css~~
 - ~~first letter (BIG)~~
 - ~~first paragraph~~
-- ~~==side navbar==~~
-
-- ==article and blog collections==
-    - how can I write in a folder, setting a title-permalink and tag (folder) automatically?
-- [X] automatic excerpt <https://www.11ty.dev/docs/data-frontmatter-customize/>
-- [Animated hamburger icon]<https://github.com/Typogram/Anicons>
-
-## newsletter
-- form build
-- netlify functions
-- faunadb integration
-- send emails through postmark
-- check open rate (purge list) through fauna and postmark
-- send emails from the command line
-- send emails via netlify functions
+- ~~article and blog collections~~
+- side navbar
+    - ~~sidebar script~~
+    - sidebar styling
+    - sidebar in Alpine.js
+    - [Animated hamburger icon](https://github.com/Typogram/Anicons)
+    - re-write sidebar script in Alpine
+- Scrivici form
+- Serif font: try [Merriweather](https://docs.xz.style/fonts/fonts/merriweather) 
 
 ## members integrations
 - stripe connect (subscriptions)
@@ -37,6 +57,7 @@ title: todo
 - html minify
 
 ## seo
+- [Automatic excerpt](https://www.11ty.dev/docs/data-frontmatter-customize/)
 - tags
 - metadata
 - have a look at <https://iamjoona.com/blog/seo-tags-in-eleventy/>

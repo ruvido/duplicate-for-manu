@@ -1,5 +1,7 @@
 # example netlify.toml
 [build]
+  prebuild = "cd functions/ && npm i"
   command = "npm run build"
+#  command = "cd functions && npm i && cd .."
   functions = "functions"
   publish = "_site"
