@@ -1,14 +1,15 @@
 const faunadb = require("faunadb")
 const q = faunadb.query
 
-exports.handler = async function(event, context) {
+exports.handler = async function(event, context, callback) {
 
-    // The content of the comment is contained in the event body.
+    // The content is contained in the event body.
     // Parse it, and if the parsing fails, return a 400 status message.
     let eventBody = null
 
     try {
         eventBody = JSON.parse(event.body)
+        console.log(eventBody)
     } catch(e) {
         console.log(`ERROR: Invalid JSON - ${e.message}`)
         return {
@@ -27,14 +28,42 @@ exports.handler = async function(event, context) {
         }
     }
 
-    let client = new faunadb.Client({secret: process.env.FAUNA_API_KEY})
+    let client = new faunadb.Client({
+        secret: process.env.FAUNA_API_KEY,
+//        secret: process.env.FAUNADB_SERVER_SECRET,
+        domain: 'db.fauna.com'
+    })
 
-    await client.query(q.Call('email_subscription_to_newsletter', eventBody))
+//    const doesDocExist = await client.query(
+//    q.Exists(q.Match(q.Index('likes_by_slug'), slug))
+//  );
+//
+    await client.query(
+        q.If(
+            q.Exists(q.Collection('Todos')),
+            null,
+            q.CreateCollection({ name: 'Todos' })
+        )
+    ).catch((err) => console.log(err))
+
+    const value = 'mavaff'
+    await client.query(
+        q.Create(
+            q.Collection('Todos'),
+            { data: { todo: value, done: false } }
+        )
+    ).then((response) => {
+        console.log("success", response)
+        return callback(null,{
+            statusCode: 200,
+            body: "I guess everything is good."
+        })
+    }).catch((err) => console.log(err))
 
 
-    return {
-        statusCode: 200,
-        body: "I guess everything is good."
-    }
+//    return {
+//        statusCode: 200,
+//        body: "I guess everything is good. BBUUUUUuuurpPPPP"
+//    }
 }
 
