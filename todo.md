@@ -11,7 +11,7 @@ title: todo
     - (podcast episodes)
     - (youtube videos)
 - navigation menu
-
+- base.njk layout use block to add navigation (no navigation for tools
 ---
 ###### 2nd stage
 - search (preview)

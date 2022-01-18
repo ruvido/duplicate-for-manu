@@ -1,5 +1,5 @@
 {
   "tags": "routes",
-  "layout": "basenav.njk",
+  "layout": "base.njk",
   "permalink": "{{ page.fileSlug }}.html"
 }

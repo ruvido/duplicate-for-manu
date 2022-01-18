@@ -23,6 +23,7 @@ formElem.addEventListener("submit", function(e) {
 
         let payload = JSON.stringify(Object.fromEntries(formData))
 
+        console.log(payload)
         fetch(
                 "/.netlify/functions/newsletter-subscription",
                 {

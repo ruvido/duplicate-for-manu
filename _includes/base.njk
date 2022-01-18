@@ -12,6 +12,7 @@
 
 <body>
 
+    {#
     <nav>
         {% for item in menu %}
             <a class="" href="{{item.url}}">
@@ -19,11 +20,14 @@
             </a>
         {% endfor %}
     </nav>
+    #}
+
+    <div style="margin-top: 10rem;"></div>
 
     <main>
     {{content | safe }}
     </main>
 
-  <script src="js/scripts.js"></script>
+    {#<script src="js/scripts.js"></script>#}
 </body>
 </html>

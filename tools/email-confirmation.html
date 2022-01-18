@@ -1,0 +1,84 @@
+<link rel="stylesheet" href="https://maxbeier.github.io/text-spinners/spinners.css">
+<script src="//unpkg.com/alpinejs" defer></script>
+<style>
+[x-cloak] {
+    display: none !important;
+}
+</style>
+
+
+<div x-data="confirmationMessage" x-init="pushConfirmation">
+    <center><h1 x-show="!serverAnswer" class="loading dots2"></h1></center>
+    <div x-show="confirmationState" x-cloak>
+        <h1>Sluuuurp!</h1>
+        <p>La tua email è stata confermata!</p>
+        <p></p>
+        <!--p>Dal prossimo numero incomincerai a ricevere la Newsletter di 5pani2pesci. Per dare una sbirciata ora ai numeri precedenti vai all'archivio.</p-->
+    </div>
+    <div x-show="confirmationError" x-cloak>
+        <h1>Ooooopsss</h1>
+        <p>Qualcosa è andato storto, ci dispiace! Purtroppo l'iscrizione non è andata a buon fine...</p>
+    </div>
+        <p x-show="serverAnswer" x-cloak>Lista di link</p>
+</div>
+
+
+<script>
+//    let worker = confirmationMessage()
+//    worker.toggle()
+    function confirmationMessage() {
+            return {
+                    serverAnswer: false,
+                    confirmationState: false,
+                    confirmationError: false,
+                    pushConfirmation() {
+                            const key = 'token'
+                            const queryString = window.location.search;
+                            const urlParams = new URLSearchParams(queryString);
+
+                            if (urlParams.has(key)) {
+                                    const token = urlParams.get(key)
+                                    console.log(token);
+                                    payload = JSON.stringify({
+                                            "ref": token
+                                        })
+                                }
+
+                            console.log(payload)
+                            fetch(
+                                    "/.netlify/functions/email-confirmation",
+                                    {
+                                            method: "POST",
+                                            body: payload,
+                                            headers: {'Content-Type': 'application/json;charset=utf-8'}
+                                        }
+                                )
+                                .then(resp => {
+                                        console.log(resp)
+                                        console.log(resp.ok)
+                                        this.serverAnswer = true
+                                        if (resp.ok) {
+                                                this.confirmationState = true
+                                            }
+                                        else {
+                                                this.confirmationError = true
+                                            }
+
+                                    })
+                        }
+                }
+        }
+
+</script>
+
+
+<!--
+    <div x-data="greet()">
+    <button @click="showMessage()">Greet Me</button>
+    <div>Message: <span x-text="messageDisplay"></span></div>
+    </div>
+-->
+<!--
+    <div x-data="{ confirmationState: false}"
+    x-init="setTimeout(() => confirmationState=false, 2000)" x-cloak>
+    --!>
