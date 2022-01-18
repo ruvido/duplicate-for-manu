@@ -7,7 +7,7 @@ title: archivio
 ## Pagine
 {% for page in collections.page %}
 
-- [{{page.data.title}}]({{page.url}})
+- [{{page.data.title}}]({{page.url}}) -- {{page.fileSlug}}
 
 {% endfor %}
 

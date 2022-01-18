@@ -76,3 +76,5 @@ title: todo
     - <https://developer.mozilla.org/en-US/docs/Web/HTML/Element>
 - [Markdonw-it plugins](https://github.com/markdown-it/markdown-it#init-with-presets-and-options)
 - [Userbase & Stripe for authentication](https://userbase.com/docs/sdk/purchase-subscription/)
+- [Passwordless login with Fauna](https://dev.to/gzuidhof/implementing-serverless-passwordless-login-with-faunadb-l30)
+- [Stripe customer portal](https://stripe.com/docs/billing/subscriptions/integrating-customer-portal)

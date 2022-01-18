@@ -1,0 +1,5 @@
+{
+  "tags": "routes",
+  "layout": "basenav.njk",
+  "permalink": "{{ page.fileSlug }}.html"
+}
