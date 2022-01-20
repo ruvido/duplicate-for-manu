@@ -1,17 +1,32 @@
 ---
 title: Si inizia da qui
 permalink: "/"
-layout: basenav.njk
+layout: base-noNavbar.njk
 ---
+<article>
 
-# Lorem ipsum amet
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Lorem ipsum amet sic dolor.
 
 <form class="newsletter-subscription">
+<div style="display:flex; flex-direction: row">
 <input type="email" name="email" />
 <button type="submit">Iscriviti</button>
+</div>
 </form>
+
+
+</article>
+
+<article>
+
+Lorem ipsum amet sic dolor.
+Lorem ipsum amet sic dolor.
+Lorem ipsum amet sic dolor.
+Lorem ipsum amet sic dolor.
+Lorem ipsum amet sic dolor.
+
+</article>
+
 
 <script>
 let formElem = document.querySelector(".newsletter-subscription")

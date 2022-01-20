@@ -3,14 +3,34 @@ html { font-family: 'Inter', sans-serif; }
 @supports (font-variation-settings: normal) {
     html { font-family: 'Inter var', sans-serif; }
 }
-.center {
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
+body, header {
+    background: var(--nc-bg-3);
+    padding: 1rem;
+}
+input {
+    background: var(--nc-bg-3);
+    width: 100%;
+    border-color: var(--nc-bg-1);
+    border-width: 0px;
+    margin: 10px;
+    margin-left: 0px;
+}
+article {
+    border-radius: 10px;
+    padding: 1rem;
+    background: var(--nc-bg-1);
 }
 s mark {  
     text-decoration-line: line-through;
     text-decoration-color: inherit;
+}
+button {
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+    border-radius: 2px;
+    font-size: 0.9rem;
+    margin: 8px 4px;
 }
 nav, nav a, mark, s mark, mark a {
     background: #ffd54f;
@@ -38,11 +58,19 @@ h1 {
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --nc-bg-1: #121212;
-        /*
-        --nc-bg-1: #2e3440;
-        --nc-tx-2: #d8dee9;
+        /* 
+        https://coolors.co/1d2738
+        https://coolors.co/gradient-palette/c3cee0-1d2738?number=8
+        * cool palette
+        https://coolors.co/palette/264653-2a9d8f-e9c46a-f4a261-e76f51
         */
+
+        --nc-bg-1: #1B2639; /* Dark-light color */
+        --nc-bg-2: #1B2639;
+        --nc-bg-3: #161F2E; /* Darkest color */
+        --nc-tx-1: #E8ECF5; /* Heading text */
+        --nc-tx-2: #C3CEE0; /* Body text */
+        --nc-lk-1: #FF0086; /* Action color links and buttons */
     }
     /*
     p { background-color: var(--nc-bg-3) }

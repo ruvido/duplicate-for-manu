@@ -1,5 +1,4 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="it">
 <head>
   <title>{{title}}</title>
@@ -8,26 +7,24 @@
   {% include "seo.html" %}
   <link rel="stylesheet" href="/new.css?v={version}">
   <link rel="stylesheet" href="/styles.css?v={version}">
+  <link rel="stylesheet" href="https://maxbeier.github.io/text-spinners/spinners.css">
 </head>
 
 <body>
 
-    {#
-    <nav>
-        {% for item in menu %}
-            <a class="" href="{{item.url}}">
-                {{ item.name }}
-            </a>
-        {% endfor %}
-    </nav>
-    #}
+    {% block navbar %}
+        {% if false %}
+            {% include 'offside.html' %}
+        {% endif %}
+    {% endblock %}
 
-    <div style="margin-top: 10rem;"></div>
+    <header>
+        header
+    </header>
 
     <main>
-    {{content | safe }}
+        {{content | safe }}
     </main>
 
-    {#<script src="js/scripts.js"></script>#}
+<script src="//unpkg.com/alpinejs" defer></script>
 </body>
-</html>

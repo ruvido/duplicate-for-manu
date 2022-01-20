@@ -1,27 +1,45 @@
 ---
 title: todo
+tags: page
+permalink: "/todo/"
+layout: page
 ---
 
 ## ==priority== 
-###### (for launching)
 
+###### PRE-LAUNCHING
+- landing page
+    - hero message
+    - logo
+    - (simple graphics, planets etc.)
+    - email registration
+    - double opt-in
+- redirect from 5p2p.it --> beta.5p2p.it
+- color scheme
+
+###### (for launching)
 - ==Newsletter build==
-- ==import old content== 
+- import old content
     - blog posts
     - (podcast episodes)
     - (youtube videos)
 - navigation menu
+    - [hamburger](https://github.com/jonsuh/hamburgers)
 - base.njk layout use block to add navigation (no navigation for tools
 ---
 ###### 2nd stage
 - search (preview)
+- code cleanup
+- seo optimization
+- contact form
 
 ---
 
-## newsletter
-- form build ✅
-- netlify functions ✅
-- faunadb integration ✅
+## ==newsletter==
+- ~~form build~~
+- ~~netlify functions~~
+- ~~faunadb integration~~
+- ~~double opt-in confirmation link~~
 - send emails through postmark
     - [postmark manual](https://postmarkapp.com/manual)
 - check open rate (purge list) through fauna and postmark
@@ -40,16 +58,16 @@ title: todo
     - sidebar in Alpine.js
     - [Animated hamburger icon](https://github.com/Typogram/Anicons)
     - re-write sidebar script in Alpine
+- carousel members feedback (store comments to fauna)
 - Scrivici form
 - Serif font: try [Merriweather](https://docs.xz.style/fonts/fonts/merriweather) 
+- Headles cms --> ghost integration
 
 ## members integrations
 - stripe connect (subscriptions)
 - stripe connect (one time)
 - paypal donations
-- (stripe & paypal --> ghost integration)
-- newsletter subscriptions (ghost subscription or just mailgun??)
-- carousel members feedback
+- stripe customer portal
 
 ## optimization
 - css minify & compression
@@ -78,3 +96,5 @@ title: todo
 - [Userbase & Stripe for authentication](https://userbase.com/docs/sdk/purchase-subscription/)
 - [Passwordless login with Fauna](https://dev.to/gzuidhof/implementing-serverless-passwordless-login-with-faunadb-l30)
 - [Stripe customer portal](https://stripe.com/docs/billing/subscriptions/integrating-customer-portal)
+- [Alpine Handbook Examples ⭐](https://alpinejshandbook.com/examples/?path=/story/chapter-1-1-x-data-x-text--hello-world)
+- [Color picker palette](https://coolors.co/1d2738)

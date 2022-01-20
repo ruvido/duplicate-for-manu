@@ -1,0 +1,26 @@
+  <link rel="stylesheet" href="/offside.css">
+        <script src="/offside.min.js"></script>
+  <script>
+      //Offside.js minimal setup
+      var myOffside = offside( 'nav', {
+                slidingElementsSelector:'main',
+                buttonsSelector: '#my-button, .menu-button',
+                slidingSide: 'right',
+                init: function(){},           // Function: After init callback
+                beforeOpen: function(){},     // Function: Before open callback
+                afterOpen: function(){},      // Function: After open callback
+                beforeClose: function(){},    // Function: Before close callback
+                afterClose: function(){},     // Function: After close callback
+            });
+  </script>
+    <button style="" type="button" id="my-button">open</button>
+    <header>
+        <nav>
+            {% for item in menu %}
+                <a class="" href="{{item.url}}">
+                    {{ item.name }}
+                </a>
+            {% endfor %}
+        </nav>
+    </header>
+
