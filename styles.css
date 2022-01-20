@@ -5,24 +5,28 @@ html { font-family: 'Inter', sans-serif; }
 }
 body, header {
     background: var(--nc-bg-3);
+    padding: 0rem;
+}
+article {
+    margin: 1.2rem;
+    border-radius: 10px;
     padding: 1rem;
+    background: var(--nc-bg-1);
+}
+footer, footer a, footer h2 {
+    color: var(--nc-bg-1);
+    background: var(--nc-lk-1);
+    font-size: 0.8rem;
+}
+footer {
+    padding: 2rem;
 }
 input {
     background: var(--nc-bg-3);
     width: 100%;
     border-color: var(--nc-bg-1);
     border-width: 0px;
-    margin: 10px;
-    margin-left: 0px;
-}
-article {
-    border-radius: 10px;
-    padding: 1rem;
-    background: var(--nc-bg-1);
-}
-s mark {  
-    text-decoration-line: line-through;
-    text-decoration-color: inherit;
+    margin: 2px 10px 2px 0px;
 }
 button {
     font-weight: 900;
@@ -31,6 +35,30 @@ button {
     border-radius: 2px;
     font-size: 0.9rem;
     margin: 8px 4px;
+    margin: 0px 4px;
+}
+small {
+    font-size: 0.8rem;
+}
+small a {
+    color: var(--nc-tx-2);
+}
+small a:hover {
+    color: var(--nc-tx-2);
+}
+a {
+    color: var(--nc-tx-1);
+    text-decoration-color: var(--nc-lk-1);
+}
+a.angle {
+    text-decoration: none;
+}
+a.angle::after {
+    content: " →";
+}
+s mark {  
+    text-decoration-line: line-through;
+    text-decoration-color: inherit;
 }
 nav, nav a, mark, s mark, mark a {
     background: #ffd54f;

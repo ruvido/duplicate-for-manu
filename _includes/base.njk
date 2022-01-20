@@ -26,5 +26,14 @@
         {{content | safe }}
     </main>
 
+    <footer>
+        <menu>
+            <h2> Stuff </h2>
+            {% for item in menu %}
+                <li><a href="{{item.url}}">{{item.name}}</a></li>
+            {% endfor %}
+        </menu>
+        <footer>
+
 <script src="//unpkg.com/alpinejs" defer></script>
 </body>

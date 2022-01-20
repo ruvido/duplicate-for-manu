@@ -1,29 +1,35 @@
 ---
-title: Si inizia da qui
+title: Lorem ipsum sit amet
 permalink: "/"
 layout: base-noNavbar.njk
 ---
 <article>
 
-Lorem ipsum amet sic dolor.
+<h1>{{title}}</h1>
+
+Lorem ipsum dolor sit amet, [consectetur]() adipiscing elit, sed do [eiusmod]() tempor incididunt ut labore et dolore magna aliqua.
 
 <form class="newsletter-subscription">
 <div style="display:flex; flex-direction: row">
-<input type="email" name="email" />
+<input type="email" name="email" placeholder="la tua email"/>
 <button type="submit">Iscriviti</button>
 </div>
 </form>
+
+<center>
+<small>
+<a class="angle" href="">
+fammi dare un'occhiata</a></small>
+</center>
 
 
 </article>
 
 <article>
 
-Lorem ipsum amet sic dolor.
-Lorem ipsum amet sic dolor.
-Lorem ipsum amet sic dolor.
-Lorem ipsum amet sic dolor.
-Lorem ipsum amet sic dolor.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 </article>
 
