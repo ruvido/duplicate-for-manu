@@ -1,5 +1,5 @@
 ---
-title: We're back!
+title: We're back! 💪
 permalink: "/"
 layout: base-noNavbar.njk
 ---
@@ -7,7 +7,10 @@ layout: base-noNavbar.njk
 
 <h1>{{title}}</h1>
 
-***5PANI2PESCI*** ritorna in maniera del tutto nuova. Iscriviti alla **newsletter** settimanale e ti avvertiremo appena saremo pronti. 
+***5PANI2PESCI*** ritorna! 
+
+Arriva la **newsletter** ⭐ e tante altre cosette belle. 
+Iscriviti e ti avviseremo appena siamo pronti!
 
 ***#daje!***
 
@@ -30,12 +33,51 @@ Torna al vecchio Blog di 5pani2pesci</a></small>
 <article>
 
 ## Perchè questo cambiamento?
-Ne parliamo da tanto, ma ora -- con le idee più chiare -- stiamo mettendo insieme tutto quanto per iniziare una nuova esperienza.
 
+Ne parliamo da tanto e --- *incredibilmente* --- eccoci qui per un vero e proprio
+*restyling* di ***5PANI2PESCI***. Che dire... ce n'é voluto di tempo ma alla
+fine eccoci qui :D
 
-Stiamo lavorando su tanti aspetti del progetto, in particolare vogliamo dare la possibilità di consultare tutti i nostri contenuti in un solo luogo, che sia semplice e fruibile. 
+Ripensando a questi anni, abbiamo fatto veramente tanta strada insieme: momenti
+di gioia, di silenzio, grandi novità, pandemie (!) sempre con il pensiero a
+sviluppare contenuti freschi e autentici per condividere il desiderio di
+sperimentare una vita piena, fondata sull'esperienza viva ed autentica con Dio.
 
-Inoltre, dalle prossime settimane affiancheremo al <b>podcast</b> <strong>#gratefulmonday</strong> una <b>newsletter</b> settimanale per poter leggere i nostri approfondimenti in maniera regolare e direttamente dalla tua casella di posta.
+La tempesta covid e le difficoltà sempre più crescenti ad organizzare incontri
+faccia-a-faccia ci ha avvicinato in maniera sempre più sostanziale a
+piattaforme come [YouTube]() e [Instagram](). Da qui sono nati contenuti nuovi
+e belli come il cammino sui [Nuclei di Morte]() ed il libro di Alessandra [Trombamica d'eccezione]() --- bestseller su Amazon ***#tantaRobbba*** 
+
+Questa esperienza ci ha insegnato nuovi modi di interagire attraverso i video
+settimanali, le Live *domande&risposte*, gli innumerevoli messaggi sui social
+ed infine ***#gratefulmonday*** un [podcast settimanale]() che è diventato
+appuntamento fisso, nonchè  canale di scambio e crescita bellissimo. Nel 2013
+abbiamo iniziato con un semplice blog ed ora ***5PANI2PESCI*** è diventata una
+vera e propria community!
+
+È stupendo, perchè tutto questo è stato possibile innanzitutto **grazie a voi**, al
+vostro sostegno, alla vostra pazienza nei nostri momenti di silenzio, nella
+voglia di mettersi in discussione e di crescere, nel desiderio grande di volare
+alto!
+
+Ora sentiamo forte il desiderio di fare **ordine**, di mettere insieme tutto il
+lavoro svolto sui social, nelle piattaforme di streaming e sul blog e renderlo
+un materiale facilmente fruibile, consultabile ed accessibile.
+
+Iniziamo da qui, da un nuovo sito che piano piano acquisterà tutte le
+funzionalità di cui abbiamo bisogno e che ospiterà un nuovo progetto: una
+**Newsletter settimanale** che useremo come canale principale per condivdere i
+nostri contenuti e le nostre riflessioni in maniera regolare e direttamente dalla tua casella di posta.
+
+Una scelta questa anche per dare la possibilità a chi vuole vivere una vera
+esperienza di [Minimalismo Digitale](), l'opportunità di staccarsi dai social,
+continuandosi a nutrire con i nostri contenuti.
+
+Beh... direi che è tutto.
+
+Aspettatevi tante novità nei prossimi giorni.
+
+A presto!
 
 </article>
 

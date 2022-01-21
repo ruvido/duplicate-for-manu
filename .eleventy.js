@@ -3,14 +3,22 @@ const now = String(Date.now())
 
 module.exports = function (eleventyConfig) {
 
-    let markdownIt = require("markdown-it");
+    let markdownIt = require("markdown-it")
+//        .use("markdown-it-mark")
+//        .use("markdown-it-emoji")
     let markdownItMark = require("markdown-it-mark");
+    let emoji = require('markdown-it-emoji');
     let options = {
-        html: true
+        html: true,
+        typographer: true,
     };
-    let markdownLib = markdownIt(options).use(markdownItMark);
+    let markdownLib = markdownIt(options)
+        .use(markdownItMark)
+        .use(emoji)
+    //let markdownLib = markdownIt(options)
   
-  eleventyConfig.setLibrary("md", markdownLib);
+    eleventyConfig.setLibrary("md", markdownLib);
+    //markdownIt.use(emoji [, options]);
 //  eleventyConfig.addWatchTarget('./styles/tailwind.config.js')
 //  eleventyConfig.addWatchTarget('./styles/tailwind.css')
 //
