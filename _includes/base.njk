@@ -19,7 +19,13 @@
     {% endblock %}
 
     <header>
-        header
+        <a href="/">
+        <picture>
+            <source srcset="/images/logo-long.webp" media="(max-width: 799px)">
+            <source srcset="/images/logo-long.webp">
+            <img src="/images/logo-long.webp" alt="5pani2pesci logo">
+        </picture>
+        </a>
     </header>
 
     <main>
@@ -28,10 +34,16 @@
 
     <footer>
         <menu>
-            <h2> Stuff </h2>
+            <h2> 5PANI2PESCI</h2>
+            <p>Blog
+            <p>Podcast
+            <p>Youtube
+            <p>Offri un caffè</p>
+            {#
             {% for item in menu %}
                 <li><a href="{{item.url}}">{{item.name}}</a></li>
             {% endfor %}
+            #}
         </menu>
         <footer>
 

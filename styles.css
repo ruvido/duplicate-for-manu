@@ -5,12 +5,22 @@ html { font-family: 'Inter', sans-serif; }
 }
 body, header {
     background: var(--nc-bg-3);
-    padding: 0rem;
+    padding: 0;
+    line-height: 1.5;
+}
+header {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+header img {
+    height: 70px;
+    margin: 0;
 }
 article {
-    margin: 1.2rem;
+    margin: 1.6rem;
+    margin-top: 0;
     border-radius: 10px;
-    padding: 1rem;
+    padding: 1.4rem;
     background: var(--nc-bg-1);
 }
 footer, footer a, footer h2 {
@@ -56,6 +66,11 @@ a.angle {
 a.angle::after {
     content: " →";
 }
+em strong{
+    color: var(--nc-tx-1);
+    font-weight: 900;
+    font-style: italic;
+}
 s mark {  
     text-decoration-line: line-through;
     text-decoration-color: inherit;
@@ -64,9 +79,14 @@ nav, nav a, mark, s mark, mark a {
     background: #ffd54f;
     color: #000a12;
 }
-h1 {
+h1,h2,h3,h4,h5 {
     font-weight: 900;
+}
+h1 {
     font-size: 3.0rem;
+    line-height: 1.2;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 :root {
@@ -119,3 +139,7 @@ h1 {
     --nc-ac-1: Accent background color for <mark> and text selection background
     --nc-ac-tx: Text color when accent is used as a background
 */
+@media screen and (min-width: 800px) {
+header img {
+    height: 150px;
+}

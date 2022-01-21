@@ -9,27 +9,38 @@ layout: page
 
 ###### PRE-LAUNCHING
 - landing page
-    - hero message
-    - logo
-    - (simple graphics, planets etc.)
-    - email registration
+    - ~~color scheme~~
+    - ~~hero message~~
+    - ~~logo~~
+    - header with logo
+    - footer
+    - master text
+
+- email registration
+    - email verification
     - double opt-in
 - redirect from 5p2p.it --> beta.5p2p.it
-- color scheme
 
 ###### (for launching)
 - ==Newsletter build==
-- import old content
-    - blog posts
-    - (podcast episodes)
-    - (youtube videos)
+- ~~base.njk layout use block to add navigation~~
+---
+###### 2nd stage (migration)
 - navigation menu
     - [hamburger](https://github.com/jonsuh/hamburgers)
-- base.njk layout use block to add navigation (no navigation for tools
----
-###### 2nd stage
-- search (preview)
+- add old blog posts
+- redirects
+- youtube videos
+- podcast episodes
+
+###### 3rd stage (cleanup + optimization)
+- css, js minification
+- automatic image optimization
+- lazy loading images
 - code cleanup
+
+###### 4th stage (new functionalites)
+- search (preview)
 - seo optimization
 - contact form
 
@@ -98,3 +109,4 @@ layout: page
 - [Stripe customer portal](https://stripe.com/docs/billing/subscriptions/integrating-customer-portal)
 - [Alpine Handbook Examples ⭐](https://alpinejshandbook.com/examples/?path=/story/chapter-1-1-x-data-x-text--hello-world)
 - [Color picker palette](https://coolors.co/1d2738)
+- [Mozilla Guide to Responsive Design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)

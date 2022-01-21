@@ -21,8 +21,9 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addWatchTarget('./styles.css')
     eleventyConfig.addPassthroughCopy({
-        './node_modules/@exampledev/new.css/new.css': './new.css',
-        './styles.css': './styles.css',
+        'images': 'images',
+        'styles.css': 'styles.css',
+        'node_modules/@exampledev/new.css/new.css': './new.css',
         'node_modules/offside-js/dist/offside.css': './offside.css',
         'node_modules/offside-js/dist/offside.min.js': './offside.min.js',
     })
