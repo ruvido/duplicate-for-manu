@@ -1,5 +1,6 @@
 const faunadb = require("faunadb")
 const q = faunadb.query
+const peopleCollection = 'people'
 
 exports.handler = async function(event, context, callback) {
 
@@ -40,23 +41,22 @@ exports.handler = async function(event, context, callback) {
 //
     await client.query(
         q.If(
-            q.Exists(q.Collection('Todos')),
+            q.Exists(q.Collection(peopleCollection)),
             null,
-            q.CreateCollection({ name: 'Todos' })
+            q.CreateCollection({ name: peopleCollection })
         )
     ).catch((err) => console.log(err))
 
-    const value = 'mavaff'
     await client.query(
         q.Create(
-            q.Collection('Todos'),
-            { data: { todo: value, done: false } }
+            q.Collection(peopleCollection),
+            { data: { email: eventBody.email, verified: false } }
         )
     ).then((response) => {
         console.log("success", response)
         return callback(null,{
             statusCode: 200,
-            body: "I guess everything is good."
+            body: "I guess everything is good. Now must send an email for double opt-in"
         })
     }).catch((err) => console.log(err))
 

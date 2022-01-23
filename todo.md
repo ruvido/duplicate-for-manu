@@ -8,17 +8,22 @@ layout: page
 ## ==priority== 
 
 ###### PRE-LAUNCHING
-- landing page
+- ~~landing page~~
+   <!-- 
     - ~~color scheme~~
     - ~~hero message~~
     - ~~logo~~
     - ~~header with logo~~
     - ~~footer~~
     - ~~master text~~
+    --->
 
 - ==email registration==
     - email verification
+    - update on-page message with alpine ("ti abbiamo mandato una email...)
     - double opt-in
+
+- force dark theme
 - redirect from 5p2p.it --> beta.5p2p.it
 - update old stuff
     - change youtube promo video
@@ -59,6 +64,7 @@ layout: page
 - check open rate (purge list) through fauna and postmark
 - send emails from the command line
 - send emails via netlify functions
+- set on a global file general variables like fauna domain (e.g. db.fauna.com)
 
 ## content
 - ~~new.css~~
