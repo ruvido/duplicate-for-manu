@@ -71,6 +71,9 @@ em strong{
     font-weight: 900;
     font-style: italic;
 }
+em strong.dark{
+    color: var(--nc-bg-1);
+}
 s mark {  
     text-decoration-line: line-through;
     text-decoration-color: inherit;

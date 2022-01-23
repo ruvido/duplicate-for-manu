@@ -34,16 +34,10 @@
 
     <footer>
         <menu>
-            <h2> 5PANI2PESCI</h2>
-            <p>Blog
-            <p>Podcast
-            <p>Youtube
-            <p>Offri un caffè</p>
-            {#
-            {% for item in menu %}
-                <li><a href="{{item.url}}">{{item.name}}</a></li>
+            <p><em><strong class="dark">5PANI2PESCI</strong></em></p>
+            {% for item in menu.footer %}
+                <p><a href="{{item.url}}">{{item.name}}</a></p>
             {% endfor %}
-            #}
         </menu>
         <footer>
 

@@ -1,30 +1,51 @@
-[
-    {
-        "name": "home",
-        "url": "/"
-    },
-    {
-        "name": "archivio",
-        "url": "/archivio/"
-    },
-    {
-        "name": "podcast",
-        "url": "/podcast/"
-    },
-    {
-        "name": "offri un caffè",
-        "url": "/caffe/"
-    },
-    {
-        "name": "chi siamo",
-        "url": "/chi-siamo/"
-    },
-    {
-        "name": "scrivici",
-        "url": "/scrivici/"
-    },
-    {
-        "name": "todo",
-        "url": "/todo/"
-    }
-]
+{
+    "navbar": [
+        {
+            "name": "home",
+            "url": "/"
+        },
+        {
+            "name": "archivio",
+            "url": "/archivio/"
+        },
+        {
+            "name": "podcast",
+            "url": "/podcast/"
+        },
+        {
+            "name": "offri un caffè",
+            "url": "/caffe/"
+        },
+        {
+            "name": "chi siamo",
+            "url": "/chi-siamo/"
+        },
+        {
+            "name": "scrivici",
+            "url": "/scrivici/"
+        },
+        {
+            "name": "todo",
+            "url": "/todo/"
+        }
+    ],
+    "footer": [
+        {
+            "name": "Blog",
+            "url": "https://5p2p.it"
+        },
+        {
+            "name": "Podcast",
+            "url": "https://5p2p.buzzsprout.com"
+        },
+        {
+            "name": "Youtube",
+            "url": "https://youtube.com/5pani2pesci"
+        },
+        {
+            "name": "Offri un caffè",
+            "url": "https://bit.ly/offri-un-caffe"
+        }
+    ]
+}
+

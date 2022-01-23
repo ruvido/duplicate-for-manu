@@ -65,17 +65,20 @@ lavoro svolto sui social, nelle piattaforme di streaming e sul blog e renderlo
 un materiale facilmente fruibile, consultabile ed accessibile.
 
 Iniziamo da qui, da un nuovo sito che piano piano acquisterà tutte le
-funzionalità di cui abbiamo bisogno e che ospiterà un nuovo progetto: una
-**Newsletter settimanale** che useremo come canale principale per condivdere i
-nostri contenuti e le nostre riflessioni in maniera regolare e direttamente dalla tua casella di posta.
+funzionalità di cui abbiamo bisogno e che ospiterà un nuovo progetto che
+affiancherà il podcast: una **Newsletter settimanale** che useremo come canale
+principale per condivdere i nostri contenuti e le nostre riflessioni in maniera
+regolare e direttamente dalla tua casella di posta.
 
-Una scelta questa anche per dare la possibilità a chi vuole vivere una vera
-esperienza di [Minimalismo Digitale](), l'opportunità di staccarsi dai social,
-continuandosi a nutrire con i nostri contenuti.
+Una scelta questa per concentrarci sempre di più su contenuti di valore e anche
+per dare la possibilità a chi vuole vivere una vera esperienza di [Minimalismo
+Digitale]() l’opportunità di staccarsi dai social, continuandosi a nutrire con i
+nostri contenuti.
 
-Beh... direi che è tutto.
+Beh... direi che è tutto --- aspettando che parta la newsletter --- ci vediamo
+ogni lunedì con un nuovo *episodio* del podcast.
 
-Aspettatevi tante novità nei prossimi giorni.
+Aspettatevi tante novità nei prossimi giorni 🙌
 
 A presto!
 

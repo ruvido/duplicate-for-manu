@@ -12,14 +12,17 @@ layout: page
     - ~~color scheme~~
     - ~~hero message~~
     - ~~logo~~
-    - header with logo
-    - footer
-    - master text
+    - ~~header with logo~~
+    - ~~footer~~
+    - ~~master text~~
 
-- email registration
+- ==email registration==
     - email verification
     - double opt-in
 - redirect from 5p2p.it --> beta.5p2p.it
+- update old stuff
+    - change youtube promo video
+    - change last post on blog (match new site master text)
 
 ###### (for launching)
 - ==Newsletter build==
