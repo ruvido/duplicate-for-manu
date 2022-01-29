@@ -19,12 +19,11 @@ layout: page
     --->
 
 - ==email registration==
-    - email verification
-        - create double opt-in link
-        - verify email (netlify function)
-        - create email template (where do you store it? written in md?)
+    - ~~email verification~~
+        - ~~create double opt-in link~~
+        - ~~verify email (netlify function)~~
+        - ~~create email template (where do you store it? written in md?)~~
     - update on-page message with alpine ("ti abbiamo mandato una email...)
-    - double opt-in
 
 - force dark theme
 - redirect from 5p2p.it --> beta.5p2p.it
@@ -123,3 +122,10 @@ layout: page
 - [Color picker palette](https://coolors.co/1d2738)
 - [Mozilla Guide to Responsive Design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
 - [css inlining](https://kittygiraudel.com/2020/12/03/inlining-scripts-and-styles-in-11ty/)
+- [email css inlining 11ty](https://github.com/5t3ph/11ty-email-generator)
+- [build counter with fauna](https://davidparks.dev/blog/building-a-like-counter-with-faunadb-and-nuxt/#writing-our-functions)
+- [Plain text emails](https://www.litmus.com/blog/best-practices-for-plain-text-emails-a-look-at-why-theyre-important/)
+
+#### Fonts
+ - [Notulen serif display](https://fontsfree.net/notulen-serif-display-extbd-font-download.html)
+- [Atkinson Hyperlegible](https://github.com/googlefonts/atkinson-hyperlegible)
