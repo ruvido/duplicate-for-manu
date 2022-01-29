@@ -10,7 +10,7 @@ confermare l'email cliccando su questo link
 
 {{siteUrl}}/email-confirmation.html?token=LINKTOKEN
 
-ci becchiamo presto
+ci becchiamo presto :D
 
 Francesco e Alessanndra
 
