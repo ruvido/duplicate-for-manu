@@ -92,13 +92,15 @@ exports.handler = async function(event, context, callback) {
         //var htmlEmail = require("fs").readFileSync(templateFileName, "utf8");
         const emailBody= require('./email-templates/email-confirmation.json');
 
-        let emailTo   = 'ruvido+test2@gmail.com'
+        let emailTo = eventBody.email
+        let htmlB = emailBody.htmlContent.replace('LINKTOKEN',faunaDocumentID)
+        let textB = emailBody.textContent.replace('LINKTOKEN',faunaDocumentID)
         await clientEmail.sendEmail({
             "From": emailBody.from,
             "To": emailTo,
-            "Subject": "BUM "+faunaDocumentID,
-            "HtmlBody": emailBody.htmlContent,
-            "TextBody": emailBody.textContent,
+            "Subject": emailBody.subject,
+            "HtmlBody": htmlB,
+            "TextBody": textB,
             "MessageStream": "outbound"
         })
         //        .then((response) => {

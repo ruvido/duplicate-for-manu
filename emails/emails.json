@@ -3,5 +3,5 @@
     "layout": "json.njk",
     "permalink": "../functions/email-templates/{{title | slug}}.json",
     "templateEngineOverride": "njk,md",
-    "siteUrl": "https://localhost:8888"
+    "siteUrl": "http://localhost:8888"
 }
