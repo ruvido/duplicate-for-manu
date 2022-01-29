@@ -2,6 +2,5 @@
     "tags":   "email-template",
     "layout": "json.njk",
     "permalink": "../functions/email-templates/{{title | slug}}.json",
-    "templateEngineOverride": "njk,md",
-    "siteUrl": "http://localhost:8888"
+    "templateEngineOverride": "njk,md"
 }
