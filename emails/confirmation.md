@@ -5,8 +5,7 @@ from: no-reply@5p2p.it
 ---
 Carissimo
 
-bella lí sei uno **forte**, mo' peró me devi 
-confermare l'email cliccando su questo link
+bella lí sei uno **forte**, mo' peró me devi confermare l'email cliccando su questo link
 
 {{siteUrl}}/email-confirmation.html?token=LINKTOKEN
 
