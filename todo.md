@@ -20,6 +20,9 @@ layout: page
 
 - ==email registration==
     - email verification
+        - create double opt-in link
+        - verify email (netlify function)
+        - create email template (where do you store it? written in md?)
     - update on-page message with alpine ("ti abbiamo mandato una email...)
     - double opt-in
 
@@ -119,3 +122,4 @@ layout: page
 - [Alpine Handbook Examples ⭐](https://alpinejshandbook.com/examples/?path=/story/chapter-1-1-x-data-x-text--hello-world)
 - [Color picker palette](https://coolors.co/1d2738)
 - [Mozilla Guide to Responsive Design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
+- [css inlining](https://kittygiraudel.com/2020/12/03/inlining-scripts-and-styles-in-11ty/)

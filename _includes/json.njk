@@ -1,0 +1,6 @@
+{
+    "from":       "{{from}}",
+    "subject":    "{{subject}}",
+    "htmlContent": {{content | dump | safe | replace("\\n", "")}},
+    "textContent": {{content | dump | safe | striptags() }}
+}

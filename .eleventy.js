@@ -3,9 +3,8 @@ const now = String(Date.now())
 
 module.exports = function (eleventyConfig) {
 
+//    eleventyConfig.addGlobalData('siteUrl', 'https://localhost:8888');
     let markdownIt = require("markdown-it")
-//        .use("markdown-it-mark")
-//        .use("markdown-it-emoji")
     let markdownItMark = require("markdown-it-mark");
     let emoji = require('markdown-it-emoji');
     let options = {

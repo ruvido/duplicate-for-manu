@@ -1,9 +1,12 @@
 const faunadb = require("faunadb")
+const postmark = require("postmark")
 const q = faunadb.query
 const faunaDomain = 'db.fauna.com'
 const faunaSecret =  process.env.FAUNA_API_KEY
 const peopleCollection = 'people'
-const postmarkToken = '0029167c-647d-4b28-a900-8524984fd692'
+const emailToken = '0029167c-647d-4b28-a900-8524984fd692'
+const emailFrom = 'no-reply@5p2p.it'
+
 
 exports.handler = async function(event, context, callback) {
 
@@ -12,6 +15,9 @@ exports.handler = async function(event, context, callback) {
         secret: faunaSecret,
         domain: faunaDomain
     })
+
+    // Initialize Email
+    var clientEmail = new postmark.ServerClient(emailToken);
 
     // The content is contained in the event body.
     // Parse it, and if the parsing fails, return a 400 status message.
@@ -50,27 +56,70 @@ exports.handler = async function(event, context, callback) {
             null,
             q.CreateCollection({ name: peopleCollection })
         )
-    ).catch((err) => console.log(err))
+    )
+        .catch((err) => {
+            console.log(err)
+            return {
+                statusCode: 400,
+                body: "Fauna collection does not exist, error while creating it"
+            }
+        })
 
-    await client.query(
+    let faunaDocumentID = await client.query(
         q.Create(
             q.Collection(peopleCollection),
             { data: { email: eventBody.email, verified: false } }
         )
+        //console.log('AZZZZZ'+caz)
     )
-        .then((response) => {
-            console.log("success", response)
-            return callback(null,{
-                statusCode: 200,
-                body: "I guess everything is good. Now must send an email for double opt-in"
-            })
+        .then((ret) => {
+            console.log(ret.ref.id)
+            return ret.ref.id
         })
-        .catch((err) => console.log(err))
+        .catch((err) => {
+            console.log(err)
+            return {
+                statusCode: 400,
+                body: "Fauna error: cannot create new document in collection"
+            }
+        })
+
+    if (1) {
 
 
-//    return {
-//        statusCode: 200,
-//        body: "I guess everything is good. BBUUUUUuuurpPPPP"
-//    }
+        //let templateFileName = './email-templates/email-confirmation/index.html'
+        //let templateFileName = './email-templates/email-confirmation.md'
+        //var htmlEmail = require("fs").readFileSync(templateFileName, "utf8");
+        const emailBody= require('./email-templates/email-confirmation.json');
+
+        let emailTo   = 'ruvido+test2@gmail.com'
+        await clientEmail.sendEmail({
+            "From": emailBody.from,
+            "To": emailTo,
+            "Subject": "BUM "+faunaDocumentID,
+            "HtmlBody": emailBody.htmlContent,
+            "TextBody": emailBody.textContent,
+            "MessageStream": "outbound"
+        })
+        //        .then((response) => {
+        //            console.log("success", response)
+        //            return callback(null,{
+        //                statusCode: 200,
+        //                body: "I guess everything is good."
+        //            })
+        //        })
+            .catch((err) => {
+                console.log(err)
+                return {
+                    statusCode: 400,
+                    body: "Postmark error: cannot send message"
+                }
+            })
+    }
+
+    return callback(null,{
+        statusCode: 200,
+        body: "I guess everything is good."
+    })
 }
 

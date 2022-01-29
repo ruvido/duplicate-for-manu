@@ -85,7 +85,13 @@ A presto!
 </article>
 
 
+
 <script>
+
+// TODO ----
+// 1. pass markdown template for email
+// 2. form status update (via alpine) + form reset
+
 let formElem = document.querySelector(".newsletter-subscription")
 
 formElem.addEventListener("submit", function(e) {
