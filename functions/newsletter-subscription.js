@@ -1,14 +1,20 @@
+////////////////////////
+const DEBUGMODE = true
+////////////////////////
 const faunadb = require("faunadb")
 const postmark = require("postmark")
 const q = faunadb.query
-const faunaDomain = 'db.fauna.com'
 const faunaSecret =  process.env.FAUNA_API_KEY
+// ruvido> MOVE THESE TO a fauna-config.json (in functions folder)
+const faunaDomain = 'db.fauna.com'
 const peopleCollection = 'people'
+// ruvido> MOVE THIS TO ENV
 const emailToken = '0029167c-647d-4b28-a900-8524984fd692'
-const emailFrom = 'no-reply@5p2p.it'
 
-
-exports.handler = async function(event, context, callback) {
+exports.handler = async (event, context) => {
+    let eventBody = JSON.parse(event.body)
+    // ruvido> MOVE ALL MESSAGES to default-messages.json (in functions)
+    let returnMessage = 'Qualcosa non ha funzionato... riprova più tardi'
 
     // Initialize Fauna
     let client = new faunadb.Client({
@@ -16,112 +22,42 @@ exports.handler = async function(event, context, callback) {
         domain: faunaDomain
     })
 
-    // Initialize Email
-    var clientEmail = new postmark.ServerClient(emailToken);
-
-    // The content is contained in the event body.
-    // Parse it, and if the parsing fails, return a 400 status message.
-    let eventBody = null
-
-    try {
-        eventBody = JSON.parse(event.body)
-        console.log(eventBody)
-    } catch(e) {
-        console.log(`ERROR: Invalid JSON - ${e.message}`)
-        return {
-            statusCode: 400,
-            body: "Request body must comprise a valid JSON string."
+    if (DEBUGMODE) {
+        try {
+            eventBody = JSON.parse(event.body)
+            console.log(eventBody)
+        } catch(e) {
+            console.log(`ERROR: Invalid JSON - ${e.message}`)
+            return {
+                statusCode: 400,
+                body: "Request body must comprise a valid JSON string."
+            }
         }
     }
 
-    // Ensure it contains the relevant pieces
-    //if (!(eventBody.submitter && eventBody.body && eventBody.post_slug && eventBody.post_title)) {
-    if (!(eventBody.email)) {
-        console.log(`ERROR - Email field not defined.`)
-        return {
-            statusCode: 400,
-            body: "Email field not defined. event body must contain the field 'email'"
-        }
+    let emailArray = await client.query(
+        q.Paginate(q.Match(q.Index("people_by_email"), eventBody.email))
+    )
+        .then((ret) => ret)
+
+///    if (emailArray.data.length ) {
+///        return {
+///            statusCode: 400,
+///            body: JSON.stringify({
+///                message: 'un cazzo! sti email giá esiste'
+///            })
+///        }
+///    }
+    if (emailArray.data.length ) {
+        // ruvido> MV this
+        returnMessage = 'Hai già registrato la tua email, se non ricevi i nostri messaggi controlla in Spam' 
     }
 
-    //    if email exist!
-//    const doesDocExist = await client.query(
-//    q.Exists(q.Match(q.Index('likes_by_slug'), slug))
-//  );
-//
-    // create Collection if does not exist
-    await client.query(
-        q.If(
-            q.Exists(q.Collection(peopleCollection)),
-            null,
-            q.CreateCollection({ name: peopleCollection })
-        )
-    )
-        .catch((err) => {
-            console.log(err)
-            return {
-                statusCode: 400,
-                body: "Fauna collection does not exist, error while creating it"
-            }
-        })
-
-    let faunaDocumentID = await client.query(
-        q.Create(
-            q.Collection(peopleCollection),
-            { data: { email: eventBody.email, verified: false } }
-        )
-        //console.log('AZZZZZ'+caz)
-    )
-        .then((ret) => {
-            console.log(ret.ref.id)
-            return ret.ref.id
-        })
-        .catch((err) => {
-            console.log(err)
-            return {
-                statusCode: 400,
-                body: "Fauna error: cannot create new document in collection"
-            }
-        })
-
-    if (1) {
-
-
-        //let templateFileName = './email-templates/email-confirmation/index.html'
-        //let templateFileName = './email-templates/email-confirmation.md'
-        //var htmlEmail = require("fs").readFileSync(templateFileName, "utf8");
-        const emailBody= require('./email-templates/email-confirmation.json');
-
-        let emailTo = eventBody.email
-        let htmlB = emailBody.htmlContent.replace('LINKTOKEN',faunaDocumentID)
-        let textB = emailBody.textContent.replace('LINKTOKEN',faunaDocumentID)
-        await clientEmail.sendEmail({
-            "From": emailBody.from,
-            "To": emailTo,
-            "Subject": emailBody.subject,
-            "HtmlBody": htmlB,
-            "TextBody": textB,
-            "MessageStream": "outbound"
-        })
-        //        .then((response) => {
-        //            console.log("success", response)
-        //            return callback(null,{
-        //                statusCode: 200,
-        //                body: "I guess everything is good."
-        //            })
-        //        })
-            .catch((err) => {
-                console.log(err)
-                return {
-                    statusCode: 400,
-                    body: "Postmark error: cannot send message"
-                }
-            })
-    }
-
-    return callback(null,{
+    return {
         statusCode: 200,
-        body: "I guess everything is good."
-    })
+        body: JSON.stringify({
+            message: returnMessage,
+            data: emailArray.data 
+        })
+    }
 }
-

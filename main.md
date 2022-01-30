@@ -5,6 +5,55 @@ layout: base-noNavbar.njk
 ---
 <article>
 
+
+<div x-data="stocaz">
+ <div style="display:flex; flex-direction: row">
+  <input x-model="email" type="email" name="email" placeholder="la tua email"/>
+  <button x-on:click="testEmail">stoclick</button>
+ </div>
+ <small x-show="notEmail" style="padding: 0 0.4rem">
+ mmmmh... email non corretta, controlla
+ </small>
+</div>
+
+
+<script>
+function stocaz (){
+    return {
+        email: '',
+        notEmail: false,
+        async testEmail(){
+            var re = /^\S+@\S+\.\S+$/
+            this.notEmail = !re.test(this.email)
+            console.log(this.notEmail)
+        },
+        async stoclick(){
+            console.log('stoclickatto')
+            const postResp = await fetch(
+                    "/.netlify/functions/newsletter-subscription",
+                    {
+                        method: "POST",
+                        body: JSON.stringify({
+                            email: 'ruvidoshop+5@gmail.com'
+                        })
+                    }
+            )
+            .then( resp => resp.json())
+
+            console.log(postResp.message)
+            console.log(postResp.data)
+        }
+    }
+}
+</script>
+
+
+
+
+
+
+
+
 <h1>{{title}}</h1>
 
 ***5PANI2PESCI*** ritorna! 
@@ -85,16 +134,14 @@ A presto!
 </article>
 
 
-
 <script>
 
 // TODO ----
-// 1. pass markdown template for email
-// 2. form status update (via alpine) + form reset
+// form status update (via alpine) + form reset
 
 let formElem = document.querySelector(".newsletter-subscription")
 
-formElem.addEventListener("submit", function(e) {
+formElem.addEventListener("submit", async function(e) {
         e.preventDefault()
 
         let formData = new FormData(formElem)
@@ -102,18 +149,18 @@ formElem.addEventListener("submit", function(e) {
         let payload = JSON.stringify(Object.fromEntries(formData))
 
         console.log(payload)
-        fetch(
+        let moncaz = await fetch(
                 "/.netlify/functions/newsletter-subscription",
+                //"/.netlify/functions/hello-post",
                 {
 method: "POST",
 body: payload,
 headers: {'Content-Type': 'application/json;charset=utf-8'}
 }
 )
-        .then(resp => {
-            console.log(resp)
-            })
+        .then(resp => resp.json())
 
+        console.log(moncaz.message)
 
         })
 </script>

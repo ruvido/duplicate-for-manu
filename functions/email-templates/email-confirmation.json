@@ -1,6 +1,6 @@
 {
     "from":       "no-reply@5p2p.it",
     "subject":    "Ci sei quasi... conferma la tua email!",
-    "htmlContent": "<p>Carissimo</p><p>bella lí sei uno <strong>forte</strong>, mo’ peró me deviconfermare l’email cliccando su questo link</p><p>https://beta.5p2p.it/email-confirmation.html?token=LINKTOKEN</p><p>ci becchiamo presto</p><p>Francesco e Alessanndra</p><p><em>5pani2pesci</em></p>",
-    "textContent": "Carissimo\nbella lí sei uno forte, mo’ peró me devi\nconfermare l’email cliccando su questo link\nhttps://beta.5p2p.it/email-confirmation.html?token=LINKTOKEN\nci becchiamo presto\nFrancesco e Alessanndra\n5pani2pesci\n"
+    "htmlContent": "<p>Carissimo</p><p>bella lí sei uno <strong>forte</strong>, mo’ peró me devi confermare l’email cliccando su questo link</p><p>http://localhost:8888/email-confirmation.html?token=LINKTOKEN</p><p>ci becchiamo presto 😄</p><p>Francesco e Alessanndra</p><p><em>5pani2pesci</em></p>",
+    "textContent": "Carissimo\nbella lí sei uno forte, mo’ peró me devi confermare l’email cliccando su questo link\nhttp://localhost:8888/email-confirmation.html?token=LINKTOKEN\nci becchiamo presto 😄\nFrancesco e Alessanndra\n5pani2pesci\n"
 }

@@ -23,10 +23,15 @@ layout: page
         - ~~create double opt-in link~~
         - ~~verify email (netlify function)~~
         - ~~create email template (where do you store it? written in md?)~~
+        - try callback with netlify function
+        - email should be unique (what to do?)
+        - MV postmark api token to netlify ENV
     - update on-page message with alpine ("ti abbiamo mandato una email...)
+    - update confirmation page message (something is off with the template)
+    - ( script to check how many emails are not verified )
 
 - force dark theme
-- redirect from 5p2p.it --> beta.5p2p.it
+- ~~redirect from 5p2p.it --> beta.5p2p.it~~
 - update old stuff
     - change youtube promo video
     - change last post on blog (match new site master text)
@@ -125,7 +130,9 @@ layout: page
 - [email css inlining 11ty](https://github.com/5t3ph/11ty-email-generator)
 - [build counter with fauna](https://davidparks.dev/blog/building-a-like-counter-with-faunadb-and-nuxt/#writing-our-functions)
 - [Plain text emails](https://www.litmus.com/blog/best-practices-for-plain-text-emails-a-look-at-why-theyre-important/)
+- [Alpinejs form submission](https://dberri.com/lets-build-an-ajax-form-with-alpine-js/)
 
 #### Fonts
  - [Notulen serif display](https://fontsfree.net/notulen-serif-display-extbd-font-download.html)
 - [Atkinson Hyperlegible](https://github.com/googlefonts/atkinson-hyperlegible)
+
