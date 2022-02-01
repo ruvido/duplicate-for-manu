@@ -7,6 +7,8 @@ layout: base-noNavbar.njk
 
 <h1>{{title}}</h1>
 
+v 1.0
+
 ***5PANI2PESCI*** ritorna! 
 
 Arriva la **newsletter** ⭐ e tante altre cosette belle. 
