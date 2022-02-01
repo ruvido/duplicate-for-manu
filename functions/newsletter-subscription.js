@@ -13,12 +13,12 @@ const emailToken = '0029167c-647d-4b28-a900-8524984fd692'
 const emailBody  = require('./email-templates/email-confirmation.json')
 
 // ruvido> MOVE ALL MESSAGES to default-messages.json (in functions)
-//const jsonMessage= require('./newsletter-subscription-messages.json')
-const jsonMessage = {
-    statusOk: '<strong>Perfetto!</strong> Ti abbiamo inviato una email, <strong>aprila</strong> per <strong>convalidare</strong> la tua iscrizione',
-    statusFail: 'Qualcosa non ha funzionato... riprova più tardi',
-    emailExist: '<strong>Questa email è già registrata!</strong> Controlla la **Spam**  se non ricevi i nostri messaggi'
-}
+const jsonMessage= require('./alert-messages.json')
+///const jsonMessage = {
+///    statusOk: '<strong>Perfetto!</strong> Ti abbiamo inviato una email, <strong>aprila</strong> per <strong>convalidare</strong> la tua iscrizione',
+///    statusFail: 'Qualcosa non ha funzionato... riprova più tardi',
+///    emailExist: '<strong>Questa email è già registrata!</strong> Controlla la **Spam**  se non ricevi i nostri messaggi'
+///}
 
 exports.handler = async (event, context) => {
     let eventBody = JSON.parse(event.body)
