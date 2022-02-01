@@ -1,45 +1,30 @@
 ---
-title: todo
+title: ROADMAP
 tags: page
-permalink: "/todo/"
+permalink: "/roadmap/"
 layout: page
 ---
 
-## ==priority== 
-
-###### PRE-LAUNCHING
-- ~~landing page~~
-   <!-- 
-    - ~~color scheme~~
-    - ~~hero message~~
-    - ~~logo~~
-    - ~~header with logo~~
-    - ~~footer~~
-    - ~~master text~~
-    --->
+## BETA launch
 
 - ==email registration==
     - ~~email verification~~
-        - ~~create double opt-in link~~
-        - ~~verify email (netlify function)~~
-        - ~~create email template (where do you store it? written in md?)~~
-        - ~~try callback with netlify function~~
-        - ~~email should be unique (what to do?)~~
-        - ~~MV postmark api token to netlify ENV~~
-    - ~~update on-page message with alpine ("ti abbiamo mandato una email...)~~
-    - ~~update confirmation page message (something is off with the template)~~
-    - update confirmation EMAIL text
+    - update confirmation EMAIL text template
 
 - ~~redirect from 5p2p.it --> beta.5p2p.it~~
-- redirect 5p2p.it --> beta.5p2p.it
 - ~~link to 5p2p.it ARCHIVE~~
 - force dark theme
+- redirect 5p2p.it --> beta.5p2p.it
+- say it in a podcast episode
+- *make a video to launch the beta*
 
-###### (for launching)
+## OFFICIAL launch
+
 - choose a LAUNCHING DATE!
     - check saints calendar
 - ==Newsletter build==
     - build a publishing strategy
+    - cron to build everyday
     - build a simple template
 - invite people from other lists to subscribe:
     - telegram
@@ -47,8 +32,10 @@ layout: page
     - mailchimp
     - instagram (naturalmente)
     - podcast (dillo negli episodi)
----
-###### 2nd stage (migration)
+- Add "Offri un caffè" (donorbox)
+
+
+#### MIGRATION (2nd stage)
 - navigation menu
     - [hamburger](https://github.com/jonsuh/hamburgers)
 - update footer
@@ -57,7 +44,7 @@ layout: page
 - add youtube videos
 - add podcast episodes
 
-###### 3rd stage (cleanup + optimization)
+#### OPTIMIZATION (3rd stage)
 - css, js minification
 - optimize logo size
 - optimize image & font size for desktop
@@ -66,27 +53,31 @@ layout: page
 - code cleanup
 - script to check how many emails are not verified
 - change youtube promo video
+- have different branches for development and stable
+- favicon
 
-###### 4th stage (new functionalites)
+#### NEW FUNCTIONALITIES (4th stage)
 - search (preview)
 - seo optimization
 - contact form
 
+#### SUBSCRIPTIONS (5th stage)
+- replace donorbox with stripe subscriptions
+
 ---
 
-## ==newsletter==
-- ~~form build~~
-- ~~netlify functions~~
-- ~~faunadb integration~~
-- ~~double opt-in confirmation link~~
+## NOTES
+
+####  ==newsletter==
 - send emails through postmark
     - [postmark manual](https://postmarkapp.com/manual)
-- check open rate (purge list) through fauna and postmark
-- send emails from the command line
-- send emails via netlify functions
-- set on a global file general variables like fauna domain (e.g. db.fauna.com)
+    - learn to use ==templates==
+    - send through newsletter-channel
+    - how to send in batch?
+- purge fauna list using postamrk data (purge list)
+- scheduled send (for newsletters)
 
-## content
+#### content
 - ~~new.css~~
 - ~~add version in link css~~
 - ~~first letter (BIG)~~
@@ -103,27 +94,28 @@ layout: page
 - Serif font: try [Merriweather](https://docs.xz.style/fonts/fonts/merriweather) 
 - Headles cms --> ghost integration
 
-## members integrations
+#### members integrations
 - stripe connect (subscriptions)
 - stripe connect (one time)
 - paypal donations
 - stripe customer portal
 
-## optimization
+#### optimization
 - css minify & compression
 - js minify & compression
 - html minify
 
-## seo
+#### seo
 - [Automatic excerpt](https://www.11ty.dev/docs/data-frontmatter-customize/)
 - tags
 - metadata
 - have a look at <https://iamjoona.com/blog/seo-tags-in-eleventy/>
 
-## image
+#### image
 - automatic optimization & resizing
 
-#### Notes
+## RESOURCES
+
 - [Introduction to 11ty -- Smashing Magazine](https://www.smashingmagazine.com/2021/03/eleventy-static-site-generator/?utm_source=pocket_mylist)
 - [11ty + Tailwind + Alpine -- basic starter](https://css-tricks.com/eleventy-starter-with-tailwind-css-alpine-js/)
 - [Manage Subscriptions and Protect Content With Stripe](https://www.netlify.com/blog/2020/07/13/manage-subscriptions-and-protect-content-with-stripe/?utm_source=pocket_mylist)
