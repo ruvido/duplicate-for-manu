@@ -31,6 +31,17 @@ footer, footer a, footer h2 {
 footer {
     padding: 2rem;
 }
+aside{margin: 0.6rem 0}
+div.success{
+    font-weight: 500;
+    margin: 0 0.4rem;
+    font-size: 0.8rem;
+    line-height: 1.2;
+    padding: 1.0rem;
+    border-radius: 10px;
+    background: var(--rv-bg-s);
+    color: var(--rv-tx-s);
+}
 input {
     background: var(--nc-bg-3);
     width: 100%;
@@ -38,7 +49,11 @@ input {
     border-width: 0px;
     margin: 2px 10px 2px 0px;
 }
+input:disabled {
+    color: var(--rv-ds-i);
+}
 button {
+    flex: 0 0 7rem;
     font-weight: 900;
     font-style: italic;
     text-transform: uppercase;
@@ -46,6 +61,18 @@ button {
     font-size: 0.9rem;
     margin: 8px 4px;
     margin: 0px 4px;
+}
+button span.loading {
+    font-size: 1.2rem;
+}
+button:focus {
+    background: var(--nc-lk-1);
+}
+button:disabled{
+    opacity: 1.0;
+}
+button:disabled:hover{
+    background: var(--nc-lk-1);
 }
 small {
     font-size: 0.8rem;
@@ -122,6 +149,12 @@ h1 {
         --nc-tx-1: #E8ECF5; /* Heading text */
         --nc-tx-2: #C3CEE0; /* Body text */
         --nc-lk-1: #FF0086; /* Action color links and buttons */
+
+        --rv-ds-i: #3D5376; /* Disabled input */
+        --rv-bg-s: #0dc5cc; /* Background success */
+        --rv-tx-s: #076467; /* Text success */
+        --rv-tx-s: #05474A; /* Text success */
+
     }
     /*
     p { background-color: var(--nc-bg-3) }
@@ -142,6 +175,11 @@ h1 {
     --nc-ac-1: Accent background color for <mark> and text selection background
     --nc-ac-tx: Text color when accent is used as a background
 */
+
+[x-cloak] {
+    display: none !important;
+}
+
 @media screen and (min-width: 800px) {
 header img {
     height: 150px;

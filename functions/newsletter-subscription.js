@@ -10,11 +10,20 @@ const faunaDomain = 'db.fauna.com'
 const peopleCollection = 'people'
 // ruvido> MOVE THIS TO ENV
 const emailToken = '0029167c-647d-4b28-a900-8524984fd692'
+const emailBody  = require('./email-templates/email-confirmation.json')
+
+// ruvido> MOVE ALL MESSAGES to default-messages.json (in functions)
+//const jsonMessage= require('./newsletter-subscription-messages.json')
+const jsonMessage = {
+    statusOk: '<strong>Perfetto!</strong> Ti abbiamo inviato una email, <strong>aprila</strong> per <strong>convalidare</strong> la tua iscrizione',
+    statusFail: 'Qualcosa non ha funzionato... riprova più tardi',
+    emailExist: '<strong>Questa email è già registrata!</strong> Controlla la **Spam**  se non ricevi i nostri messaggi'
+}
 
 exports.handler = async (event, context) => {
     let eventBody = JSON.parse(event.body)
-    // ruvido> MOVE ALL MESSAGES to default-messages.json (in functions)
-    let returnMessage = 'Qualcosa non ha funzionato... riprova più tardi'
+    let returnMessage = jsonMessage.statusFail
+    let returnStatusCode = 400
 
     // Initialize Fauna
     let client = new faunadb.Client({
@@ -35,29 +44,72 @@ exports.handler = async (event, context) => {
         }
     }
 
-    let emailArray = await client.query(
+    let emailAlreadyExist = false
+    let faunaDocumentID = await client.query(
         q.Paginate(q.Match(q.Index("people_by_email"), eventBody.email))
     )
-        .then((ret) => ret)
+        .then((ret) => {
+            if (ret.data.length <1) return null
+            //return ret.data[0].ref.id
+            return ret.data[0].id
+        })
 
-///    if (emailArray.data.length ) {
-///        return {
-///            statusCode: 400,
-///            body: JSON.stringify({
-///                message: 'un cazzo! sti email giá esiste'
-///            })
-///        }
-///    }
-    if (emailArray.data.length ) {
-        // ruvido> MV this
-        returnMessage = 'Hai già registrato la tua email, se non ricevi i nostri messaggi controlla in Spam' 
+    if ( 1 ) {
+        if (faunaDocumentID) {
+            returnStatusCode = 200
+            returnMessage = jsonMessage.emailExist
+            emailAlreadyExist = true
+        }
+        else {
+            faunaDocumentID = await client.query(
+                q.Create(
+                    q.Collection(peopleCollection),
+                    { data: { email: eventBody.email, verified: false } }
+                )
+            )
+                .then((ret) => {
+                    console.log(ret.ref.id)
+                    returnStatusCode = 200
+                    returnMessage = jsonMessage.statusOk
+                    faunaDocumentID = ret.ref.id
+                    return ret.ref.id
+                })
+                .catch((err) => {
+                    console.log(err)
+                    returnStatusCode = 400
+                    returnMessage = "Fauna error: cannot create new document in collection"
+                })
+        }
     }
 
+    if (1) {
+
+        var clientEmail = new postmark.ServerClient(emailToken);
+
+        let emailTo = eventBody.email
+        let htmlB = emailBody.htmlContent.replace('LINKTOKEN',faunaDocumentID)
+        let textB = emailBody.textContent.replace('LINKTOKEN',faunaDocumentID)
+        await clientEmail.sendEmail({
+            "From": emailBody.from,
+            "To": emailTo,
+            "Subject": emailBody.subject,
+            "HtmlBody": htmlB,
+            "TextBody": textB,
+            "MessageStream": "outbound"
+        })
+            .catch((err) => {
+                console.log(err)
+                returnStatusCode = 400
+                returnMessage = "Postmark error: cannot send message" 
+            })
+    }
+
+
     return {
-        statusCode: 200,
+        statusCode: returnStatusCode,
         body: JSON.stringify({
             message: returnMessage,
-            data: emailArray.data 
+            data: faunaDocumentID
         })
     }
 }

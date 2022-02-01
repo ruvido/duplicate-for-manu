@@ -5,56 +5,9 @@ layout: base-noNavbar.njk
 ---
 <article>
 
-
-<div x-data="stocaz">
- <div style="display:flex; flex-direction: row">
-  <input x-model="email" type="email" name="email" placeholder="la tua email"/>
-  <button x-on:click="testEmail">stoclick</button>
- </div>
- <small x-show="notEmail" style="padding: 0 0.4rem">
- mmmmh... email non corretta, controlla
- </small>
-</div>
-
-
-<script>
-function stocaz (){
-    return {
-        email: '',
-        notEmail: false,
-        async testEmail(){
-            var re = /^\S+@\S+\.\S+$/
-            this.notEmail = !re.test(this.email)
-            console.log(this.notEmail)
-        },
-        async stoclick(){
-            console.log('stoclickatto')
-            const postResp = await fetch(
-                    "/.netlify/functions/newsletter-subscription",
-                    {
-                        method: "POST",
-                        body: JSON.stringify({
-                            email: 'ruvidoshop+5@gmail.com'
-                        })
-                    }
-            )
-            .then( resp => resp.json())
-
-            console.log(postResp.message)
-            console.log(postResp.data)
-        }
-    }
-}
-</script>
-
-
-
-
-
-
-
-
 <h1>{{title}}</h1>
+
+v 1.0
 
 ***5PANI2PESCI*** ritorna! 
 
@@ -63,17 +16,29 @@ Iscriviti e ti avviseremo appena siamo pronti!
 
 ***#daje!***
 
-<form class="newsletter-subscription">
-<div style="display:flex; flex-direction: row">
-<input type="email" name="email" placeholder="la tua email"/>
-<button type="submit">Iscriviti</button>
+<div x-data="newsletterSubscription" >
+<div x-show="isCompleted" class="success" x-html="finalMessage"x-cloak></div>
+<div x-show="!isCompleted">
+ <div style="display:flex; flex-direction: row">
+  <input x-model="email" @keyup.enter="sendEmail" type="email" name="email" placeholder="la tua email" autocomplete="off" :disabled=isSubmitted />
+  <button x-on:click="sendEmail" x-bind:disabled=isSubmitted>
+   <span :class=loadingAnimation(isSubmitted) x-text=actionText(isSubmitted)></span></button>
+
+
+ </div>
+ </div>
+ <small x-show="!isEmail" style="padding: 0 0.4rem" x-cloak>
+ mmmmh... email non corretta, controlla
+ </small>
 </div>
-</form>
+
 
 <center>
+<aside>
 <small>
 <a class="angle" href="https://5p2p.it">
 Torna al vecchio Blog di 5pani2pesci</a></small>
+</aside>
 </center>
 
 
@@ -134,33 +99,55 @@ A presto!
 </article>
 
 
+
+
 <script>
+function newsletterSubscription (){
+    return {
+        email: '',
+        isEmail: true,
+        isSubmitted: false,
+        isCompleted: false,
+        actionText: 'merdax',
+        finalMessage: '??',
+        actionText(isLoading){
+              return (isLoading ? '' : 'iscriviti');
+        },
+        loadingAnimation(isLoading){
+              return (isLoading ? 'loading dots2' : '');
+        },
+        testEmail(em){
+            var re = /^\S+@\S+\.\S+$/
+            return re.test(em)
+        },
+        async sendEmail(){
+            this.isEmail = await this.testEmail(this.email)
+            if (this.isEmail) {
+                this.isSubmitted = true
+                const postResp = await fetch(
+                        "/.netlify/functions/newsletter-subscription",
+                        {
+                            method: "POST",
+                            body: JSON.stringify({
+                                email: this.email
+                            })
+                        }
+                )
+                .then( resp => resp.json())
 
-// TODO ----
-// form status update (via alpine) + form reset
+                this.isSubmitted = false
+                this.isCompleted = true
+                this.finalMessage = postResp.message
+                console.log(postResp.message)
+                console.log(postResp.data)
+            }
+            else {
+                console.log ('ERR> not an email')
+            }
+        }
 
-let formElem = document.querySelector(".newsletter-subscription")
-
-formElem.addEventListener("submit", async function(e) {
-        e.preventDefault()
-
-        let formData = new FormData(formElem)
-
-        let payload = JSON.stringify(Object.fromEntries(formData))
-
-        console.log(payload)
-        let moncaz = await fetch(
-                "/.netlify/functions/newsletter-subscription",
-                //"/.netlify/functions/hello-post",
-                {
-method: "POST",
-body: payload,
-headers: {'Content-Type': 'application/json;charset=utf-8'}
+    }
 }
-)
-        .then(resp => resp.json())
-
-        console.log(moncaz.message)
-
-        })
 </script>
+
+
