@@ -23,36 +23,49 @@ layout: page
         - ~~create double opt-in link~~
         - ~~verify email (netlify function)~~
         - ~~create email template (where do you store it? written in md?)~~
-        - try callback with netlify function
-        - email should be unique (what to do?)
-        - MV postmark api token to netlify ENV
-    - update on-page message with alpine ("ti abbiamo mandato una email...)
-    - update confirmation page message (something is off with the template)
-    - ( script to check how many emails are not verified )
+        - ~~try callback with netlify function~~
+        - ~~email should be unique (what to do?)~~
+        - ~~MV postmark api token to netlify ENV~~
+    - ~~update on-page message with alpine ("ti abbiamo mandato una email...)~~
+    - ~~update confirmation page message (something is off with the template)~~
+    - update confirmation EMAIL text
 
-- force dark theme
 - ~~redirect from 5p2p.it --> beta.5p2p.it~~
-- update old stuff
-    - change youtube promo video
-    - change last post on blog (match new site master text)
+- redirect 5p2p.it --> beta.5p2p.it
+- ~~link to 5p2p.it ARCHIVE~~
+- force dark theme
 
 ###### (for launching)
+- choose a LAUNCHING DATE!
+    - check saints calendar
 - ==Newsletter build==
-- ~~base.njk layout use block to add navigation~~
+    - build a publishing strategy
+    - build a simple template
+- invite people from other lists to subscribe:
+    - telegram
+    - donorbox
+    - mailchimp
+    - instagram (naturalmente)
+    - podcast (dillo negli episodi)
 ---
 ###### 2nd stage (migration)
 - navigation menu
     - [hamburger](https://github.com/jonsuh/hamburgers)
+- update footer
 - add old blog posts
-- redirects
-- youtube videos
-- podcast episodes
+    - take care of *redirects*
+- add youtube videos
+- add podcast episodes
 
 ###### 3rd stage (cleanup + optimization)
 - css, js minification
+- optimize logo size
+- optimize image & font size for desktop
 - automatic image optimization
 - lazy loading images
 - code cleanup
+- script to check how many emails are not verified
+- change youtube promo video
 
 ###### 4th stage (new functionalites)
 - search (preview)

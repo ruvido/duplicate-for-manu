@@ -1,10 +1,4 @@
-<style>
-[x-cloak] {
-    display: none !important;
-}
-</style>
-
-
+<article>
 <div x-data="confirmationMessage" x-init="pushConfirmation">
     <center><h1 x-show="!serverAnswer" class="loading dots2"></h1></center>
     <div x-show="confirmationState" x-cloak>
@@ -16,8 +10,8 @@
         <h1>Ooooopsss</h1>
         <p>Qualcosa è andato storto, ci dispiace! Purtroppo l'iscrizione non è andata a buon fine...</p>
     </div>
-        <p x-show="serverAnswer" x-cloak>Lista di link</p>
 </div>
+</article>
 
 <script>
 //    let worker = confirmationMessage()

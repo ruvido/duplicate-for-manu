@@ -1,24 +1,22 @@
 ////////////////////////
 const DEBUGMODE = true
+const CREATERECORD = true
+const SENDEMAIL = false
 ////////////////////////
-const faunadb = require("faunadb")
-const postmark = require("postmark")
-const q = faunadb.query
-const faunaSecret =  process.env.FAUNA_API_KEY
-// ruvido> MOVE THESE TO a fauna-config.json (in functions folder)
-const faunaDomain = 'db.fauna.com'
-const peopleCollection = 'people'
-// ruvido> MOVE THIS TO ENV
-const emailToken = '0029167c-647d-4b28-a900-8524984fd692'
-const emailBody  = require('./email-templates/email-confirmation.json')
-
-// ruvido> MOVE ALL MESSAGES to default-messages.json (in functions)
 const jsonMessage= require('./alert-messages.json')
-///const jsonMessage = {
-///    statusOk: '<strong>Perfetto!</strong> Ti abbiamo inviato una email, <strong>aprila</strong> per <strong>convalidare</strong> la tua iscrizione',
-///    statusFail: 'Qualcosa non ha funzionato... riprova più tardi',
-///    emailExist: '<strong>Questa email è già registrata!</strong> Controlla la **Spam**  se non ricevi i nostri messaggi'
-///}
+
+//// FAUNA
+const faunaSecret =  process.env.FAUNA_API_KEY
+const faunaConfig = require('./fauna-config.json')
+const faunadb = require("faunadb")
+const q = faunadb.query
+const faunaDomain = faunaConfig.domain
+const peopleCollection = faunaConfig.people
+
+//// POSTMARK
+const postmark = require("postmark")
+const emailToken =  process.env.POSTMARK_API_KEY
+const emailBody  = require('./email-templates/email-confirmation.json')
 
 exports.handler = async (event, context) => {
     let eventBody = JSON.parse(event.body)
@@ -49,18 +47,26 @@ exports.handler = async (event, context) => {
         q.Paginate(q.Match(q.Index("people_by_email"), eventBody.email))
     )
         .then((ret) => {
+            //        console.log('vediamo se lemail esiste gia')
             if (ret.data.length <1) return null
             //return ret.data[0].ref.id
             return ret.data[0].id
         })
+        .catch((err) => {
+            console.log(err)
+            returnStatusCode = 400
+            returnMessage = "Fauna error: unable to check email record"
+        })
 
-    if ( 1 ) {
+    if (CREATERECORD) {
         if (faunaDocumentID) {
+                    // console.log('!!!! email gia registrata')
             returnStatusCode = 200
             returnMessage = jsonMessage.emailExist
             emailAlreadyExist = true
         }
         else {
+                    // console.log('nuova email')
             faunaDocumentID = await client.query(
                 q.Create(
                     q.Collection(peopleCollection),
@@ -68,7 +74,7 @@ exports.handler = async (event, context) => {
                 )
             )
                 .then((ret) => {
-                    console.log(ret.ref.id)
+                    // console.log(ret.ref.id)
                     returnStatusCode = 200
                     returnMessage = jsonMessage.statusOk
                     faunaDocumentID = ret.ref.id
@@ -82,7 +88,7 @@ exports.handler = async (event, context) => {
         }
     }
 
-    if (1) {
+    if (SENDEMAIL) {
 
         var clientEmail = new postmark.ServerClient(emailToken);
 

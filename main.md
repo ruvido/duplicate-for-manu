@@ -7,8 +7,6 @@ layout: base-noNavbar.njk
 
 <h1>{{title}}</h1>
 
-v 1.1
-
 ***5PANI2PESCI*** ritorna! 
 
 Arriva la **newsletter** ⭐ e tante altre cosette belle. 
@@ -36,7 +34,7 @@ Iscriviti e ti avviseremo appena siamo pronti!
 <center>
 <aside>
 <small>
-<a class="angle" href="https://5p2p.it">
+<a class="angle" href="https://5p2p.it/archivio">
 Torna al vecchio Blog di 5pani2pesci</a></small>
 </aside>
 </center>
@@ -108,7 +106,6 @@ function newsletterSubscription (){
         isEmail: true,
         isSubmitted: false,
         isCompleted: false,
-        actionText: 'merdax',
         finalMessage: '??',
         actionText(isLoading){
               return (isLoading ? '' : 'iscriviti');

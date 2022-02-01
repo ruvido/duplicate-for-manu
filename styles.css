@@ -31,7 +31,11 @@ footer, footer a, footer h2 {
 footer {
     padding: 2rem;
 }
-aside{margin: 0.6rem 0}
+aside{
+    margin-top: 1rem;
+    margin-bottom: 0; 
+    opacity: 0.5;
+}
 div.success{
     font-weight: 500;
     margin: 0 0.4rem;
@@ -101,13 +105,16 @@ em strong{
 em strong.dark{
     color: var(--nc-bg-1);
 }
+s {
+    opacity: 0.5;
+}
 s mark {  
     text-decoration-line: line-through;
     text-decoration-color: inherit;
 }
 nav, nav a, mark, s mark, mark a {
-    background: #ffd54f;
-    color: #000a12;
+    background: var(--rv-bg-m);
+    color:      var(--rv-tx-m);
 }
 h1,h2,h3,h4,h5 {
     font-weight: 900;
@@ -149,11 +156,15 @@ h1 {
         --nc-tx-1: #E8ECF5; /* Heading text */
         --nc-tx-2: #C3CEE0; /* Body text */
         --nc-lk-1: #FF0086; /* Action color links and buttons */
+        --nc-ac-tx:#161F2E; /* Text color when accent is used as a background */
+        --nc-ac-1: #E6C268; /* text selection background */
 
         --rv-ds-i: #3D5376; /* Disabled input */
         --rv-bg-s: #0dc5cc; /* Background success */
         --rv-tx-s: #076467; /* Text success */
         --rv-tx-s: #05474A; /* Text success */
+        --rv-tx-m: #000a12; /* Mark text */
+        --rv-bg-m: #ffd54f; /* Mark background */
 
     }
     /*

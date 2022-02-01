@@ -1,5 +1,9 @@
+//// FAUNA
+const faunaSecret =  process.env.FAUNA_API_KEY
+const faunaConfig = require('./fauna-config.json')
 const faunadb = require("faunadb")
 const q = faunadb.query
+const faunaDomain = faunaConfig.domain
 
 exports.handler = async function(event, context, callback) {
 
@@ -21,8 +25,8 @@ exports.handler = async function(event, context, callback) {
 
 
     let client = new faunadb.Client({
-        secret: process.env.FAUNA_API_KEY,
-        domain: 'db.fauna.com'
+        secret: faunaSecret,
+        domain: faunaDomain
     })
 
 //    const doesDocExist = await client.query(
