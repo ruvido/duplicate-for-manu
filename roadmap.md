@@ -7,14 +7,12 @@ layout: page
 ## Important DATES
 
 - 12 Feb 2021 -- 1st podcast episode
-- possible dates
-    - ==7 Feb 2022== -- si potrebbe fare un episodio del podcast
+- ==7 Feb 2022== -- si potrebbe fare un episodio del podcast
     per celebrare un anno di episodi e lanciare il nuovo sito
-    - 14 Feb 2022
 
 ## BETA launch
 
-- ==email registration==
+- ~~==email registration==~~
     - ~~email verification~~
     - ~~update confirmation EMAIL text template~~
 
