@@ -7,7 +7,7 @@ layout: base-noNavbar.njk
 
 <h1>{{title}}</h1>
 
-v {{version}}
+v. {{version}}
 
 ***5PANI2PESCI*** ritorna! 
 
