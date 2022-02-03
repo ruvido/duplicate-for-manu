@@ -7,7 +7,7 @@ layout: page
 ## Important DATES
 
 - 12 Feb 2021 -- 1st podcast episode
-- ==possible dates==
+- possible dates
     - ==7 Feb 2022== -- si potrebbe fare un episodio del podcast
     per celebrare un anno di episodi e lanciare il nuovo sito
     - 14 Feb 2022
@@ -24,7 +24,7 @@ layout: page
 - ~~redirect 5p2p.it --> beta.5p2p.it~~
 - ~~update fauna records (newsletter: true)~~
 - ~~make it public in this date (js function on landin page)~~
-- make a test in the wild (ask ale)
+- ~~make a test in the wild (ask ale)~~
 
 #### social
 - say it in a podcast episode
@@ -32,6 +32,9 @@ layout: page
 
 ## OFFICIAL launch
 
+- nodejs script to check subscribed/verified people
+- make a development branch
+    - preview the site
 - choose a LAUNCHING DATE!
     - check saints calendar
 - 11ty do not publish future dates
