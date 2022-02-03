@@ -1,15 +1,14 @@
 ---
 title: email confirmation
-subject: Ci sei quasi... conferma la tua email!
-from: no-reply@5p2p.it
+subject: 🙌  Ci sei quasi... 
+from: 5pani2pesci <no-reply@5p2p.it>
 ---
 
-# Ci sei quasi!
+# Conferma la tua email :D
 
-clicca il link qui sotto per verificare la tua email. 
-Fatto questo, potrai iniziare a ricevere la **Newsletter** di 5pani2pesci
+***(clicca il link qui sotto)*** per confermare il tuo indirizzo ed incominciare a ricevere i nostri messaggi
 
-{{siteUrl}}/email-confirmation.html?token=LINKTOKEN
+{{siteUrl}}/email-confirmation.html?token=LINKTOKEN&newsletter
 
 a prestissimo :D
 

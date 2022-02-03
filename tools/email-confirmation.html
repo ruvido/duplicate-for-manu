@@ -22,21 +22,33 @@
                     confirmationState: false,
                     confirmationError: false,
                     pushConfirmation() {
-                            const key = 'token'
+                            let payload = {}
+                            let updateData = {}
                             const queryString = window.location.search;
                             const urlParams = new URLSearchParams(queryString);
-
+                            const key = 'token'
+                            if (urlParams.has('newsletter')) {
+                                    updateData.newsletter = true
+                                }
                             if (urlParams.has(key)) {
+                                    let today = new Date(Date.now() + 60*60*1000)
+                                        .toISOString().substring(0,10)
+                                    updateData.verified = true
+                                    updateData.verifiedSince = today
+                                    updateData.sinceEpisode = 0
                                     const token = urlParams.get(key)
-                                    console.log(token);
-                                    payload = JSON.stringify({
-                                            "ref": token
-                                        })
+                                    payload.ref = token
+                                    payload.data = updateData
+                                    payload = JSON.stringify(payload)
+                                    console.log(payload)
+                                    //payload = JSON.stringify({
+                                    //        "ref": token
+                                    //    })
                                 }
 
-                            console.log(payload)
                             fetch(
-                                    "/.netlify/functions/email-confirmation",
+                                    //"/.netlify/functions/email-confirmation",
+                                    "/.netlify/functions/update-user",
                                     {
                                             method: "POST",
                                             body: payload,

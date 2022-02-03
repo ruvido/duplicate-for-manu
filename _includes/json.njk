@@ -1,6 +1,6 @@
 {
-    "from":       "{{from}}",
-    "subject":    "{{subject}}",
+    "from":       "{{from | safe }}",
+    "subject":    "{{subject | safe }}",
     "htmlContent": {{content | dump | safe | replace("\\n", "")}},
     "textContent": {{content | dump | safe | striptags() }}
 }

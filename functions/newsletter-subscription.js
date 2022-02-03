@@ -1,7 +1,7 @@
 ////////////////////////
 const DEBUGMODE = true
 const CREATERECORD = true
-const SENDEMAIL = false
+const SENDEMAIL = true
 ////////////////////////
 const jsonMessage= require('./alert-messages.json')
 
@@ -105,8 +105,10 @@ exports.handler = async (event, context) => {
         })
             .catch((err) => {
                 console.log(err)
+                console.log(emailBody)
                 returnStatusCode = 400
-                returnMessage = "Postmark error: cannot send message" 
+                //returnMessage = "Postmark error: cannot send message" 
+                returnMessage = "Errore nell'inviare il messaggio, riprova più tardi :(" 
             })
     }
 

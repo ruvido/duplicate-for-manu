@@ -4,6 +4,13 @@ tags: page
 permalink: "/roadmap/"
 layout: page
 ---
+## Important DATES
+
+- 12 Feb 2021 -- 1st podcast episode
+- ==possible dates==
+    - 7 Feb 2022 -- si potrebbe fare un episodio del podcast
+    per celebrare un anno di episodi e lanciare il nuovo sito
+    - 14 Feb 2022
 
 ## BETA launch
 
@@ -13,8 +20,13 @@ layout: page
 
 - ~~redirect from 5p2p.it --> beta.5p2p.it~~
 - ~~link to 5p2p.it ARCHIVE~~
-- force dark theme
-- redirect 5p2p.it --> beta.5p2p.it
+- ~~force dark theme~~
+- ~~redirect 5p2p.it --> beta.5p2p.it~~
+- update fauna records (newsletter: true)
+- make it public in this date (js function on landin page)
+- make a test in the wiild (ask ale)
+
+#### social
 - say it in a podcast episode
 - *make a video to launch the beta*
 
@@ -22,10 +34,18 @@ layout: page
 
 - choose a LAUNCHING DATE!
     - check saints calendar
+- 11ty do not publish future dates
+- create json from fauna with post of today -> publish it
 - ==Newsletter build==
     - build a publishing strategy
+        - [Send via Curl](https://stackoverflow.com/questions/63754466/curl-sends-but-lambda-netlify-function-forbidden)
     - cron to build everyday
     - build a simple template
+    - Scheduling:
+        - [scheduling netlify functions](https://chan.dev/posts/schedule-netlify-builds-with-github-actions/)
+        - [Scheduled Functions Launches in Beta](https://www.netlify.com/blog/quirrel-joins-netlify-and-scheduled-functions-launches-in-beta)
+        - [Scheduled Functions Documentation](https://github.com/netlify/labs/blob/main/features/scheduled-functions/documentation/README.md)
+        - [Functions trigger](https://docs.netlify.com/functions/trigger-on-events/)
 - invite people from other lists to subscribe:
     - telegram
     - donorbox
@@ -45,7 +65,7 @@ layout: page
 - add podcast episodes
 
 #### OPTIMIZATION (3rd stage)
-- css, js minification
+- css, js minification [parcel?](https://en.parceljs.org/)
 - optimize logo size
 - optimize image & font size for desktop
 - automatic image optimization
@@ -140,4 +160,7 @@ layout: page
 #### Fonts
  - [Notulen serif display](https://fontsfree.net/notulen-serif-display-extbd-font-download.html)
 - [Atkinson Hyperlegible](https://github.com/googlefonts/atkinson-hyperlegible)
+- [Feather Icons](https://feathericons.com/)
 
+### Fauna
+- [Fauna FQL tutorial](https://fauna.com/blog/getting-started-with-fql-faunadbs-native-query-language-part-1)

@@ -37,7 +37,8 @@ exports.handler = async function(event, context, callback) {
     await client.query(
         q.Update(
             q.Ref(q.Collection('people'), eventBody.ref),
-            { data: { verified: true } },
+            //{ data: { verified: true } },
+            { data: eventBody.data },
         )
     )
     //    .then((ret) => console.log(ret))
