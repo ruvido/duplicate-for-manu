@@ -14,8 +14,6 @@
 </article>
 
 <script>
-//    let worker = confirmationMessage()
-//    worker.toggle()
     function confirmationMessage() {
             return {
                     serverAnswer: false,
@@ -27,27 +25,29 @@
                             const queryString = window.location.search;
                             const urlParams = new URLSearchParams(queryString);
                             const key = 'token'
-                            if (urlParams.has('newsletter')) {
-                                    updateData.newsletter = true
-                                }
                             if (urlParams.has(key)) {
                                     let today = new Date(Date.now() + 60*60*1000)
                                         .toISOString().substring(0,10)
+
+
                                     updateData.verified = true
                                     updateData.verifiedSince = today
-                                    updateData.sinceEpisode = 0
+
+                                    if (urlParams.has('newsletter')) {
+                                            updateData.newsletter = {
+                                                    active: true
+                                                }
+                                        }
+
                                     const token = urlParams.get(key)
                                     payload.ref = token
                                     payload.data = updateData
                                     payload = JSON.stringify(payload)
                                     console.log(payload)
-                                    //payload = JSON.stringify({
-                                    //        "ref": token
-                                    //    })
                                 }
 
+
                             fetch(
-                                    //"/.netlify/functions/email-confirmation",
                                     "/.netlify/functions/update-user",
                                     {
                                             method: "POST",

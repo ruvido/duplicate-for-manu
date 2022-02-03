@@ -8,7 +8,7 @@ layout: page
 
 - 12 Feb 2021 -- 1st podcast episode
 - ==possible dates==
-    - 7 Feb 2022 -- si potrebbe fare un episodio del podcast
+    - ==7 Feb 2022== -- si potrebbe fare un episodio del podcast
     per celebrare un anno di episodi e lanciare il nuovo sito
     - 14 Feb 2022
 
@@ -16,15 +16,15 @@ layout: page
 
 - ==email registration==
     - ~~email verification~~
-    - update confirmation EMAIL text template
+    - ~~update confirmation EMAIL text template~~
 
 - ~~redirect from 5p2p.it --> beta.5p2p.it~~
 - ~~link to 5p2p.it ARCHIVE~~
 - ~~force dark theme~~
 - ~~redirect 5p2p.it --> beta.5p2p.it~~
-- update fauna records (newsletter: true)
-- make it public in this date (js function on landin page)
-- make a test in the wiild (ask ale)
+- ~~update fauna records (newsletter: true)~~
+- ~~make it public in this date (js function on landin page)~~
+- make a test in the wild (ask ale)
 
 #### social
 - say it in a podcast episode
@@ -39,6 +39,7 @@ layout: page
 - ==Newsletter build==
     - build a publishing strategy
         - [Send via Curl](https://stackoverflow.com/questions/63754466/curl-sends-but-lambda-netlify-function-forbidden)
+        - how do i send an email from the building process itself... something to put in *.eleventy.js*??
     - cron to build everyday
     - build a simple template
     - Scheduling:
@@ -80,6 +81,7 @@ layout: page
 - search (preview)
 - seo optimization
 - contact form
+- verify email address without explicit opt-in but -- intead -- check if the welcome email is read (very cool (y))
 
 #### SUBSCRIPTIONS (5th stage)
 - replace donorbox with stripe subscriptions
