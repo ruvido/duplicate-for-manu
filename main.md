@@ -7,8 +7,6 @@ layout: base-noNavbar.njk
 
 <h1>{{title}}</h1>
 
-v. {{version}}
-
 ***5PANI2PESCI*** ritorna! 
 
 Arriva la **newsletter** ⭐ e tante altre cosette belle. 
@@ -148,5 +146,7 @@ function newsletterSubscription (){
     }
 }
 </script>
+
+<small>v. {{version}}</small>
 
 

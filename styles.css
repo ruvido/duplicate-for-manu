@@ -47,6 +47,7 @@ div.success{
     color: var(--rv-tx-s);
 }
 input {
+    height: 2.4rem;
     background: var(--nc-bg-3);
     width: 100%;
     border-color: var(--nc-bg-1);
