@@ -4,58 +4,62 @@ tags: page
 permalink: "/roadmap/"
 layout: page
 ---
-## Important DATES
 
-- 12 Feb 2021 -- 1st podcast episode
-- ==7 Feb 2022== -- si potrebbe fare un episodio del podcast
-    per celebrare un anno di episodi e lanciare il nuovo sito
-
-## BETA launch
-
-- ~~==email registration==~~
-    - ~~email verification~~
-    - ~~update confirmation EMAIL text template~~
-
-- ~~redirect from 5p2p.it --> beta.5p2p.it~~
-- ~~link to 5p2p.it ARCHIVE~~
-- ~~force dark theme~~
-- ~~redirect 5p2p.it --> beta.5p2p.it~~
-- ~~update fauna records (newsletter: true)~~
-- ~~make it public in this date (js function on landin page)~~
-- ~~make a test in the wild (ask ale)~~
-
-#### social
-- say it in a podcast episode
-- *make a video to launch the beta*
 
 ## OFFICIAL launch
 
-- nodejs script to check subscribed/verified people
-- make a development branch
-    - preview the site
+
+#### ==**workflow**==
+- write a post (set publishing date)
+- ==A==
+    - send it to fauna
+    - scheduled netlify function check for posts everyday (use fauna index)
+    - ~~if post -> generate new markdown -> send newsletter -> push it to repo~~
+    - if post -> send newsletter
+    - **WHILE** site newsletter page is built programatically from fauna
+- ==B==
+    - push it /programatically/ to repo AND fauna
+    - prevent 11ty to publish drafts/future dates
+    - (repo rebuilds (nonsense))
+    - scheduled netlify function check for posts everyday (how? where does it find dates?)
+    - if post -> send newsletter
+- ==C==
+    - 
+
+- ==WHAT-IF== corrections?
+    - A: must be modified in CMS -> push it to repo
+    - B: modify repo file (thats.it) BUT db and repo will not be in sync anymore!
+
+
+---
+
+- make a weekly dump of the fauna database
+- make a development branch to PREVIEW the site
 - choose a LAUNCHING DATE!
     - check saints calendar
-- 11ty do not publish future dates
-- create json from fauna with post of today -> publish it
+- ~~11ty do not publish future dates~~
+
 - ==Newsletter build==
-    - build a publishing strategy
-        - [Send via Curl](https://stackoverflow.com/questions/63754466/curl-sends-but-lambda-netlify-function-forbidden)
-        - how do i send an email from the building process itself... something to put in *.eleventy.js*??
-    - cron to build everyday
-    - build a simple template
+    - Script to post to Fauna
+    - Netlify function to check fauna *post-of-today*
     - Scheduling:
-        - [scheduling netlify functions](https://chan.dev/posts/schedule-netlify-builds-with-github-actions/)
         - [Scheduled Functions Launches in Beta](https://www.netlify.com/blog/quirrel-joins-netlify-and-scheduled-functions-launches-in-beta)
         - [Scheduled Functions Documentation](https://github.com/netlify/labs/blob/main/features/scheduled-functions/documentation/README.md)
-        - [Functions trigger](https://docs.netlify.com/functions/trigger-on-events/)
+
+#### invite people
 - invite people from other lists to subscribe:
     - telegram
     - donorbox
     - mailchimp
     - instagram (naturalmente)
     - podcast (dillo negli episodi)
-- Add "Offri un caffè" (donorbox)
 
+#### social
+- say it in a podcast episode
+- *make a video to launch the beta*
+
+#### other
+- Add "Offri un caffè" (donorbox)
 
 #### MIGRATION (2nd stage)
 - navigation menu
@@ -67,6 +71,7 @@ layout: page
 - add podcast episodes
 
 #### OPTIMIZATION (3rd stage)
+- migrate to ==supabase==
 - css, js minification [parcel?](https://en.parceljs.org/)
 - optimize logo size
 - optimize image & font size for desktop
@@ -83,6 +88,7 @@ layout: page
 - seo optimization
 - contact form
 - verify email address without explicit opt-in but -- intead -- check if the welcome email is read (very cool (y))
+- make a first draft of the headless CMS (auth)
 
 #### SUBSCRIPTIONS (5th stage)
 - replace donorbox with stripe subscriptions
@@ -137,6 +143,34 @@ layout: page
 #### image
 - automatic optimization & resizing
 
+
+
+<!---
+
+## Important DATES
+
+- 12 Feb 2021 -- 1st podcast episode
+- ==7 Feb 2022== -- si potrebbe fare un episodio del podcast
+    per celebrare un anno di episodi e lanciare il nuovo sito
+
+## BETA launch
+
+- ~~==email registration==~~
+    - ~~email verification~~
+    - ~~update confirmation EMAIL text template~~
+
+- ~~redirect from 5p2p.it -> beta.5p2p.it~~
+- ~~link to 5p2p.it ARCHIVE~~
+- ~~force dark theme~~
+- ~~redirect 5p2p.it -> beta.5p2p.it~~
+- ~~update fauna records (newsletter: true)~~
+- ~~make it public in this date (js function on landin page)~~
+- ~~make a test in the wild (ask ale)~~
+
+-->
+
+
+
 ## RESOURCES
 
 - [Introduction to 11ty -- Smashing Magazine](https://www.smashingmagazine.com/2021/03/eleventy-static-site-generator/?utm_source=pocket_mylist)
@@ -159,6 +193,9 @@ layout: page
 - [build counter with fauna](https://davidparks.dev/blog/building-a-like-counter-with-faunadb-and-nuxt/#writing-our-functions)
 - [Plain text emails](https://www.litmus.com/blog/best-practices-for-plain-text-emails-a-look-at-why-theyre-important/)
 - [Alpinejs form submission](https://dberri.com/lets-build-an-ajax-form-with-alpine-js/)
+- ==[Supabase Authentication + Stripe billing](https://www.sandromaglione.com/supabase-auth-create-stripe-customer-subscription-supabase-stripe-billing-part-1/)==
+- [11ty future dates and drafts](https://jkc.codes/blog/creating-drafts-in-eleventy/)
+- [netlify-plugin-ghost-markdown ](https://github.com/daviddarnes/netlify-plugin-ghost-markdown/blob/master/index.js)
 
 #### Fonts
  - [Notulen serif display](https://fontsfree.net/notulen-serif-display-extbd-font-download.html)
