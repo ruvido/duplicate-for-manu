@@ -14,27 +14,25 @@ layout: page
 - ==A==
     - send it to fauna
     - scheduled netlify function check for posts everyday (use fauna index)
+    - if post -> send newsletter -> flag it as *sent*
+    - site newsletter page is built *programatically* from fauna
     - ~~if post -> generate new markdown -> send newsletter -> push it to repo~~
-    - if post -> send newsletter
-    - **WHILE** site newsletter page is built programatically from fauna
 - ==B==
-    - push it /programatically/ to repo AND fauna
-    - prevent 11ty to publish drafts/future dates
-    - (repo rebuilds (nonsense))
-    - scheduled netlify function check for posts everyday (how? where does it find dates?)
-    - if post -> send newsletter
-- ==C==
-    - 
+    - ~~push it /programatically/ to repo AND fauna~~
+    - ~~prevent 11ty to publish drafts/future dates~~
+    - ~~(repo rebuilds (nonsense))~~
+    - ~~scheduled netlify function check for posts everyday (how? where does it find dates?)~~
+    - ~~if post -> send newsletter~~
 
 - ==WHAT-IF== corrections?
-    - A: must be modified in CMS -> push it to repo
-    - B: modify repo file (thats.it) BUT db and repo will not be in sync anymore!
+    - A: must be modified in CMS (fauna)
+        - CMS can be webpage OR cli-script
 
 
 ---
 
+- ==make a development branch to PREVIEW the site== ([this](https://stackoverflow.com/questions/39478482/how-to-create-development-branch-from-master-on-github))
 - make a weekly dump of the fauna database
-- make a development branch to PREVIEW the site
 - choose a LAUNCHING DATE!
     - check saints calendar
 - ~~11ty do not publish future dates~~

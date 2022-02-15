@@ -1,5 +1,5 @@
 module.exports = async function() {
-    return '0.99.2'
+    return 'dev 0.0.1'
     //return await () => {
     //}
 }

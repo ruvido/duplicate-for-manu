@@ -12,19 +12,6 @@ postDate:       {{postDate}}
 futureDate:     {{futureDate}}
 sendNewsletter: {{sendNewsletter}}
 
-dnfbsadvbsnvb
-dnfbsadvbsnvb
-dnfbsadvbsnvb
-dnfbsadvbsnvb
-
-{{someData}}
-
-dnfbsadvbsnvb
-dnfbsadvbsnvb
-dnfbsadvbsnvb
-dnfbsadvbsnvb
-
-
 Tutti decisamente molto eccitati (y)
 
 Un abbraccio
