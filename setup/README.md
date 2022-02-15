@@ -22,7 +22,7 @@ In this folder all scripts relevant to setup the projects must be included
             }
         })
 
-## GIT setup
+## GIT setup x
     
     # list all branches
     git branch -a
