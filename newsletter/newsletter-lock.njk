@@ -1,0 +1,8 @@
+---
+permalink: "../functions/newsletter-lock.json"
+layout: ""
+eleventyExcludeFromCollections: true
+---
+{% for ii in collections.newsletter %}
+    - {{ii.data.title}}
+{% endfor %}
