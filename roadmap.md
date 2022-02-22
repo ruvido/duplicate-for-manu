@@ -31,8 +31,9 @@ layout: page
     - ~~mark it as "sent" in db~~
     - ~~(corrections are made directly on the md source)~~
 - ==A2==
-    - push md post to repo -> generate json for post (upcoming-newsletter.json)[json feed!](https://piccalil.li/quick-tip/create-json-feed-eleventy/))
-    - schedule netlify function: check post date (import json)
+    - ~~push md post to repo -> generate json for post (upcoming-newsletter.json)[json feed!](https://piccalil.li/quick-tip/create-json-feed-eleventy/))~~
+    - netlify function to send the newsletter
+    - schedule netlify function
     - if date === today -> send newsletter -> trigger build to publish post in the archive ([build hooks](https://docs.netlify.com/configure-builds/build-hooks/)
 
 ---
