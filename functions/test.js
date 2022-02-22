@@ -62,4 +62,4 @@ const handler = async function(event, context) {
         //        "\n    sendNewsletter: "+sendNewsletter
     }
 }
-module.exports.handler = schedule("@hourly", handler);
+module.exports.handler = schedule("@daily", handler);
