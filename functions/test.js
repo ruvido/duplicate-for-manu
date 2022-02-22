@@ -1,3 +1,4 @@
+const { schedule } = require('@netlify/functions');
 //// POSTMARK
 const postmark = require("postmark")
 const emailToken =  process.env.POSTMARK_API_KEY
@@ -7,7 +8,7 @@ const emailFrom = "5pani2pesci <no-reply@5p2p.it>"
 let returnStatusCode = 400
 let returnMessage = "Boh, qualcosa non è andato... non ho fatto un cazzo"
 
-exports.handler = async function(event, context) {
+const handler = async function(event, context) {
 
     let title    = emailNewsletter.title
     let date     = emailNewsletter.date
@@ -61,4 +62,4 @@ exports.handler = async function(event, context) {
         //        "\n    sendNewsletter: "+sendNewsletter
     }
 }
-
+module.exports.handler = schedule("@hourly", handler);
