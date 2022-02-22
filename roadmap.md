@@ -11,31 +11,41 @@ layout: page
 
 #### ==**workflow**==
 - write a post (set publishing date)
-- ==A==
-    - send it to fauna
-    - scheduled netlify function check for posts everyday (use fauna index)
-    - if post -> send newsletter -> flag it as *sent*
-    - site newsletter page is built *programatically* from fauna
+- ~~==A==~~
+    - ~~send it to fauna~~
+    - ~~scheduled netlify function check for posts everyday (use fauna index)~~
+    - ~~if post -> send newsletter -> flag it as *sent*~~
+    - ~~site newsletter page is built *programatically* from fauna~~
     - ~~if post -> generate new markdown -> send newsletter -> push it to repo~~
-- ==B==
+- ~~==B==~~
     - ~~push it /programatically/ to repo AND fauna~~
     - ~~prevent 11ty to publish drafts/future dates~~
     - ~~(repo rebuilds (nonsense))~~
     - ~~scheduled netlify function check for posts everyday (how? where does it find dates?)~~
     - ~~if post -> send newsletter~~
-
-- ==WHAT-IF== corrections?
-    - A: must be modified in CMS (fauna)
-        - CMS can be webpage OR cli-script
-
+- ==A1==
+    - ~~push md post to repo~~
+    - ~~schedule netlify build~~
+    - ~~data folder generate posts (no future posts)~~
+    - ~~if today (check db) -> send newsletter~~
+    - ~~mark it as "sent" in db~~
+    - ~~(corrections are made directly on the md source)~~
+- ==A2==
+    - ~~push md post to repo -> generate json for post (upcoming-newsletter.json)[json feed!](https://piccalil.li/quick-tip/create-json-feed-eleventy/))~~
+    - netlify function to send newsletters
+        1. *develop email template (from postmark)*
+        2. send batch emails using the newsletter channel
+    - schedule netlify function
+    - if date === today -> send newsletter -> trigger build to publish post in the archive ([build hooks](https://docs.netlify.com/configure-builds/build-hooks/)
 
 ---
 
-- ==make a development branch to PREVIEW the site== ([this](https://stackoverflow.com/questions/39478482/how-to-create-development-branch-from-master-on-github))
+- ~~make a development branch to PREVIEW the site ([this](https://stackoverflow.com/questions/39478482/how-to-create-development-branch-from-master-on-github))~~
 - make a weekly dump of the fauna database
 - choose a LAUNCHING DATE!
     - check saints calendar
 - ~~11ty do not publish future dates~~
+- emoticon stopped working
 
 - ==Newsletter build==
     - Script to post to Fauna
@@ -76,6 +86,9 @@ layout: page
 - automatic image optimization
 - lazy loading images
 - code cleanup
+- cleanup layouts
+- cleanup includes (and organize in folders)
+- cleanup json.njk in includes (only used to send registration emails)
 - script to check how many emails are not verified
 - change youtube promo video
 - have different branches for development and stable
