@@ -33,10 +33,11 @@ layout: page
 - ==A2==
     - ~~push md post to repo -> generate json for post (upcoming-newsletter.json)[json feed!](https://piccalil.li/quick-tip/create-json-feed-eleventy/))~~
     - netlify function to send newsletters
-        1. *develop email template (from postmark)*
-        2. send batch emails using the newsletter channel
-    - schedule netlify function
-    - if date === today -> send newsletter -> trigger build to publish post in the archive ([build hooks](https://docs.netlify.com/configure-builds/build-hooks/)
+        1. send batch emails using the newsletter channel
+        2. iteratively call netlify function untill all recipients
+        3. *develop email template (from postmark)*
+    - ~~schedule netlify function~~
+    - ~~if date === today -> send newsletter -> trigger build to publish post in the archive ([build hooks](https://docs.netlify.com/configure-builds/build-hooks/)~~
 
 ---
 
