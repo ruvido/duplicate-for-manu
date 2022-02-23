@@ -12,6 +12,6 @@ from: 5pani2pesci <no-reply@5p2p.it>
 
 a prestissimo :D
 
-Francesco e Alessanndra
+Francesco e Alessandra
 
 *5pani2pesci*

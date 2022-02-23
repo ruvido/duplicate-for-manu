@@ -1,6 +1,6 @@
 ---
 title: la prima newsletter di 5pani2pesci
-date: 2022-02-22
+date: 2022-02-24
 ---
 
 Questa è il primo numero della newsletter di 5pani2pesci
