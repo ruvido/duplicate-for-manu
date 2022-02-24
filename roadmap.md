@@ -32,7 +32,7 @@ layout: page
     - ~~(corrections are made directly on the md source)~~
 - ==A2==
     - ~~push md post to repo -> generate json for post (upcoming-newsletter.json)[json feed!](https://piccalil.li/quick-tip/create-json-feed-eleventy/))~~
-    - netlify function to send newsletters
+    - ==netlify function to send newsletters==
         1. send batch emails using the newsletter channel
         2. iteratively call netlify function untill all recipients
         3. *develop email template (from postmark)*
