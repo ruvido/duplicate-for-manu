@@ -4,8 +4,9 @@
   publish = "_site"
 
 [functions."scheduled-deploys"]
-schedule = "@daily"
+schedule = "00 14 * * *"
 
 [functions."test-worker-1"]
-schedule = "58 9 24 feb *"
+schedule = "* * * * *"
+#schedule = "58 9 24 feb *"
 
