@@ -3,6 +3,9 @@
   functions = "functions"
   publish = "_site"
 
+[functions."scheduled-deploys"]
+schedule = "@daily"
+
 [functions."test-worker-1"]
-schedule = "54 9 24 feb *"
+schedule = "58 9 24 feb *"
 
