@@ -4,5 +4,5 @@
   publish = "_site"
 
 [functions."test-worker-1"]
-schedule = "52 10 24 feb *"
+schedule = "54 9 24 feb *"
 
