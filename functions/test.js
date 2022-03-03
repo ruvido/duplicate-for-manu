@@ -4,12 +4,12 @@ const postmark = require("postmark")
 const emailToken =  process.env.POSTMARK_API_KEY
 const emailNewsletter = require("./send-newsletter-content.json")
 const todaysDate = new Date().toISOString().substring(0,10)
-const emailFrom = "5pani2pesci <no-reply@5p2p.it>"
 let returnStatusCode = 400
 let returnMessage = "Boh, qualcosa non è andato... non ho fatto un cazzo"
 
 const handler = async function(event, context) {
 
+    let emailFrom= "5pani2pesci <newsletter@5p2p.it>"
     let title    = emailNewsletter.title
     let date     = emailNewsletter.date
     let content  = emailNewsletter.content
@@ -21,28 +21,49 @@ const handler = async function(event, context) {
 
     if (sendNewsletter) {
 
-        var clientEmail = new postmark.ServerClient(emailToken);
+        var client = new postmark.ServerClient(emailToken);
 
         let emailTo = testEmail
         let htmlB = content
-        //let textB = emailBody.textContent.replace('LINKTOKEN',faunaDocumentID)
-        await clientEmail.sendEmail({
-            "From": emailFrom,
-            "To": emailTo,
-            "Subject": title + " " + new Date(),
-            "HtmlBody": htmlB,
-            //            "TextBody": textB,
-            "MessageStream": "outbound"
-        })
+
+        // max 500 messages
+        await client.sendEmailBatch(
+            [
+                {
+                    From: emailFrom,
+                    To: "ruvido+1@gmail.com",
+                    Subject: "* first email",
+                    HtmlBody: "test body",
+                    MessageStream: "broadcast"
+                },
+                {
+                    From: emailFrom,
+                    To: "ruvido+2@gmail.com",
+                    Subject: "* second email",
+                    TextBody: "test",
+                    MessageStream: "broadcast"
+                }
+            ]
+        )
+
+        //await client.sendEmail({
+        //    "From": emailFrom,
+        //    "To": emailTo,
+        //    "Subject": emailTo +  " " + new Date().getMinutes(),
+        //    "HtmlBody": htmlB,
+        //    //            "TextBody": textB,
+        //    "MessageStream": "broadcast"
+        //})
             .then((resp) => {
                 returnStatusCode = 200
                 returnMessage = "Email mandate, tutto apposto"
             })
-        ///    .catch((err) => {
-        ///        console.log(err)
-        ///        returnStatusCode = 400
-        ///        returnMessage = "Errore nell'inviare il messaggio, riprova più tardi :("-
-        ///    })
+            .catch((err) => {
+                console.log(err)
+                returnStatusCode = 400
+                returnMessage = 
+                    "Errore nell'inviare il messaggio, riprova più tardi :("
+            })
     }
     else {
         returnStatusCode = 200

@@ -41,6 +41,7 @@
 
                                     const token = urlParams.get(key)
                                     payload.ref = token
+                                    payload.collection = "people"
                                     payload.data = updateData
                                     payload = JSON.stringify(payload)
                                     console.log(payload)

@@ -6,6 +6,17 @@
 [functions."scheduled-deploys"]
 schedule = "0 14 * * *"
 
+# =[ NEWSLETTER ] =====================
+# reset email flag on fauna
+[functions."newsletter-reset-isSent.js"]
+schedule = "0 04 * * *"
+
+# each worker can send 500 messages
+#[functions."newsletter/send-0001-0500"]
+#[functions."newsletter/send-0500-1000"]
+#[functions."newsletter/send-1000-1500"]
+#[functions."newsletter/send-1500-2000"]
+#
 [functions."test-worker-1"]
-schedule = "0 7 * * *"
+schedule = "0 07 * * *"
 

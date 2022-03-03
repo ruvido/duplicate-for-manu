@@ -1,4 +1,6 @@
-var exports = module.exports = {
-    caz1: 100,
-    caz2:200
-};
+const stocaz = (data) => {
+    console.log(data)
+}
+
+stocaz(5)
+stocaz('minchi')

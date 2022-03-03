@@ -10,50 +10,21 @@ layout: page
 
 
 #### ==**workflow**==
-- write a post (set publishing date)
-- ~~==A==~~
-    - ~~send it to fauna~~
-    - ~~scheduled netlify function check for posts everyday (use fauna index)~~
-    - ~~if post -> send newsletter -> flag it as *sent*~~
-    - ~~site newsletter page is built *programatically* from fauna~~
-    - ~~if post -> generate new markdown -> send newsletter -> push it to repo~~
-- ~~==B==~~
-    - ~~push it /programatically/ to repo AND fauna~~
-    - ~~prevent 11ty to publish drafts/future dates~~
-    - ~~(repo rebuilds (nonsense))~~
-    - ~~scheduled netlify function check for posts everyday (how? where does it find dates?)~~
-    - ~~if post -> send newsletter~~
-- ==A1==
-    - ~~push md post to repo~~
-    - ~~schedule netlify build~~
-    - ~~data folder generate posts (no future posts)~~
-    - ~~if today (check db) -> send newsletter~~
-    - ~~mark it as "sent" in db~~
-    - ~~(corrections are made directly on the md source)~~
-- ==A2==
-    - ~~push md post to repo -> generate json for post (upcoming-newsletter.json)[json feed!](https://piccalil.li/quick-tip/create-json-feed-eleventy/))~~
-    - ==netlify function to send newsletters==
-        1. send batch emails using the newsletter channel
-        2. iteratively call netlify function untill all recipients
-        3. *develop email template (from postmark)*
-    - ~~schedule netlify function~~
-    - ~~if date === today -> send newsletter -> trigger build to publish post in the archive ([build hooks](https://docs.netlify.com/configure-builds/build-hooks/)~~
+- ✅ write a post (set publishing date)
+- ✅ push md post to repo -> generate json for post
+- ✅ scheduled netlify function for site rebuilds (no future posts)
+- scheduled netlify function to send newsletters
+    - ~~reset email flag isSent to *false*~~
+    - ~~send batch emails untill all recipients (via scheduled functions)~~
+        - fetch email addresses in batches (e.g. 1-500, 501-1000 etc.)
+    - send via postmark template
+    - flag email once sent -> *isSent = true*
 
 ---
 
-- ~~make a development branch to PREVIEW the site ([this](https://stackoverflow.com/questions/39478482/how-to-create-development-branch-from-master-on-github))~~
-- make a weekly dump of the fauna database
-- choose a LAUNCHING DATE!
-    - check saints calendar
-- ~~11ty do not publish future dates~~
-- emoticon stopped working
-
-- ==Newsletter build==
-    - Script to post to Fauna
-    - Netlify function to check fauna *post-of-today*
-    - Scheduling:
-        - [Scheduled Functions Launches in Beta](https://www.netlify.com/blog/quirrel-joins-netlify-and-scheduled-functions-launches-in-beta)
-        - [Scheduled Functions Documentation](https://github.com/netlify/labs/blob/main/features/scheduled-functions/documentation/README.md)
+- progressive LAUNCH
+    - first email as a test message
+    - ... then start deliver
 
 #### invite people
 - invite people from other lists to subscribe:
@@ -69,6 +40,7 @@ layout: page
 
 #### other
 - Add "Offri un caffè" (donorbox)
+- Add ORA et LABORA logo + description + registration
 
 #### MIGRATION (2nd stage)
 - navigation menu
@@ -80,6 +52,8 @@ layout: page
 - add podcast episodes
 
 #### OPTIMIZATION (3rd stage)
+- make a weekly dump of the fauna database -> netlify function + github
+- emoticon stopped working
 - migrate to ==supabase==
 - css, js minification [parcel?](https://en.parceljs.org/)
 - optimize logo size
@@ -216,3 +190,6 @@ layout: page
 
 ### Fauna
 - [Fauna FQL tutorial](https://fauna.com/blog/getting-started-with-fql-faunadbs-native-query-language-part-1)
+
+### Dashboard
+- [Halfmoon](https://www.gethalfmoon.com/)
