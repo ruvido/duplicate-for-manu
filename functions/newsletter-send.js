@@ -20,10 +20,11 @@ const p = {
     collection: "people",
     indexValue: [ true , false] ,
     //indexValue: [ true , true] ,
-    //dbSize:     100000,
-    //nlSize:     500,              // Newsletter batch size
+    //indexValue: [ true , null] ,
     dbSize:     100000,
-    nlSize:     1,              // Newsletter batch size
+    nlSize:     500,              // Newsletter batch size
+    //dbSize:     100000,
+    //nlSize:     1,              // Newsletter batch size
     data: {
         newsletter: { isSent: true}
         //newsletter: { isSent: false}
@@ -60,12 +61,6 @@ const handler = async function(event, context) {
             batchEmailArray.push(ssEmail)
             //rbody = rbody + ssEmail.To + '\n'
         })
-        await clientEmail.sendEmailBatch( batchEmailArray )
-            .then(response => {
-                response.forEach((ii) =>  {
-                    rbody = rbody + ii.To + '\t\t ->   ' + ii.Message + '\n'
-                })
-            })
         await emailRecipients.forEach((ss) =>  {
             let aa = client.query(
                 q.Update(
@@ -73,13 +68,15 @@ const handler = async function(event, context) {
                     { data: p.data },
                 )
             )
-            //.then ((ret) => console.log(ss.ref.id))
                 .then ((ret) => ret)
                 .catch((err) => err)
-            //rbody = rbody + ss.ref.id + '\n'
-            //let resTxt = 'send newsletter -> '+ss.data.email
-            //rbody = rbody + resTxt + '\n'
         })
+        await clientEmail.sendEmailBatch( batchEmailArray )
+            .then(response => {
+                response.forEach((ii) =>  {
+                    rbody = rbody + ii.To + '\t\t ->   ' + ii.Message + '\n'
+                })
+            })
     }
 
     return {
