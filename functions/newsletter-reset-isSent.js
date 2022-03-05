@@ -10,9 +10,11 @@ let client = new faunadb.Client({
 ////////////////////////////////////////////////////
 const p = {
     index:      "newsletter_active",
+    collection: "people",
+    //index:      "test_active",
+    //collection: "test",
     indexValue: true,
     size:       10000,
-    collection: "people",
     data: {
         newsletter: { isSent: false}
     }

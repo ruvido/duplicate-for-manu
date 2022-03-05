@@ -1,12 +1,11 @@
 ---
-permalink: "../functions/send-newsletter-content.json"
+permalink: "../functions/newsletter-content.json"
 layout: ""
 eleventyExcludeFromCollections: true
 ---
+{% set ii = collections.newsletter | last %}
 {
-{% for ii in collections.newsletter %}
     "date": "{{ii.date.toISOString().substring(0,10)}}",
-    "title": "{{ii.data.title}}",
+    "subject": "{{ii.data.title}}",
     "content": {{ii.templateContent | dump | safe | replace("\\n", "")}}
-{% endfor %}
 }

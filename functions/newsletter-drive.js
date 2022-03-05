@@ -1,4 +1,10 @@
 const buttana = require('./newsletter-send')
 
-console.log('stocaz')
-buttana.stocaz()
+const handler = async function(event, context) {
+    return {
+        statusCode: 200,
+        body:       'stocazz'
+    }
+}
+module.exports.handler = handler
+
