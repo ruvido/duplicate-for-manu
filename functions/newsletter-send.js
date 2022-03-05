@@ -20,9 +20,10 @@ const p = {
     collection: "people",
     indexValue: [ true , false] ,
     //indexValue: [ true , true] ,
+    //dbSize:     100000,
+    //nlSize:     500,              // Newsletter batch size
     dbSize:     100000,
-    nlSize:     500,              // Newsletter batch size
-    //nlSize:     1,              // Newsletter batch size
+    nlSize:     1,              // Newsletter batch size
     data: {
         newsletter: { isSent: true}
         //newsletter: { isSent: false}
@@ -57,11 +58,10 @@ const handler = async function(event, context) {
             let ssEmail = JSON.parse(JSON.stringify(email))
             ssEmail.To = ss.data.email
             batchEmailArray.push(ssEmail)
+            //rbody = rbody + ssEmail.To + '\n'
         })
         await clientEmail.sendEmailBatch( batchEmailArray )
             .then(response => {
-                console.log(response[0])
-                console.log(response[1])
                 response.forEach((ii) =>  {
                     rbody = rbody + ii.To + '\t\t ->   ' + ii.Message + '\n'
                 })
