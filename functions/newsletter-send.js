@@ -22,6 +22,7 @@ const p = {
     //indexValue: [ true , true] ,
     dbSize:     100000,
     nlSize:     500,              // Newsletter batch size
+    //nlSize:     1,              // Newsletter batch size
     data: {
         newsletter: { isSent: true}
         //newsletter: { isSent: false}
