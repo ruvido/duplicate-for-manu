@@ -12,8 +12,8 @@ schedule = "0 14 * * *"
 schedule = "0 04 * * *"
 # --------------------------------------
 # each worker can send 500 messages
-[functions."newsletter-send-0001-0500"]
-schedule = "40 17 * * *"
+#[functions."newsletter-send-0001-0500"]
+#schedule = "40 17 * * *"
 
 [functions."newsletter-send-0500-1000"]
 schedule = "00 18 * * *"
