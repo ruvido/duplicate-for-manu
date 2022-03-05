@@ -13,30 +13,28 @@ layout: page
 - ✅ write a post (set publishing date)
 - ✅ push md post to repo -> generate json for post
 - ✅ scheduled netlify function for site rebuilds (no future posts)
-- scheduled netlify function to send newsletters
+- ✅scheduled netlify function to send newsletters
     - ~~reset email flag isSent to *false*~~
     - ~~send batch emails untill all recipients (via scheduled functions)~~
         - fetch email addresses in batches (e.g. 1-500, 501-1000 etc.)
-    - send via postmark template
+    - ~~send via postmark template~~
     - flag email once sent -> *isSent = true*
 
 ---
 
-- progressive LAUNCH
-    - first email as a test message
-    - ... then start deliver
+- ~~progressive LAUNCH~~
+    - ~~first email as a test message~~
+    - ~~ ... then start deliver~~
+- newsletter-reset-isSent.js (**schedule** this)
+- add txt email 
 
 #### invite people
 - invite people from other lists to subscribe:
-    - telegram
+    - ~~podcast (dillo negli episodi)~~
+    - ~~telegram~~
     - donorbox
     - mailchimp
     - instagram (naturalmente)
-    - podcast (dillo negli episodi)
-
-#### social
-- say it in a podcast episode
-- *make a video to launch the beta*
 
 #### other
 - Add "Offri un caffè" (donorbox)
@@ -52,6 +50,7 @@ layout: page
 - add podcast episodes
 
 #### OPTIMIZATION (3rd stage)
+- clean-up mailing list (delete blocked/unverified addresses)
 - make a weekly dump of the fauna database -> netlify function + github
 - emoticon stopped working
 - migrate to ==supabase==
