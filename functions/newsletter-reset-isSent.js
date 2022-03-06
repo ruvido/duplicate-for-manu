@@ -29,7 +29,7 @@ const handler = async function(event, context) {
         )
     )
         .then((res) => res)
-    let rbody = ""
+    let rbody = "start\n"
     await ppl.data.forEach((ss) =>  {
         let aa = client.query(
             q.Update(
