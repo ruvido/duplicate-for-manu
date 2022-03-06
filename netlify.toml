@@ -8,7 +8,7 @@ schedule = "0 14 * * *"
 
 # =[ NEWSLETTER ] =====================
 # reset email flag on fauna
-[functions."newsletter-reset-isSent.js"]
+[functions."newsletter-reset-isSent"]
 schedule = "00 04 * * *"
 # --------------------------------------
 # each worker can send 500 messages
