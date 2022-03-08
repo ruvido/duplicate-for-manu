@@ -13,10 +13,10 @@ const p = {
     collection: "people",
     indexValue: [ true, true ],
     size:       100000,
-    //indexValue: [ true, true ],
-    //data: {newsletter: { isSent: false }}
-    indexValue: [ true, false],
-    data: {newsletter: { isSent: true }}
+    indexValue: [ true, true ],
+    data: {newsletter: { isSent: false }}
+    //indexValue: [ true, false],
+    //data: {newsletter: { isSent: true }}
 }
 ////////////////////////////////////////////////////
 const handler = async function(event, context) {
