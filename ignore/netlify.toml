@@ -1,0 +1,33 @@
+[build]
+  command = "npm run build"
+  functions = "functions"
+  publish = "_site"
+
+[functions."scheduled-deploys"]
+schedule = "0 14 * * *"
+
+# =[ NEWSLETTER ] =====================
+# reset email flag on fauna
+[functions."newsletter-reset-isSent.js"]
+schedule = "0 04 * * *"
+# --------------------------------------
+# each worker can send 500 messages
+[functions."newsletter-send-0001-0500"]
+schedule = "40 17 * * *"
+
+[functions."newsletter-send-0500-1000"]
+schedule = "00 18 * * *"
+
+[functions."newsletter-send-1000-1500"]
+schedule = "30 18 * * *"
+
+[functions."newsletter-send-1500-2000"]
+schedule = "00 19 * * *"
+# --------------------------------------
+
+
+
+#
+#[functions."test-worker-1"]
+#schedule = "0 07 * * *"
+
