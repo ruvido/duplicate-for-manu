@@ -12,9 +12,9 @@ const p = {
     index:      "people_newsletter_active_isSent",
     collection: "people",
     size:       100000,
-    indexValue: [ true, false],
-    //data: {newsletter: { isSent: false }}
-    data: {newsletter: { isSent: true }}
+    indexValue: [ true, true ],
+    data: {newsletter: { isSent: false }}
+    //data: {newsletter: { isSent: true }}
 }
 ////////////////////////////////////////////////////
 let xcount = 0
