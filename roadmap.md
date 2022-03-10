@@ -181,6 +181,8 @@ layout: page
 - ==[Supabase Authentication + Stripe billing](https://www.sandromaglione.com/supabase-auth-create-stripe-customer-subscription-supabase-stripe-billing-part-1/)==
 - [11ty future dates and drafts](https://jkc.codes/blog/creating-drafts-in-eleventy/)
 - [netlify-plugin-ghost-markdown ](https://github.com/daviddarnes/netlify-plugin-ghost-markdown/blob/master/index.js)
+- [Using Netlify Functions to Create Signing Tokens
+](https://dev.to/mux/using-netlify-functions-to-create-signing-tokens-25i6)
 
 #### Fonts
  - [Notulen serif display](https://fontsfree.net/notulen-serif-display-extbd-font-download.html)
