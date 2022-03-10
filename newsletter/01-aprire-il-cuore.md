@@ -70,7 +70,13 @@ A venerdì prossimo.
 
 F
 
-PS. Grazie per tutte le vostre email per **ORA et LABORA experience**. Purtroppo i posti sono terminati 😅 a chi volesse sostenere questa iniziativa stiamo pensando ad un modo per partecipare nella preghiera per chi sta a casa. Vi facciamo sapere.
+😘 Se questa newsletter ti piace **facciamola conoscere** a tutti! Fai uno screenshot o condividi una frase che ti è piaciuta nelle storie di instagram oppure inoltra questa email ad un amico! La bellezza vale la pena condividerla!
+
+---
+
+### Ora et Labora Experience
+
+Grazie per tutte le vostre email per **ORA et LABORA experience**. Purtroppo i posti sono terminati 😅 a chi volesse sostenere questa iniziativa stiamo pensando ad un modo per partecipare nella preghiera per chi sta a casa. Vi facciamo sapere.
 
 ---
 
