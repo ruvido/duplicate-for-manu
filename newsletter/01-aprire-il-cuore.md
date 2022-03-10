@@ -2,9 +2,11 @@
 date: 2022-03-10
 title: "Aprire il cuore #1"
 ---
+<div style="max-width: 800px; font-size:12px">
+
 Carissimi,
 
-è con grande gioia che oggi iniziamo questa nuova avventura della *Newsletter di 5pani2pesci*, come il blog prima, poi il podcast, questa iniziativa parte con il desiderio di poter condividere con te un pezzo di strada, affinché possa acquisire strumenti e coraggio per fare scelte piene nella tua vita. Spero che vi piaccia questo *numero uno* e, come al solito, fateci sapere se qualcosa fosse andato storto o non ha funzionato.
+è con grande gioia che oggi iniziamo questa nuova avventura della *Newsletter di 5pani2pesci*! Come il blog prima, e poi il podcast, questa iniziativa parte con il desiderio di poter condividere con te un pezzo di strada, affinché tu possa acquisire strumenti e coraggio per fare scelte piene nella vita. Spero che vi piaccia questo **numero uno** e -- come al solito -- fateci sapere se qualcosa fosse andato storto o non ha funzionato.
 
 Se questa email ti è stata inviata da un amico, puoi [iscriverti alla Newsletter qui](https://5p2p.it).
 
@@ -14,9 +16,9 @@ Francesco
 
 ---
 
-# Aprire il cuore
+## Aprire il cuore
 
-## Non sono bravo a farlo. 
+### Non sono bravo a farlo. 
 
 Né francamente ho mai pensato che fosse importante. Sono andato avanti nella vita senza curarmene troppo, affrontando tutto dentro una corazza. Una corazza protettiva per evitare di sentire, o sentire troppo. 
 
@@ -69,3 +71,5 @@ PS. Grazie per tutte le vostre email per l'**ORA et LABORA experience**. I posti
 ---
 
 Vi ricordo che continua la challenge della quaresima **Fridays for fasting**, seguendo l'esortazione dell'evangelista Matteo, viviamo tutti i venerdì di quaresima nel **digiuno** per pregare per l'attuale situazione di guerra e fine pandemia, ma soprattutto affinché "questi tempi vengano accorciati" e che possa "manifestarsi la Gloria di Dio" (Mt24).
+
+</div>
