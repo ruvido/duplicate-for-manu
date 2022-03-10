@@ -12,7 +12,7 @@ const p = {
     index:      "people_newsletter_active_isSent",
     collection: "people",
     size:       100000,
-    indexValue: [ true, true ],
+    indexValue: [ true, false],
     //data: {newsletter: { isSent: false }}
     data: {newsletter: { isSent: true }}
 }
