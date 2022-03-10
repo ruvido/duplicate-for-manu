@@ -2,7 +2,7 @@
 date: 2022-03-10
 title: "Aprire il cuore #1"
 ---
-<div style="max-width: 800px; font-size:12px">
+<div style="max-width: 600px; font-size:12px">
 
 Carissimi,
 

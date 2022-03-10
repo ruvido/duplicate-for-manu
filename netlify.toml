@@ -8,8 +8,8 @@ schedule = "0 14 * * *"
 
 # =[ NEWSLETTER ] =====================
 # reset email flag on fauna
-[functions."newsletter-isSent-false"]
-schedule = "00 04 * * *"
+#[functions."newsletter-isSent-false"]
+#schedule = "00 04 * * *"
 [functions."newsletter-isSent-false-2"]
 schedule = "05 04 * * *"
 [functions."newsletter-isSent-false-3"]
