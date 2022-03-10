@@ -9,17 +9,16 @@ let client = new faunadb.Client({
 })
 ////////////////////////////////////////////////////
 const p = {
-    index:      "newsletter_active",
+    index:      "people_newsletter_active_isSent",
     collection: "people",
-    //index:      "test_active",
-    //collection: "test",
-    indexValue: true,
-    size:       10000,
-    data: {
-        newsletter: { isSent: false}
-    }
+    size:       100000,
+    indexValue: [ true, true ],
+    data: {newsletter: { isSent: false }}
+    //indexValue: [ true , false ],
+    //data: {newsletter: { isSent: true }}
 }
 ////////////////////////////////////////////////////
+let xcount = 0
 const handler = async function(event, context) {
     let ppl = await client.query(
         q.Map(
@@ -28,8 +27,13 @@ const handler = async function(event, context) {
             q.Lambda("peopleRef", q.Get(q.Var("peopleRef")))
         )
     )
-        .then((res) => res)
-    let rbody = ""
+        .then((res) => {
+            xcount = res.data.length
+            return res
+        })
+
+    let rbody = "start\n"
+    let count = 0
     await ppl.data.forEach((ss) =>  {
         let aa = client.query(
             q.Update(
@@ -40,11 +44,13 @@ const handler = async function(event, context) {
             .then ((ret) => ret)
             .catch((err) => err)
         rbody = rbody + ss.ref.id + '\n'
+        count++
     })
 
     return {
         statusCode: 200,
-        body:       rbody
+        //body:       rbody
+        body:       '\nNumber of people: '+count + '\n\n'+xcount
     }
 }
 module.exports.handler = handler
