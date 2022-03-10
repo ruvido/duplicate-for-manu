@@ -6,7 +6,11 @@ title: "Aprire il cuore #1"
 
 Carissimi,
 
-è con grande gioia che oggi iniziamo questa nuova avventura della ✨ *Newsletter di 5pani2pesci* ✨ Come il blog prima, e poi il podcast, questa iniziativa parte con il desiderio di poter condividere con te un pezzo di strada, affinché tu possa acquisendo strumenti e coraggio per fare scelte piene nella vita. Spero che vi piaccia questo **numero uno** e -- come al solito -- fateci sapere se qualcosa fosse andato storto o non ha funzionato.
+è con grande gioia che oggi iniziamo questa nuova avventura della ✨ *Newsletter di 5pani2pesci* ✨ Come il blog (e poi il podcast), questo progetto nasce con il desiderio di condividere con te un pezzo di strada, per imparare a vivere una vita piena. Spero che questo **numero uno** possa essere d'ispirazione e -- come al solito -- se qualcosa fosse andato storto o non ha funzionato, fatecelo sapere che piano piano aggiustiamo tutto 👍
+
+Ricorda.
+
+Il rischio è che tu possa essere felice.
 
 Se questa email ti è stata inviata da un amico, puoi [iscriverti alla Newsletter qui](https://5p2p.it).
 
