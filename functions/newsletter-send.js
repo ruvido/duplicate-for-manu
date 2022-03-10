@@ -23,7 +23,6 @@ const p = {
     //indexValue: [ true , null] ,
     dbSize:     100000,
     nlSize:     500,              // Newsletter batch size
-    //dbSize:     100000,
     //nlSize:     1,              // Newsletter batch size
     data: {
         newsletter: { isSent: true}
@@ -83,7 +82,7 @@ const handler = async function(event, context) {
         }
         return {
             statusCode: 200,
-            body:       rbody
+            body:       'Nuova newsletter:\n'+ rbody
         }
     } else {
         let rbody = "Niente newsletter x oggi!"
