@@ -1,3 +1,6 @@
+const TESTEMAIL = false
+const myTestEmail = 'ruvido@gmail.com'
+//// ----------------------------------------------/
 const { schedule } = require('@netlify/functions');
 //// POSTMARK--------------------------------------/
 const postmark = require("postmark")
@@ -37,61 +40,77 @@ const email = {
     MessageStream: "broadcast"
 }
 ////////////////////////////////////////////////////
+const fetchEmailRecipients = async (testing, sendToday) => {
+        if (testing) {
+            let ppl = await client.query(
+                q.Map(
+                    q.Paginate(q.Match(
+                        q.Index("people_by_email"), myTestEmail)),
+                    q.Lambda("peopleRef", q.Get(q.Var("peopleRef")))
+                )
+            )
+                .then((res) => res.data.slice(0,p.nlSize))
+            return ppl
+        }
+        if (!testing && sendToday ) {
+            let ppl = await client.query(
+                q.Map(
+                    q.Paginate(q.Match(
+                        q.Index(p.index), p.indexValue), {"size": p.dbSize}),
+                    q.Lambda("peopleRef", q.Get(q.Var("peopleRef")))
+                )
+            )
+                .then((res) => res.data.slice(0,p.nlSize))
+            return ppl
+        }
+}
+////////////////////////////////////////////////////
 const today = new Date().toISOString().substring(0,10)
 const handler = async function(event, context) {
     let rbody = 'ugh... qualcosa fooorse non è andato'
-    if (emailBody.date === today ) {
-        let rbody = "Oggi è il giorno ma non ho fatto nulla"  // response body *for debugging
-        let ppl = await client.query(
-            q.Map(
-                q.Paginate(q.Match(
-                    q.Index(p.index), p.indexValue), {"size": p.dbSize}),
-                q.Lambda("peopleRef", q.Get(q.Var("peopleRef")))
-            )
-        )
-            .then((res) => res)
-        const emailRecipients = ppl.data.slice(0,p.nlSize)
 
-        if ( emailRecipients.length > 0 ) {
+    let sendToday = emailBody.date === today
+    const emailRecipients = await fetchEmailRecipients(TESTEMAIL, sendToday)
 
-            rbody = ""
+    if ( emailRecipients.length > 0 ) {
 
-            batchEmailArray = []
-            await emailRecipients.forEach((ss) =>  {
-                let ssEmail = JSON.parse(JSON.stringify(email))
-                ssEmail.To = ss.data.email
-                batchEmailArray.push(ssEmail)
-                //rbody = rbody + ssEmail.To + '\n'
-            })
-            await emailRecipients.forEach((ss) =>  {
-                let aa = client.query(
-                    q.Update(
-                        q.Ref(q.Collection(p.collection), ss.ref.id),
-                        { data: p.data },
-                    )
+        rbody = ""
+
+        batchEmailArray = []
+        await emailRecipients.forEach((ss) =>  {
+            let ssEmail = JSON.parse(JSON.stringify(email))
+            ssEmail.To = ss.data.email
+            batchEmailArray.push(ssEmail)
+            // debug
+            //rbody = rbody + ssEmail.To + '\n'
+        })
+        await emailRecipients.forEach((ss) =>  {
+            let aa = client.query(
+                q.Update(
+                    q.Ref(q.Collection(p.collection), ss.ref.id),
+                    { data: p.data },
                 )
-                    .then ((ret) => ret)
-                    .catch((err) => err)
-            })
-            await clientEmail.sendEmailBatch( batchEmailArray )
-                .then(response => {
-                    response.forEach((ii) =>  {
-                        rbody = rbody + ii.To + '\t\t ->   ' + ii.Message + '\n'
-                    })
+            )
+                .then ((ret) => ret)
+                .catch((err) => err)
+        })
+        await clientEmail.sendEmailBatch( batchEmailArray )
+            .then(response => {
+                response.forEach((ii) =>  {
+                    rbody = rbody + ii.To + '\t\t ->   ' + ii.Message + '\n'
                 })
-        }
+            })
         return {
             statusCode: 200,
             body:       'Nuova newsletter:\n'+ rbody
         }
-    } else {
-        let rbody = "Niente newsletter x oggi!"
+    }
+    else {
+        rbody = "Niente newsletter x oggi!"
         return {
             statusCode: 200,
             body:       rbody
         }
     }
-
-
 }
 module.exports.handler = handler
