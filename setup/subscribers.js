@@ -23,8 +23,8 @@ const showsub = async () => {
     //for (const ss in subs) {subs[ss].data.verified ? verified+=1 : null}
     subs.forEach((ss) =>  {ss.data.verified ? null : notVerified+=1})
 
-    console.log('total   : '+subs.length)
-    console.log('        : '+notVerified+' (not verified)') 
+    console.log('total ver : '+(subs.length-notVerified))
+    console.log('        + : '+notVerified+' (not verified)') 
 } 
 
 showsub()
