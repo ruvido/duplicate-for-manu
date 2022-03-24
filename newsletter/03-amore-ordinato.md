@@ -1,6 +1,6 @@
 ---
 title: Amore ordinato 😍
-date: 2022-03-24
+date: 2022-03-25
 ---
 <div style="max-width: 600px; font-size:18px; line-height: 1.6; padding: 30px 30px; font-family: Georgia, serif">
 
