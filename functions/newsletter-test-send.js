@@ -1,4 +1,4 @@
-const TESTEMAIL = false
+const TESTEMAIL = true
 const myTestEmail = 'ruvido@gmail.com'
 //// ----------------------------------------------/
 const { schedule } = require('@netlify/functions');
