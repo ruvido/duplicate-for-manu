@@ -6,9 +6,9 @@ date: 2022-04-01
 
 Carissimi
 
-nuovo appuntamento con la *newsletter di 5pani2pesci* 😉  Ricorda!
+nuovo appuntamento con la *newsletter di 5pani2pesci* 😉  Siamo strafelici per l'entusiasmo che stiamo ricevendo per questa iniziativa. Sono morto dal ridere quando la scorsa settimana una ragazza ha ricondiviso la newsletter su ig scrivendo *Friday is the new Monday* 😆 Bando alle ciance, iniziamo... e ricorda!
 
-> *Qui si pensa e si opera al contrario*
+Qui si pensa e si opera al contrario
 
 Se questa email ti è stata inviata da un amico, puoi [iscriverti alla Newsletter qui](https://5p2p.it).
 
@@ -22,9 +22,11 @@ Francesco
 
 ### ... e non è un pesce d'Aprile
 
-A me piace moltissimo leggere. Ma non è sempre stato così. Quando nell'estate del quarto liceo, presi in mano quel libro divulgativo di Asimov che spiegava l'origine dell'universo partendo dai costituenti fondamentali della materia e le sue forze, rimasi affascinato. E per la prima volta in vita mia, mi appassionai ad un libro.
+A me piace moltissimo leggere. Ma non è sempre stato così. Quando nell'estate del quarto liceo, lessi *Asimov* che spiegava l'origine dell'universo partendo dai costituenti fondamentali della materia e le sue forze, rimasi affascinato. E per la prima volta in vita mia, mi appassionai ad un libro.
 
-Da allora, sono sempre stato un cacciatore di buoni libri. Eh sì, non sono il tipo da finire un libro a tutti i costi. Ho quell'innata propensione che il mio tempo sia importante e se un libro non mi appassiona fino al midollo, è facile che venga parcheggiato a metà in qualche angolo buio.
+Da allora, sono sempre stato un cacciatore di buoni libri. 
+
+Eh sì, non sono il tipo da finire un libro a tutti i costi. Ho quell'innata propensione a pensare che il mio tempo sia importante e se un libro non mi appassiona fino al midollo, è facile che venga parcheggiato a metà in qualche angolo buio.
 
 Ma con [La buona battaglia](https://amzn.to/3JQ0JP6) non è stato così. È arrivato a casa nostra un po' per caso, grazie ad una regalo inaspettato di una nostra amica (beh ... veramente lo ha regalato ad Ale 😅 ma d'altra parte il mio regalo di compleanno lo sta leggendo lei...).
 
@@ -38,7 +40,7 @@ Lo sguardo verso le nostre cadute  è sempre impastato di senso di colpa e peso 
 
 In questa mentalità, Dio diventa un semplice giudice supremo dei nostri peccati. Esterno da noi -- lontano -- pronto a puntare il dito. Eppure qualcosa non torna ... Dio non è nato in una mangiatoia? Non mi ha lavato i piedi? Non è salito sulla croce **per me**? 
 
-Questa vita di fede assomiglia ad un **immane sforzo spirituale**, tutto appoggiato sulle nostre spalle, sulla nostra capacità di *tenere duro*. Dove se ce la facciamo, siamo stati bravi. Altrimenti... sperimentiamo il fallimento, la caduta, sperimentiamo l'inadeguatezza della nostra umanità.
+Questa vita di fede assomiglia ad un *immane sforzo spirituale*, tutto appoggiato sulle nostre spalle, sulla nostra capacità di **tenere duro**. Dove, se ce la facciamo, siamo stati bravi. Altrimenti... sperimentiamo il fallimento, la caduta, sperimentiamo l'inadeguatezza della nostra umanità.
 
 E la Grazia?
 
@@ -50,15 +52,13 @@ L'uomo che si salva per mezzo delle sue capacità, è un uomo solo.
 
 L'uomo che accoglie il limite della sua fragilità e lo rimette a Dio, è un salvato.
 
-È per questo che parliamo spesso del problema di *essere bravi ragazzi* (non ha nulla a che vedere con la fede e la salvezza [come abbiamo parlato nell'ultimo podcast](https://5p2p.buzzsprout.com/1674844/10324433-qui-si-pensa-e-si-opera-al-contrario)). È per questo che pensiamo che sia meglio "sbagliare con le proprie gambe, che fare la cosa giusta con l'entusiasmo di qualcun altro".
+È per questo che parliamo spesso del problema di *essere bravi ragazzi* (che non ha nulla a che vedere con la fede e la salvezza, [ne abbiamo parlato nell'ultimo podcast](https://5p2p.buzzsprout.com/1674844/10324433-qui-si-pensa-e-si-opera-al-contrario)). È per questo che siamo convinti che sia meglio *sbagliare con le proprie gambe, che fare la cosa giusta con l'entusiasmo di qualcun altro*.
 
-La chiave di lettura di tutto questo non è di *lanciarsi allo sbaraglio* come va, va. Ma piuttosto fondare la propria vita su un concetto diverso da quello di *essere bravi* e *fare le cose per bene* che è la radice di una fede autentica.
-
-Dice Gesù in Matteo 24 (anche in Mt10 e Mc13):
+La chiave di lettura di tutto questo non è di *lanciarsi allo sbaraglio* come va, va. Ma piuttosto fondare la propria vita su un concetto diverso da quello di *essere bravi* e *fare le cose per bene*. Dice Gesù in Matteo 24 (anche in Mt10 e Mc13):
 
 > Chi avrà perseverato fino alla fine sarà salvato -- Mt24
 
-La chiave di lettura è questa **perseveranza**, cioè continuare a credere che si può combattere questa **buona battaglia**, che c'è un traguardo alla fine della nostra vita, che c'è un premio da ricevere, che c'è un Incontro che ci aspetta. 
+La chiave di lettura è questa **perseveranza**, cioè continuare a credere che si può combattere la **buona battaglia**, che c'è un traguardo alla fine della nostra vita, che c'è un premio da ricevere, che c'è un Incontro che ci aspetta. 
 
 > Ho combattuto la buona battaglia, ho terminato la mia corsa, ho conservato la fede -- 2Tm14
 
@@ -66,13 +66,15 @@ Ho conservato la fede! La battaglia è questa, è mantenere fisso l'obiettivo --
 
 Questa è la nostra forza, è la nostra speranza. E di fronte alle delusioni della vita, di fronte alle cadute e alle incomprensioni ci rimane questa **certezza**. 
 
-L'altro giorno mi ha scritto una ragazza, che a pochi mesi dal matrimonio, sta affrontando una grande prova ed è arrivata alla conclusione che di fronte alla domanda "ma perché a me Signore?", si può rispondere:
+Tutto questo -- impastato di vita concreta -- diventa cammino.
+
+L'altro giorno mi ha scritto una ragazza, che a pochi mesi dal matrimonio sta affrontando una grande prova ed è arrivata alla conclusione che di fronte alla domanda "ma perché a me Signore?", si può rispondere:
 
 "Qui stiamo facendo la storia, qui si impara ad amare da Dio!"
 
 È così.
 
-Non c'è da sforzarsi di essere bravi, c'è da **aprire le braccia** e **accogliere Dio** che entra nella nostra vita. Tutto questo non avviene in maniera magica come lo vorremmo noi, ma attraverso il Getsemani delle nostre difficoltà, e la morte del nostro peccato. Proprio dentro tutto questo si cela la porta per entrare nella Gloria della Sua Risurrezione.
+Non c'è da sforzarsi di essere bravi, c'è da **aprire le braccia** e **accogliere Dio**. Tutto questo non avviene in maniera magica come lo vorremmo noi, ma attraverso il Getsemani delle nostre difficoltà, e la morte del nostro peccato. Proprio dentro tutto questo -- ai nostri occhi follia -- si cela la porta per entrare nella Gloria della Sua Risurrezione.
 
 Abbi il coraggio della buona battaglia.
 
@@ -82,7 +84,9 @@ Buon cammino
 
 F
 
-PS. Ringrazio di cuore **Susanna Bo** per aver raccontato la sua storia nel libro "La buona battaglia". Nelle sue parole ho ritrovato l'essenza della fede, della perseveranza, dell'accettazione del limite e della serietà della buona battaglia. Grazie Susanna.
+PS. Ringrazio di cuore *Susanna Bo* per aver raccontato la sua storia nel libro "La buona battaglia". Nelle sue parole ho ritrovato l'essenza della fede, della perseveranza, dell'accettazione del limite e della serietà della buona battaglia. È un libro che vale la pena leggere. 
+
+Grazie Susanna.
 
 ---
 
@@ -94,7 +98,9 @@ La bellezza vale la pena condividerla!
 
 ### Ora et Labora Experience
 
-A chi volesse sostenere questa iniziativa può lasciare una offerta tramite [Offri un caffè](https://bit.ly/offri-un-caffe). Inoltre stiamo pensando ad un modo per partecipare nella preghiera per chi sta a casa. Vi facciamo sapere.
+A chi volesse sostenere questa iniziativa può lasciare una offerta tramite [Offri un caffè](https://bit.ly/offri-un-caffe). Inoltre stiamo pensando ad un modo per partecipare nella preghiera per chi sta a casa. 
+
+*Stay tuned*
 
 ---
 
