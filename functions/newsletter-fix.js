@@ -1,12 +1,12 @@
 const TESTEMAIL = false
 const myTestEmail = 'ruvido@gmail.com'
 //// SCHEDULE -------------------------------------/
-//const { schedule } = require('@netlify/functions');
+const { schedule } = require('@netlify/functions');
 //// POSTMARK--------------------------------------/
 ///const postmark = require("postmark")
 ///const emailToken =  process.env.POSTMARK_API_KEY
 ///const emailBody  = require('./newsletter-content.json')
-var clientEmail = new postmark.ServerClient(emailToken);
+//var clientEmail = new postmark.ServerClient(emailToken);
 //// FAUNA-----------------------------------------/
 const faunaConfig = require('./fauna-config.json')
 const faunadb = require("faunadb")
@@ -25,20 +25,19 @@ const p = {
     //indexValue: [ true , true] ,
     //indexValue: [ true , null] ,
     dbSize:     100000,
-    nlSize:     500,              // Newsletter batch size
-    //nlSize:     1,              // Newsletter batch size
+    //nlSize:     500,              // Newsletter batch size
+    nlSize:     100000,              // Newsletter batch size
     data: {
-        newsletter: { isSent: true}
-        //newsletter: { isSent: false}
+		newsletter: { active: true, isSent: false}
     }
 }
-const email = {
-    From:       "5pani2pesci <newsletter@5p2p.it>",
-    Subject:    emailBody.subject,
-    HtmlBody:   emailBody.content,
-    //TextBody:   emailBody.content,
-    MessageStream: "broadcast"
-}
+//const email = {
+//    From:       "5pani2pesci <newsletter@5p2p.it>",
+//    Subject:    emailBody.subject,
+//    HtmlBody:   emailBody.content,
+//    //TextBody:   emailBody.content,
+//    MessageStream: "broadcast"
+//}
 ////////////////////////////////////////////////////
 const fetchEmailRecipients = async (testing, sendToday) => {
 	let ppl = await client.query(
@@ -58,6 +57,7 @@ const handler = async function(event, context) {
     let rbody = 'ugh... qualcosa fooorse non è andato'
 
     //let sendToday = emailBody.date === today
+	sendToday = true
     const emailRecipients = await fetchEmailRecipients(TESTEMAIL, sendToday)
 
     if ( emailRecipients.length > 0 ) {
@@ -65,26 +65,34 @@ const handler = async function(event, context) {
         rbody = ""
 
         batchEmailArray = []
+		updatePeople = []
+		//emailRecipients.length=2
         await emailRecipients.forEach((ss) =>  {
-            let ssEmail = JSON.parse(JSON.stringify(email))
-            ssEmail.To = ss.data.email
-            batchEmailArray.push(ssEmail)
-            // debug
-            rbody = rbody + ssEmail.To + '\n'
+			if (!('newsletter' in ss.data) && (ss.data.verified)) {
+				let em=JSON.stringify(ss.data) //.email
+				batchEmailArray.push(em)
+				updatePeople.push(ss)
+				// debug
+				//rbody = rbody + em + '\n'
+			}
         })
-        //await emailRecipients.forEach((ss) =>  {
-        //    let aa = client.query(
-        //        q.Update(
-        //            q.Ref(q.Collection(p.collection), ss.ref.id),
-        //            { data: p.data },
-        //        )
-        //    )
-        //        .then ((ret) => ret)
-        //        .catch((err) => err)
-        //})
+        await updatePeople.forEach((ss) =>  {
+			// debug
+			let em=JSON.stringify(ss.data) //.email
+			rbody = rbody + em + '\n'
+            let aa = client.query(
+                q.Update(
+                    q.Ref(q.Collection(p.collection), ss.ref.id),
+                    { data: p.data },
+                )
+            )
+                .then ((ret) => ret)
+                .catch((err) => err)
+        })
         return {
             statusCode: 200,
-            body:       'Nuova newsletter:\n'+ rbody
+            //body:       'Nuova newsletter:\n'+ rbody
+            body:       rbody
         }
     }
     else {
