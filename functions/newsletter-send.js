@@ -1,5 +1,6 @@
 const TESTEMAIL = false
 const myTestEmail = 'ruvido@gmail.com'
+const today = new Date().toISOString().substring(0,10)
 //// ----------------------------------------------/
 const { schedule } = require('@netlify/functions');
 //// POSTMARK--------------------------------------/
@@ -17,18 +18,13 @@ let client = new faunadb.Client({
 })
 //// ( ruvido )------------------------------------/
 const p = {
-    //index:      "test_active_isSent",
-    //collection: "test",
     index:      "people_newsletter_active_isSent",
     collection: "people",
     indexValue: [ true , false] ,
-    //indexValue: [ true , true] ,
-    //indexValue: [ true , null] ,
     dbSize:     100000,
-    nlSize:     500,              // Newsletter batch size
-    //nlSize:     1,              // Newsletter batch size
+    nlSize:     200,              // Newsletter batch size
     data: {
-        newsletter: { isSent: true}
+		newsletter: { isSent: true, lastSent: today}
         //newsletter: { isSent: false}
     }
 }
@@ -65,7 +61,6 @@ const fetchEmailRecipients = async (testing, sendToday) => {
         }
 }
 ////////////////////////////////////////////////////
-const today = new Date().toISOString().substring(0,10)
 const handler = async function(event, context) {
     let rbody = 'ugh... qualcosa fooorse non è andato'
 
