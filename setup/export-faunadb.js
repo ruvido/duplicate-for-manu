@@ -12,7 +12,7 @@ const exportFaunaDB = async () => {
     await client.query(
         q.Map(
             //q.Paginate(q.Match(q.Index("people_active"), true)),
-            q.Paginate(q.Match(q.Index("all_subscribed")), {"size": 10000}),
+            q.Paginate(q.Match(q.Index("all_subscribed")), {"size": 100000}),
             q.Lambda("peopleRef", q.Get(q.Var("peopleRef")))
         )
     )
@@ -20,8 +20,8 @@ const exportFaunaDB = async () => {
             console.log('[')
             res.data.forEach((ss) =>  {
                 //console.log(ss.data)
-                console.log(JSON.stringify(ss))
-                console.log(',')
+                console.log(JSON.stringify(ss)+',')
+                //console.log(',')
             })
             console.log(']')
         })
