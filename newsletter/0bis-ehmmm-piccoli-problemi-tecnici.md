@@ -1,4 +1,5 @@
 ---
+eleventyExcludeFromCollections: true
 date: 2022-03-06
 title: "Ehhhmmm piccoli problemi tecnici 🤣🤣🤣 #0bis"
 ---

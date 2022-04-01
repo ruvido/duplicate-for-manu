@@ -1,4 +1,5 @@
 ---
+eleventyExcludeFromCollections: true
 date: 2022-03-05
 title: "Iscrizioni ORA et LABORA experience! 😳😘⚡️ #0"
 ---

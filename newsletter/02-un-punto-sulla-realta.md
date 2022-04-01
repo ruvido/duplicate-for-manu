@@ -1,5 +1,5 @@
 ---
-title: Un punto sulla realtà 🦊
+title: 'Un punto sulla realtà 🦊 #2'
 date: 2022-03-18
 ---
 <div style="max-width: 600px; font-size:18px; line-height: 1.6; padding: 30px 30px; font-family: Georgia, serif">

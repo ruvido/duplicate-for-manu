@@ -1,14 +1,13 @@
 ---
-title: newsletter
+title: Newsletter
 ---
 
-Iscriviti alla newsletter di 5pani2pesci
-
-<form class="newsletter-subscription">
-<label>Email</label>
-<input type="email" name="email" />
-<button type="submit">Iscriviti</button>
-</form>
+<h3>Archivio</h3>
+<ul>
+{%- for post in collections.newsletter | reverse -%}
+  <li><a href="{{post.url}}">{{ post.data.title}}</a></li>
+{%- endfor -%}
+</ul>
 
 <script>
 let formElem = document.querySelector(".newsletter-subscription")
