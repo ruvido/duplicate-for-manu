@@ -73,7 +73,7 @@ E poi amici miei non dimenticatevi che il fidanzamento è un **periodo di prova*
 
 Tutti i fidanzamenti sono chiamati a finire! 
 
-O ci si lascia, o ci si sposa... facciamola finita con questi fidanzamenti d'argento che non portano da nessuna parte -- vitelloni -- e non mi parlate della maledizione economica (ne abbiamo discusso proprio nell'ultimo episodio del podcast), il vostro discernimento abbia fondamenta solide. Non vi lasciate fregare... si cammina insieme per rispondere a queste due domande:
+O ci si lascia, o ci si sposa... facciamola finita con questi fidanzamenti d'argento che non portano da nessuna parte -- vitelloni -- e non mi parlate della maledizione economica (ne abbiamo discusso proprio nell'[ultimo episodio del podcast](https://5p2p.buzzsprout.com/1674844/10369257-la-maledizione-economica)), il vostro discernimento abbia fondamenta solide. Non vi lasciate fregare... si cammina insieme per rispondere a queste due domande:
 
 1. Se siete chiamati al matrimonio
 2. Se siete chiamati al matrimonio insieme! (eh si perché magari ti devi sposare... ma non con quella persona)
@@ -123,7 +123,7 @@ Ma ricorda, un fidanzamento casto è un cammino per imparare a crescere nella te
 
 E se siete andati già a letto insieme? 
 
-Niente è perduto e tutto è un cammino. Conosciamo tantissime coppie che -- dopo un annuncio della sua bellezza -- hanno deciso di vivere un rapporto casto. Ed è stata la decisione più importante per il loro fidanzamento, elevando il loro amore a livelli mai visti, facendo chiarezza, mettendo finalmente in chiaro gli obiettivi (io e te che stiamo facendo con questo rapporto? Dove stiamo andando?).
+Niente è perduto e tutto è un cammino. Conosciamo tantissime coppie che -- dopo un annuncio di questa bellezza -- hanno deciso di vivere un rapporto casto. Ed è stata la decisione più importante per il loro fidanzamento, elevando il loro amore a livelli mai visti, facendo chiarezza, mettendo finalmente in chiaro gli obiettivi (io e te che stiamo facendo con questo rapporto? Dove stiamo andando?).
 
 Ciò che è stato in passato non importa e non disperatevi per una caduta: l'Amore di Dio è più grande delle vostre debolezze (... passate per il confessionale). Ma quello che conta di più è credere *oggi* che *preservare la vostra purezza è importante*. Non farlo vuol dire creare dei legami intimi nella vostra storia, che vi **impediranno** di rimanere liberi per poter scegliere l'altro in pienezza e senza alcuna costrizione.
 
