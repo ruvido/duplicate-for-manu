@@ -14,66 +14,44 @@ layout: page
 - ✅ push md post to repo -> generate json for post
 - ✅ scheduled netlify function for site rebuilds (no future posts)
 - ✅scheduled netlify function to send newsletters
-    - ~~reset email flag isSent to *false*~~
-    - ~~send batch emails untill all recipients (via scheduled functions)~~
-        - fetch email addresses in batches (e.g. 1-500, 501-1000 etc.)
-    - ~~send via postmark template~~
-    - flag email once sent -> *isSent = true*
 
----
-
-- ~~progressive LAUNCH~~
-    - ~~first email as a test message~~
-    - ~~ ... then start deliver~~
-- newsletter-reset-isSent.js (**schedule** this)
-- add txt email 
-
-#### invite people
-- invite people from other lists to subscribe:
-    - ~~podcast (dillo negli episodi)~~
-    - ~~telegram~~
-    - donorbox
-    - mailchimp
-    - instagram (naturalmente)
-
-#### other
-- Add "Offri un caffè" (donorbox)
-- Add ORA et LABORA logo + description + registration
 
 #### MIGRATION (2nd stage)
-- navigation menu
-    - [hamburger](https://github.com/jonsuh/hamburgers)
+- ⭐ add newsletter archive
+- ⭐ add old blog posts  take care of *redirects*
+- archive first post text 
 - update footer
-- add old blog posts
-    - take care of *redirects*
-- add youtube videos
-- add podcast episodes
+- add "Offri un caffè" (donorbox)
 
 #### OPTIMIZATION (3rd stage)
+- add txt email 
 - clean-up mailing list (delete blocked/unverified addresses)
 - make a weekly dump of the fauna database -> netlify function + github
 - emoticon stopped working
-- migrate to ==supabase==
 - css, js minification [parcel?](https://en.parceljs.org/)
 - optimize logo size
 - optimize image & font size for desktop
-- automatic image optimization
-- lazy loading images
-- code cleanup
+- code cleanup (move scripts to inline)
 - cleanup layouts
 - cleanup includes (and organize in folders)
 - cleanup json.njk in includes (only used to send registration emails)
-- script to check how many emails are not verified
-- change youtube promo video
-- have different branches for development and stable
 - favicon
 
 #### NEW FUNCTIONALITIES (4th stage)
+- navigation menu
+    - [hamburger](https://github.com/jonsuh/hamburgers)
 - search (preview)
 - seo optimization
 - contact form
 - verify email address without explicit opt-in but -- intead -- check if the welcome email is read (very cool (y))
 - make a first draft of the headless CMS (auth)
+- Add ORA et LABORA logo + description
+- add youtube videos
+- add podcast episodes
+- migrate to ==supabase==
+- automatic image optimization
+- lazy loading images
+
 
 #### SUBSCRIPTIONS (5th stage)
 - replace donorbox with stripe subscriptions
