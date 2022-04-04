@@ -10,7 +10,7 @@ Carissimi
 
 bentornati ad un nuovo numero della ✨ *newsletter di 5pani2pesci* ✨ Spero che il *piccccolisssimo* contrattempo della scorsa settimana si sia risolto e che tutti quanti stiano leggendo questa email comodamente dalla vostra casella di posta 😎 ... bene, iniziamo!
 
-Quello del fidanzamento è un cammino incredibile: stupendo e ricco, pieno di dubbi e ostacoli. Montagne insormontabili si parano davanti alle povere coppie. Ma in realtà, mi rendo conto che tanti ingarbugliamenti e tante difficoltà, nascono spesso da poche semplici dinamiche (ehm ehm [Nuclei di Morte??](https://www.youtube.com/playlist?list=PLeN1Oviv2DpmP2bpuAeqLY7ioiDLMzvvK) 😆)
+Quello del fidanzamento è un cammino incredibile: stupendo e ricco, pieno di dubbi e ostacoli. Montagne insormontabili si parano davanti alle povere coppie. Ma in realtà mi rendo conto che tanti ingarbugliamenti e tante difficoltà, nascono spesso da poche semplici dinamiche (ehm ehm [Nuclei di Morte??](https://www.youtube.com/playlist?list=PLeN1Oviv2DpmP2bpuAeqLY7ioiDLMzvvK) 😆)
 
 Per questo motivo ho deciso di scrivere questa *lettera aperta* rivolta a chi sta iniziando un cammino di fidanzamento, nella speranza che l'amore possa fiorire in pienezza. Sono 7 fondamenti, 7 punti di partenza, per permettere all'amore di crescere.
 
@@ -24,7 +24,9 @@ Francesco
 
 Se questa email ti è stata inviata da un amico, puoi [iscriverti alla Newsletter qui](https://5p2p.it).
 
+<span style="font-size: 0.8rem">
 PS. Questa lettera è un riadattamento di un post del 2013 che potete trovare sul blog.
+</span>
 
 ---
 
@@ -33,7 +35,7 @@ PS. Questa lettera è un riadattamento di un post del 2013 che potete trovare su
 
 Carissimi
 
-Trovare l'amore è una grazia troppo bella. Al centro della vita c'è la nostra *affettività*, cioè la nostra capacità di **donare** e **ricevere** amore e affetto; più questa parte di noi è sana e piena, più ci realizziamo come persone ... altro che il lavoro o i soldi. Quelli sono solo palliativi, un ombra sbiadita di cosa possa essere veramente la felicità per un uomo.  
+Trovare l'amore è una grazia troppo bella. Al centro della vita c'è la nostra *affettività*, cioè la capacità di **donare** e **ricevere** amore e affetto; più questa parte di noi è sana e piena, più ci realizziamo come persone ... altro che il lavoro o i soldi. Quelli sono solo palliativi, un ombra sbiadita di cosa possa essere veramente la felicità per un uomo.  
 
 Siete ancora agli inizi, quante novità, quante sorprese... e poi il tumulto del cuore! Sono sicuro che questi primi tempi saranno travolgenti: desiderare e sentirsi desiderati, impazienti di scoprire l'altro. 
 
@@ -43,7 +45,7 @@ Tuttavia il fidanzamento **non si improvvisa**, per fare in modo che l'*amore cr
 
 È necessario camminare.
 
-Allora condivido volentieri con voi quello che ho imparato nel cammino di fidanzamento con Alessandra con la speranza che vi possa essere di aiuto. 
+Per questo voglio condividere con voi quello che ho imparato nel cammino di fidanzamento con Alessandra, con la speranza che vi possa essere di aiuto. 
 
 ### 1. Tempo e spazio
 
@@ -58,6 +60,12 @@ Andate al centro.
 Tra me ed Ale ci sono otto anni di differenza. Ora che ne abbiamo 36 lei e 44 io, non si nota affatto ma ... quando ci siamo incontrati la prima volta io ne avevo 24 e Ale ... 16! Ci siamo fidanzati che ne aveva quasi 17 ma *capisc' a me'* certi discorsi da liceale non si potevano sentire! La differenza era troppo grande ... anche qui il frate corse in aiuto. Mentre lei doveva crescere in maturità, io dovevo venirle incontro dall'altra parte. La relazione doveva essere **paritaria**. Ne' io troppo in alto, ne' lei troppo in basso. Una volta raggiunto questo obbiettivo, abbiamo camminato e siamo cresciuti insieme. [La mancanza di un rapporto paritario](https://youtu.be/b5NjXooNXRU) è uno dei **nuclei di morte** principali che distruggono l'amore. Ce ne sono altri, è bene che tu li conosca tutti per saperti orientare!
 
 **Se l'amore non cresce muore**, è questa la chiave di lettura fodamentale. Pensare che vi amerete sempre come il primo giorno è una *maledizione* che dovete scrollarvi di dosso al più presto. Se amassi Ale come il primo giorno, farei una frazione delle cose che farei oggi per lei. L'amore deve sempre crescere, non esiste lo *status-quo*. Quando esistono delle dinamiche personali o di coppia che impediscono questa crescita... l'amore muore. Queste dinamiche possono essere raggruppate in un set preciso e limitato di casi per aiutarvi a camminare: noi li chiamiamo [Nuclei di Morte](https://www.youtube.com/playlist?list=PLeN1Oviv2DpmP2bpuAeqLY7ioiDLMzvvK).
+
+Dopo aver individuato quelle situazioni che impediscono al vostro amore di crescere, incominciate a lavorarci.
+
+Non sarete pronti per sposarvi quando tutto sarà perfettamente risolto (a volte ci vuole una vita...), ma se avrete dimostrato a voi stessi e all'altro che siete stati capaci di chiamare per nome le vostre difficoltà e che avete avuto il coraggio di metterci le mani (spoiler: *brucia da morire*, ma come disinfettante su una ferita, è la cosa migliore che possiate fare per la vostra relazione).
+
+Quando l'altro si rifiuta di lavorare sui nuclei di morte... spesso è il segno di una storia che non va da nessuna parte. 
 
 ### 3. Abbiate chiara la meta
 
