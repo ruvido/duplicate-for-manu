@@ -1,8 +1,7 @@
 ---
 date: 2022-03-11
-title: "Aprire il cuore #1"
+title: "Aprire il cuore ❤️😊 #1"
 ---
-<div style="max-width: 600px; font-size:18px; line-height: 1.6; padding: 30px 30px; font-family: Georgia, serif">
 
 Carissimi,
 
@@ -82,4 +81,3 @@ Grazie per tutte le vostre email per **ORA et LABORA experience**. Purtroppo i p
 
 ✅ Vi ricordo che continua la challenge della quaresima **Fridays for fasting**, seguendo l'esortazione dell'evangelista Matteo, viviamo tutti i venerdì di quaresima nel **digiuno** per pregare per l'attuale situazione di guerra e fine pandemia, ma soprattutto affinché "questi tempi vengano accorciati" e che possa "manifestarsi la Gloria di Dio" (Mt24).
 
-</div>

@@ -2,7 +2,6 @@
 title: "La buona battaglia 🙆 #4"
 date: 2022-04-01
 ---
-<div style="max-width: 600px; font-size:18px; line-height: 1.6; padding: 30px 30px; font-family: Georgia, serif">
 
 Carissimi
 
@@ -108,4 +107,3 @@ A chi volesse sostenere questa iniziativa può lasciare una offerta tramite [Off
 
 ✅ Vi ricordo che -- nonostante i nostri disastri -- continua la challenge della quaresima **Fridays for Fasting**, seguendo l'esortazione dell'evangelista Matteo, viviamo tutti i venerdì di quaresima nel **digiuno** per pregare per l'attuale situazione di guerra e fine pandemia, ma soprattutto affinché "questi tempi vengano accorciati" e che possa "manifestarsi la Gloria di Dio" (Mt24).
 
-</div>

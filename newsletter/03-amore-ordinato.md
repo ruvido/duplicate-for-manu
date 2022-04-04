@@ -2,7 +2,6 @@
 title: 'Amore ordinato 😍 #3'
 date: 2022-03-25
 ---
-<div style="max-width: 600px; font-size:18px; line-height: 1.6; padding: 30px 30px; font-family: Georgia, serif">
 
 Carissimi
 
@@ -92,5 +91,4 @@ A chi volesse sostenere questa iniziativa può lasciare una offerta tramite [Off
 
 Oggi **ancora più speciale** perché assisteremo alla consacrazione da parte del Papa della Russia al *cuore immacolato di Maria* 🙏 
 
-</div>
 

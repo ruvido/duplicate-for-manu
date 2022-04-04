@@ -4,33 +4,10 @@ title: Newsletter
 
 <h3>Archivio</h3>
 <ul>
-{%- for post in collections.newsletter | reverse -%}
-  <li><a href="{{post.url}}">{{ post.data.title}}</a></li>
-{%- endfor -%}
+	{%- for post in collections.newsletter | reverse -%}
+		{% if not post.data.futureDate %}
+		<li><a href="{{post.url}}">{{ post.data.title}}</a></li>
+		{% endif %}
+	{%- endfor -%}
 </ul>
 
-<script>
-let formElem = document.querySelector(".newsletter-subscription")
-
-formElem.addEventListener("submit", function(e) {
-        e.preventDefault()
-
-        let formData = new FormData(formElem)
-
-        let payload = JSON.stringify(Object.fromEntries(formData))
-
-        fetch(
-                "/functions/newsletter-subscription",
-                {
-method: "POST",
-body: payload,
-headers: {'Content-Type': 'application/json;charset=utf-8'}
-}
-)
-        .then(resp => {
-            console.log(resp)
-            })
-
-
-        })
-</script>
