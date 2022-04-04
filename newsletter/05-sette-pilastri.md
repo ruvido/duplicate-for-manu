@@ -69,13 +69,22 @@ Quando l'altro si rifiuta di lavorare sui nuclei di morte... spesso è il segno 
 
 ### 3. Abbiate chiara la meta
 
-E poi amici miei non dimenticatevi che il fidanzamento è un **periodo di prova**. Non giocate a fare la coppia sposata, non bruciate le tappe. Né nei doveri, né nei diritti, né nei piaceri. Camminate serenamente nella semplicità. Lasciate il *per sempre* per dopo, perché non guastiate quello che deve essere preservato. Il fidanzamento cristiano si basa sulla **libertà**, sul poter cambiare idea il giorno prima delle nozze. Usate questo tempo per conoscervi in verità, più maschere butterete giù ora, meglio permetterete al vostro partner di entrare nella vostra storia, capirla ed amarla. L'obbiettivo infatti non è sposarsi o ricevere un po' di calore umano, ma amarvi senza riserve, per quello che siete... specialmente nei vostri difetti e nelle debolezze, accogliendovi completamente. Quando avrete raggiunto questo rispetto e ne provate gioia nell'esercitarlo, allora sarete pronti. Tutto quello che metterete in mezzo: egoismi, sesso o bugie; non farà altro che rendervi questo cammino di discernimento più difficile, meno chiaro e tortuoso.
+E poi amici miei non dimenticatevi che il fidanzamento è un **periodo di prova**. 
+
+Tutti i fidanzamenti sono chiamati a finire! 
+
+O ci si lascia, o ci si sposa... facciamola finita con questi fidanzamenti d'argento che non portano da nessuna parte -- vitelloni -- e non mi parlate della maledizione economica (ne abbiamo discusso proprio nell'ultimo episodio del podcast), il vostro discernimento abbia fondamenta solide. Non vi lasciate fregare... si cammina insieme per rispondere a queste due domande:
+
+1. Se siete chiamati al matrimonio
+2. Se siete chiamati al matrimonio insieme! (eh si perché magari ti devi sposare... ma non con quella persona)
+
+Non giocate a fare la coppia sposata, non bruciate le tappe. Né nei doveri, né nei diritti, né nei piaceri. Camminate serenamente nella semplicità. Lasciate il *per sempre* per dopo, perché non guastiate quello che deve essere preservato. Il fidanzamento cristiano si basa sulla **libertà**, sul poter cambiare idea il giorno prima delle nozze. Usate questo tempo per conoscervi in verità, più maschere butterete giù ora, meglio permetterete al vostro partner di entrare nella vostra storia, capirla ed amarla. L'obbiettivo infatti non è sposarsi o ricevere un po' di calore umano, ma amarvi senza riserve, per quello che siete... specialmente nei vostri difetti e nelle debolezze, accogliendovi completamente. Quando avrete raggiunto questo rispetto e ne provate gioia nell'esercitarlo, allora sarete pronti. Tutto quello che metterete in mezzo: egoismi, sesso o bugie; non farà altro che rendervi questo cammino di discernimento più difficile, meno chiaro e tortuoso.
 
 ### 4. Alla luce della parola di Dio
 
 Se non fosse stato per il Vangelo, io ed Alessandra ci saremmo lasciati dopo un giorno. Infatti, già all'indomani del nostro primo appuntamento, avevo incominciato a pensare che stavamo facendo una follia, una semplice illusione infantile. Avevamo di fronte tanti impedimenti come l'età e la distanza per nominarne un paio... Ma più in generale il problema era che facevamo parte di due mondi così distanti e diversi. Invece, ciò che ci univa sembrava così debole che in cuor mio ero deciso a lasciar perdere, a non forzare una cosa che -- evidentemente -- non poteva funzionare. C'era questo nel mio cuore quando -- carichi di sfiducia -- siamo andati a messa nel nostro primo giorno di fidanzamento. 
 
-Il Signore ci parlò così:
+Il Signore ci ha parlato così:
 
 > Prendete il largo ... "Signore abbiamo faticato tutta la notte e non abbiamo preso niente, ma sulla tua parola getterò le reti" -- *Lc5,5*
 
@@ -91,7 +100,7 @@ Per dirla in altre parole: il Vangelo si legge, il Vangelo si studia, ma sopratt
 
 Con gli impegni di lavoro o di studio il tempo passa in fretta tra un incontro e l'altro. Non lasciate che questo tempo vi scivoli, invece usatelo per rafforzare la vostra unione. E avete tra le mani uno strumento più potente del teletrasporto: la *preghiera*. Non c'è bisogno di fare niente di speciale. Io ed Alessandra ci esercitavamo nella fedeltà dicendo un mistero del rosario al giorno prima di andare a dormire oppure recitavamo un salmo. 
 
-Vi stupirà quanto la preghiera possa essere unitiva!
+Vi stupirà quanto la preghiera possa unirvi!
 
 ### 6. La purezza
 
@@ -101,18 +110,18 @@ In particolare [abbiate rispetto della vostra intimità](http://5p2p.it/2013/05/
 
 Non calpestatela consumandola prematuramente. Un ragazzo o una ragazza che non sanno aspettare sono immaturi, mancano di pazienza e di prudenza. 
 
-Vedere come l'altro sta di fronte ad una scelta di fidanzamento casto è metro di misura importante per valutare se è la persona giusta: 
+Vedere come l'altro sta di fronte ad una scelta di **fidanzamento casto** è metro di misura importante per valutare se è la persona giusta: 
 
 - L'altro sa aspettare i miei tempi? 
 - Sa essere paziente di fronte ad una difficoltà?
 - Rispetta le mie idee (soprattutto quando siamo in disaccordo)?
-- È capace a mettersi in discussione rispetto ad una cosa che non capisce ma che per me è importante?
+- È capace a mettersi in discussione rispetto ad una cosa che non capisce, ma che per me è importante?
 
-In fondo... che fretta c'è in realtà? Se siete stati pensati uno per l'altra non avete nulla da temere; ma se non siete l'uno per l'altra perché negarvi la possibilità di donarvi completamente alla persona che vi accompagnerà per tutta la vita? E non bevetevi la stupidaggine sulla "compatibilità sessuale"... questi sono pensieri sottosviluppati!
+In fondo... che fretta c'è? Se siete stati pensati uno per l'altra non avete nulla da temere; ma se non siete l'uno per l'altra perché negarvi la possibilità di donarvi completamente alla persona che vi accompagnerà per tutta la vita? E non bevetevi la stupidaggine sulla "compatibilità sessuale"... questi sono pensieri sottosviluppati!
 
-Ma ricorda un fidanzamento casto è un cammino per imparare a crescere nella tenerezza, non una serie sterile di no. Come si cresce nella responsabilità, così si cresce nella tenerezza fino ad arrivare al dono completo di sè, proprio nel matrimonio: massima responsabilità nei confronti dell'altro, insieme alla massima forma di condivisione di se stessi, fare l'amore. Per approfondire è il caso che [vi guardate questo video insieme](https://youtu.be/-5SRi8bpiCI) 🙈
+Ma ricorda, un fidanzamento casto è un cammino per imparare a crescere nella tenerezza, non una serie sterile di proibizioni vittoriane. Come si cresce nella responsabilità, così si cresce nella tenerezza fino ad arrivare al dono completo di sé proprio nel matrimonio: massima responsabilità nei confronti dell'altro, insieme alla massima forma di condivisione di se stessi, fare l'amore. Per approfondire è il caso che [vi guardate questo video insieme](https://youtu.be/-5SRi8bpiCI) 🙈
 
-E se andate già letto insieme? 
+E se siete andati già a letto insieme? 
 
 Niente è perduto e tutto è un cammino. Conosciamo tantissime coppie che -- dopo un annuncio della sua bellezza -- hanno deciso di vivere un rapporto casto. Ed è stata la decisione più importante per il loro fidanzamento, elevando il loro amore a livelli mai visti, facendo chiarezza, mettendo finalmente in chiaro gli obiettivi (io e te che stiamo facendo con questo rapporto? Dove stiamo andando?).
 
