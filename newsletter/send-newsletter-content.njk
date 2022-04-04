@@ -3,9 +3,12 @@ permalink: "../functions/newsletter-content.json"
 layout: ""
 eleventyExcludeFromCollections: true
 ---
+{% set css = "<div style='max-width: 600px; font-size:18px; line-height: 1.6; padding: 30px 30px; font-family: Georgia, serif'>" %}
 {% set ii = collections.newsletter | last %}
+{# {% set content = [ii.templateContent] | join %} #}
+{% set content = [css,ii.templateContent,"</div>"] | join %}
 {
     "date": "{{ii.date.toISOString().substring(0,10)}}",
     "subject": "{{ii.data.title}}",
-    "content": {{ii.templateContent | dump | safe | replace("\\n", "")}}
+    "content": {{content | dump | safe | replace("\\n", "")}}
 }
