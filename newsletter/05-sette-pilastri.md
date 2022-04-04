@@ -8,9 +8,9 @@ tags:
 ---
 Carissimi
 
-bentornati ad un nuovo numero della ✨ *newsletter di 5pani2pesci* ✨ Spero che il piccccolisssimo contrattempo della scorsa settimana si sia risolto e che tutti quanti stiano ricevendo questa email comodamente dalla vostra casella di posta 😎 ... bene, iniziamo!
+bentornati ad un nuovo numero della ✨ *newsletter di 5pani2pesci* ✨ Spero che il *piccccolisssimo* contrattempo della scorsa settimana si sia risolto e che tutti quanti stiano leggendo questa email comodamente dalla vostra casella di posta 😎 ... bene, iniziamo!
 
-Ci capita spesso di parlare con i fidanzati. È un cammino tosto, stupendo e ricco ma anche pieno di dubbi e ostacoli. Eppure, essendoci già passati mi rendo conto che tanti ingarbugliamenti e tante difficoltà, nascono in realtà da poche semplici dinamiche (ehm ehm [Nuclei di Morte??](https://www.youtube.com/playlist?list=PLeN1Oviv2DpmP2bpuAeqLY7ioiDLMzvvK) 😆)
+Quello del fidanzamento è un cammino incredibile: stupendo e ricco, pieno di dubbi e ostacoli. Montagne insormontabili si parano davanti alle povere coppie. Ma in realtà, mi rendo conto che tanti ingarbugliamenti e tante difficoltà, nascono spesso da poche semplici dinamiche (ehm ehm [Nuclei di Morte??](https://www.youtube.com/playlist?list=PLeN1Oviv2DpmP2bpuAeqLY7ioiDLMzvvK) 😆)
 
 Per questo motivo ho deciso di scrivere questa *lettera aperta* rivolta a chi sta iniziando un cammino di fidanzamento, nella speranza che l'amore possa fiorire in pienezza. Sono 7 fondamenti, 7 punti di partenza, per permettere all'amore di crescere.
 
@@ -53,9 +53,11 @@ Ah sì poi c'è il telefono, messaggini e messaggetti. Non fatemi sembrare vecch
 
 Andate al centro.
 
-## 2. Rapporto paritario
+## 2. I Nuclei di Morte
 
 Tra me ed Ale ci sono otto anni di differenza. Ora che ne abbiamo 28 lei e 36 io, non si nota affatto ma ... quando ci siamo incontrati la prima volta io ne avevo 24 e Ale ... 16! Ci siamo fidanzati che ne aveva quasi 17 ma *capisc' a me'* certi discorsi da liceale non si potevano sentire! La differenza era troppo grande ... anche qui il frate corse in aiuto. Mentre lei doveva crescere in maturità, io dovevo venirle incontro dall'altra parte. La relazione doveva essere **paritaria**. Ne' io troppo in alto, ne' lei troppo in basso. Una volta raggiunto questo obbiettivo, abbiamo camminato e siamo cresciuti insieme. [La mancanza di un rapporto paritario](https://youtu.be/b5NjXooNXRU) è uno dei **nuclei di morte** principali che distruggono l'amore. Ce ne sono altri, è bene che tu li conosca tutti per saperti orientare!
+
+**Se l'amore non cresce muore**, è questa la chiave di lettura fodamentale. Pensare che vi amerete sempre come il primo giorno è una *maledizione* che dovete scrollarvi di dosso al più presto. Se amassi Ale come il primo giorno, farei una frazione delle cose che farei oggi per lei. L'amore deve sempre crescere, non esiste lo *status-quo*. Quando esistono delle dinamiche personali o di coppia che impediscono questa crescita... l'amore muore. Queste dinamiche possono essere raggruppate in un set preciso e limitato di casi per aiutarvi a camminare: noi li chiamiamo [Nuclei di Morte](https://www.youtube.com/playlist?list=PLeN1Oviv2DpmP2bpuAeqLY7ioiDLMzvvK).
 
 ## 3. Abbiate chiara la meta
 
@@ -68,6 +70,12 @@ Se non foste stato per il Vangelo, io ed Alessandra ci saremmo lasciati subito i
 > Prendete il largo ... "Signore abbiamo faticato tutta la notte e non abbiamo preso niente, ma sulla tua parola getterò le reti" -- *Lc5,5*
 
 Nel mio cuore questa frase risuonava così: ... seguendo la tua testa hai fatto stupidaggini tutta la vita, per una volta fidati di Me e fai come dico Io ... Per questo vi dico: non lasciate che la Parola si allontani mai dalla vostra relazione! Leggete [il Vangelo del giorno](http://vangelodelgiorno.org/M/IT/) quotidianamente. Fate della Parola la vostra guida. Se sarete in ascolto Egli vi indicherà quale sarà la strada da seguire. Egli è *lampada per i vostri passi e luce sul vostro cammino* (Sal 118). 
+
+Per dirla in altre parole: il Vangelo si legge, il Vangelo si studia, ma soprattutto... 
+
+**Il Vangelo si vive!**
+
+Tutta la Sacra Scrittura è permeata di storie e insegnamenti che non vanno intesi come una semplice morale, ma proprio una strada da percorrere ("Io sono **Via**, Verità e Vita" Gv14). Vedrete che la risorsa più grande della vostra vita sarà proprio acquisire *criteri biblici* per affrontare ogni situazione che vi si presenterà.
 
 ## 5. Pregate insieme
 
