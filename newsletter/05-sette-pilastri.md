@@ -108,7 +108,7 @@ E se andate già letto insieme?
 
 Niente è perduto e tutto è un cammino. Conosciamo tantissime coppie che -- dopo un annuncio della sua bellezza -- hanno deciso di vivere un rapporto casto. Ed è stata la decisione più importante per il loro fidanzamento, elevando il loro amore a livelli mai visti, facendo chiarezza, mettendo finalmente in chiaro gli obiettivi (io e te che stiamo facendo con questo rapporto? Dove stiamo andando?).
 
-Ciò che è stato in passato non importa e non disperatevi per una caduta: l'Amore di Dio è più grande delle vostre debolezze (... passate per il confessionale). Ma quello che conta di più è credere *oggi* che *preservare la vostra purezza è importante*. Non farlo vuol dire creare dei legami intimi nella vostra storia, che vi impediranno di rimanere liberi per poter scegliere l'altro in pienezza e senza alcuna costrizione.
+Ciò che è stato in passato non importa e non disperatevi per una caduta: l'Amore di Dio è più grande delle vostre debolezze (... passate per il confessionale). Ma quello che conta di più è credere *oggi* che *preservare la vostra purezza è importante*. Non farlo vuol dire creare dei legami intimi nella vostra storia, che vi **impediranno** di rimanere liberi per poter scegliere l'altro in pienezza e senza alcuna costrizione.
 
 ### 7. Fatevi seguire da una guida spirituale
 
