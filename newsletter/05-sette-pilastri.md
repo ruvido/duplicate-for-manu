@@ -57,9 +57,9 @@ Andate al centro.
 
 ### 2. I Nuclei di Morte
 
-Tra me ed Ale ci sono otto anni di differenza. Ora che ne abbiamo 36 lei e 44 io, non si nota affatto ma ... quando ci siamo incontrati la prima volta io ne avevo 24 e Ale ... 16! Ci siamo fidanzati che ne aveva quasi 17 ma *capisc' a me'* certi discorsi da liceale non si potevano sentire! La differenza era troppo grande ... anche qui il frate corse in aiuto. Mentre lei doveva crescere in maturità, io dovevo venirle incontro dall'altra parte. La relazione doveva essere **paritaria**. Ne' io troppo in alto, ne' lei troppo in basso. Una volta raggiunto questo obbiettivo, abbiamo camminato e siamo cresciuti insieme. [La mancanza di un rapporto paritario](https://youtu.be/b5NjXooNXRU) è uno dei **nuclei di morte** principali che distruggono l'amore. Ce ne sono altri, è bene che tu li conosca tutti per saperti orientare!
+Tra me ed Ale ci sono otto anni di differenza. Ora che ne abbiamo 36 lei e 44 io, non si nota affatto ma ... quando ci siamo incontrati la prima volta io ne avevo 24 e Ale ... 16! Ci siamo fidanzati che ne aveva quasi 17 ma *capisc' a me'* certi discorsi da liceale non si potevano sentire! La differenza era troppo grande ... anche qui il frate corse in aiuto. Mentre lei doveva crescere in maturità, io dovevo venirle incontro dall'altra parte. La relazione doveva essere **paritaria**. Né io troppo in alto, né lei troppo in basso. Una volta raggiunto questo obbiettivo, abbiamo camminato e siamo cresciuti insieme. [La mancanza di un rapporto paritario](https://youtu.be/b5NjXooNXRU) è uno dei **nuclei di morte** principali che distruggono l'amore. Ce ne sono altri, è bene che tu li conosca tutti per saperti orientare!
 
-**Se l'amore non cresce muore**, è questa la chiave di lettura fodamentale. Pensare che vi amerete sempre come il primo giorno è una *maledizione* che dovete scrollarvi di dosso al più presto. Se amassi Ale come il primo giorno, farei una frazione delle cose che farei oggi per lei. L'amore deve sempre crescere, non esiste lo *status-quo*. Quando esistono delle dinamiche personali o di coppia che impediscono questa crescita... l'amore muore. Queste dinamiche possono essere raggruppate in un set preciso e limitato di casi per aiutarvi a camminare: noi li chiamiamo [Nuclei di Morte](https://www.youtube.com/playlist?list=PLeN1Oviv2DpmP2bpuAeqLY7ioiDLMzvvK).
+**Se l'amore non cresce muore**, è questa la chiave di lettura fondamentale. Pensare che vi amerete sempre come il primo giorno è una *maledizione* che dovete scrollarvi di dosso al più presto. Se amassi Ale come il primo giorno, farei una frazione delle cose che farei oggi per lei. L'amore deve sempre crescere, non esiste lo *status-quo*. Quando esistono delle dinamiche personali o di coppia che impediscono questa crescita... l'amore muore. Queste dinamiche possono essere raggruppate in un set preciso e limitato di casi per aiutarvi a camminare: noi li chiamiamo [Nuclei di Morte](https://www.youtube.com/playlist?list=PLeN1Oviv2DpmP2bpuAeqLY7ioiDLMzvvK).
 
 Dopo aver individuato quelle situazioni che impediscono al vostro amore di crescere, incominciate a lavorarci.
 
@@ -73,7 +73,7 @@ E poi amici miei non dimenticatevi che il fidanzamento è un **periodo di prova*
 
 Tutti i fidanzamenti sono chiamati a finire! 
 
-O ci si lascia, o ci si sposa... facciamola finita con questi fidanzamenti d'argento che non portano da nessuna parte -- vitelloni -- e non mi parlate della maledizione economica (ne abbiamo discusso proprio nell'[ultimo episodio del podcast](https://5p2p.buzzsprout.com/1674844/10369257-la-maledizione-economica)), il vostro discernimento abbia fondamenta solide. Non vi lasciate fregare... si cammina insieme per rispondere a queste due domande:
+O ci si lascia, o ci si sposa... facciamola finita con questi fidanzamenti d'argento che non portano da nessuna parte -- vitelloni -- e non mi parlate della maledizione economica (ne abbiamo discusso proprio nell'[ultimo episodio del podcast](https://5p2p.buzzsprout.com/1674844/10369257-la-maledizione-economica)), il vostro discernimento abbia fondamenta solide. Non vi lasciate fregare... si cammina insieme per chiarire questi due punti:
 
 1. Se siete chiamati al matrimonio
 2. Se siete chiamati al matrimonio insieme! (eh si perché magari ti devi sposare... ma non con quella persona)
@@ -119,7 +119,7 @@ Vedere come l'altro sta di fronte ad una scelta di **fidanzamento casto** è met
 
 In fondo... che fretta c'è? Se siete stati pensati uno per l'altra non avete nulla da temere; ma se non siete l'uno per l'altra perché negarvi la possibilità di donarvi completamente alla persona che vi accompagnerà per tutta la vita? E non bevetevi la stupidaggine sulla "compatibilità sessuale"... questi sono pensieri sottosviluppati!
 
-Ma ricorda, un fidanzamento casto è un cammino per imparare a crescere nella tenerezza, non una serie sterile di proibizioni vittoriane. Come si cresce nella responsabilità, così si cresce nella tenerezza fino ad arrivare al dono completo di sé proprio nel matrimonio: massima responsabilità nei confronti dell'altro, insieme alla massima forma di condivisione di se stessi, fare l'amore. Per approfondire è il caso che [vi guardate questo video insieme](https://youtu.be/-5SRi8bpiCI) 🙈
+Ma ricorda, un fidanzamento casto è un cammino per imparare a crescere nella tenerezza, non una serie sterile di proibizioni vittoriane. Come si cresce nella responsabilità, così si cresce nella tenerezza fino ad arrivare al dono completo di sé proprio nel matrimonio: massima responsabilità nei confronti dell'altro, insieme alla massima forma di condivisione di se stessi, fare l'amore. Per approfondire è il caso che [guardate questo video insieme](https://youtu.be/-5SRi8bpiCI) 🙈
 
 E se siete andati già a letto insieme? 
 
