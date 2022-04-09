@@ -9,7 +9,7 @@ tags:
 ---
 Carissimi
 
-bentornati ad un nuovo numero della ✨ newsletter di 5pani2pesci ✨ Oggi in anticipo, perché come abbiamo spiegato nell'[ultimo episodio del podcast](), stiamo vivendo **Ora et Labora Experience** e siccome questa è la settimana più speciale dell'anno, la puntata della newsletter esce oggi invece di venerdì 😀
+bentornati ad un nuovo numero della ✨ newsletter di 5pani2pesci ✨ Oggi in anticipo, perché come abbiamo spiegato nell'[ultimo episodio del podcast](https://www.buzzsprout.com/1674844/10408385), stiamo vivendo **Ora et Labora Experience** e siccome questa è la settimana più speciale dell'anno, la puntata della newsletter esce oggi invece di venerdì 😀
 
 La **settimana santa** è il paradigma della nostra vita. Vale la pena viverla bene! C'è una Grazia da ricevere che va al cuore della nostra vita, ci viene donato l'*ingrediente segreto* per mirare in alto e smettere di vivere di compromessi. Pronti?
 
