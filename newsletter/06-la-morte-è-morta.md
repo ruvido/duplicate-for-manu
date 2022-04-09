@@ -111,7 +111,7 @@ Sembra strano, ma per me la preghiera è più che altro una lotta con Dio. È ve
 
 È per questo che la nostra preghiera dovrebbe essere solo e sempre di lode e ringraziamento. Soprattutto quando le cose non vanno come le avevo pensate io, vuol dire che Dio sta preparando un'altra strada, molto diversa, forse anche dolorosa, ma sicuramente sempre buona per me.
 
-Ecco, spero che queste parole ti abbiamo messo in moto, che ti abbiamo messo un po' in discussione per darti l'opportunità di un rapporto sempre nuovo con Dio.
+Ecco, spero che queste parole ti abbiamo messo in moto, che ti abbiamo lasciato addosso un po' di quella *santa inquietudine* che non ti lascia come sei -- ma ti attiva -- per entrare sempre più in relazione intima con Dio. 
 
 > Il rischio è che tu possa essere felice.
 
@@ -127,7 +127,7 @@ PS. Abbiamo anche scritto una guida pratica per vivere questa settimana giorno p
 
 ---
 
-😘 Se questa newsletter ti piace, facciamola conoscere a tutti! Fai uno screenshot o condividi una frase che ti è piaciuta nelle storie di instagram taggando [@5pani2pesci](https://www.    instagram.com/5pani2pesci/) -- oppure -- inoltra questa email ad  un amico! 
+😘 Se questa newsletter ti piace, facciamola conoscere a tutti! Fai uno screenshot o condividi una frase che ti è piaciuta nelle storie di instagram taggando [5pani2pesci](https://www.    instagram.com/5pani2pesci/) -- oppure -- inoltra questa email ad  un amico! 
 
 La bellezza vale la pena condividerla!
 
