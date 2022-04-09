@@ -76,7 +76,7 @@ Quello che mi rimane in mano dopo il grande entusiasmo iniziale, la delusione de
 
 La **Notte di Pasqua**! Questa notte si vive a pieno solo se si è vissuto il combattimento della fede. Questo giorno glorioso può accadere solo quando la relazione con Lui è in verità, è chiara. Dal silenzio al giubilo, dalla notte alla luce, entro in una nuova relazione con Dio. Basata non più sulle mie idee, ma sul dialogo intimo con Lui. Una vita che ora si basa su una relazione e non più su un set di regole da bravo ragazzo. Qui si sperimenta la libertà, la verità, il volare alto, la pienezza, la felicità tutta intera.
 
-## Il kerigma: la chiave per entrare in intimità con Dio
+## Il Kerigma: la chiave per entrare in intimità con Dio
 
 Io voglio vivere la mia vita come una Settimana Santa.
 
