@@ -89,9 +89,8 @@ Il rischio è che tu possa essere felice.
 
 Fra
 
----
 
-😘 Se questa newsletter ti piace, facciamola conoscere a tutti! Fai uno screenshot o condividi una frase che ti è piaciuta nelle storie di instagram taggando [5pani2pesci](https://www.    instagram.com/5pani2pesci/) -- oppure -- inoltra questa email ad  un amico! 
+😘 Se questa newsletter ti piace, facciamola conoscere a tutti! Fai uno screenshot o condividi una frase che ti è piaciuta nelle storie di instagram taggando [5pani2pesci](https://www.instagram.com/5pani2pesci/) -- oppure -- inoltra questa email ad  un amico! 
 
 La bellezza vale la pena condividerla!
 
@@ -100,7 +99,7 @@ La bellezza vale la pena condividerla!
 ## Ora et Labora Experience! (2nd edition)
 ### 30 Maggio - 5 Giugno (Pentecoste)
 
-Arrivo domenica 29 in giornata, partenza la sera del 5 o lunedì mattina. Pernottamento in tenda, bagni all'aperto, lavoro manuale, fraternità, calore del sud. **Esperienza estrema**, non per tutti. Aperto a ragazzi e fidanzati. Solo 20 posti. Per saperne di più, ascoltate alcuni degli ultimi episodi del podcast o [ascoltate le testimonianze di c'è stato](https://5p2p.buzzsprout.com/1674844/10454056-non-vedere-l-ora-et-labora-gratefulexperiencccce). Per iscriversi mandare una email a <info@5p2p.it> con:
+Arrivo domenica 29 in giornata, partenza la sera del 5 o lunedì mattina. Pernottamento in tenda, bagni all'aperto, lavoro manuale, fraternità, calore del sud. **Esperienza estrema**, non per tutti. Aperto a ragazzi e fidanzati. Solo 20 posti. Per saperne di più, ascoltate alcuni degli ultimi episodi del podcast o [le testimonianze di chi c'è stato](https://5p2p.buzzsprout.com/1674844/10454056-non-vedere-l-ora-et-labora-gratefulexperiencccce). Per iscriversi mandare una email a <info@5p2p.it> con:
 
 - nome
 - età
@@ -110,7 +109,7 @@ Arrivo domenica 29 in giornata, partenza la sera del 5 o lunedì mattina. Pernot
 
 A presto!
 
---
+---
 
 ## Offri un Caffè
 
