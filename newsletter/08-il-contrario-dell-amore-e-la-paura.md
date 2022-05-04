@@ -1,5 +1,5 @@
 ---
-title: "Il contrario dell'amore è la paura 🙊 #8"
+title: "Il contrario dell\'amore è la paura 🙊 #8"
 date: 2022-05-06
 tags: 
   - fede
@@ -11,7 +11,7 @@ bentornati ad un nuovo numero della ✨ newsletter di 5pani2pesci ✨ I preparat
 
 Molti ci chiedono se non abbiamo **paura** per tutta questa precarietà, e la risposta è chiara: *certo che si!* Ma allo stesso tempo possiamo dire che abbiamo visto **l'amore vincere** e per meno di questo non si può fare!!
 
-Qui si pensa e si opera al contrario.
+Qui si pensa e si opera al contrario 🙀
 
 Buona lettura
  
