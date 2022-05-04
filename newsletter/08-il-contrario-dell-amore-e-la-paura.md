@@ -1,5 +1,5 @@
 ---
-title: Il contrario dell\'amore è la paura 🙊 \#8
+title: Il contrario dell\'amore è la paura 🙊 \#X
 date: 2022-05-06
 tags: 
   - fede
