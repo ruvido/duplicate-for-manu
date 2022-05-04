@@ -13,7 +13,7 @@ bentornati ad un nuovo numero della ✨ newsletter di 5pani2pesci ✨
 
 Ma... *ovviamente*
 
-Qui si pensa e si opera al contrario.
+Qui si pensa e si opera al contrario 🙀
 
 Buona lettura
  
@@ -38,7 +38,7 @@ Fra
 
 ---
 
-😘 Se questa newsletter ti piace, facciamola conoscere a tutti! Fai uno screenshot o condividi una frase che ti è piaciuta nelle storie di instagram taggando [5pani2pesci](https://www.    instagram.com/5pani2pesci/) -- oppure -- inoltra questa email ad  un amico! 
+😘 Se questa newsletter ti piace, facciamola conoscere a tutti! Fai uno screenshot o condividi una frase che ti è piaciuta nelle storie di instagram taggando [5pani2pesci](https://www.instagram.com/5pani2pesci/) -- oppure -- inoltra questa email ad  un amico! 
 
 La bellezza vale la pena condividerla!
 

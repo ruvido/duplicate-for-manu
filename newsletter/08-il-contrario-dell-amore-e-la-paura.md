@@ -28,9 +28,9 @@ Tutti conosciamo la paura. A volte, ha avuto il sopravvento. Spesso mi ha impedi
 
 Ecco quattro esempi che mi vengono in mente:
  
-- Quando ho iniziato il mio cammino ad Assisi con padre Giovanni. Avevo paura di non riuscire ad essere fedele, a trovare il coraggio e i soldi per partire ogni mese dalla mia Basilicata ad Assisi per farmi seguire. Non avevo una *lira* (si usa ancora?). Avevo solo 16 anni, i miei di sicuro non mi aiutavano, per loro ero folle (tutti torti non li avevano! meno male che almeno non conoscevano padre Giovanni, se no poi passavamo da *nonavevanotuttiitorti* a *avevanocompletamenteragione!*).
+- Quando ho iniziato il mio cammino ad Assisi con padre Giovanni. Avevo paura di non riuscire ad essere fedele, a trovare il coraggio e i soldi per partire ogni mese dalla mia Basilicata ad Assisi per farmi seguire. Non avevo una *lira* (si dice ancora?). Avevo solo 16 anni, i miei di sicuro non mi aiutavano, per loro ero folle (tutti torti non li avevano! meno male che almeno non conoscevano padre Giovanni, se no poi passavamo da *nonavevanotuttiitorti* a *avevanocompletamenteragione!*).
 
-- Quando mi sono fidanzata con Francesco. Avevamo una paura incredibile, pensavamo: "bravi noi! bella pensata mettersi insieme con 1600km che ci dividono! Mo come *famo* a vedesse?". Francesco lavorava a Zurigo e non aveva tante ferie. Io non avevo i soldi per andare fino a Roma o ad Assisi. Che fare?
+- Quando mi sono fidanzata con Francesco. Avevamo una paura incredibile, pensavamo: "bravi noi! bella pensata mettersi insieme con 1600km che ci dividono! Mo' come *famo* a vedesse?". Francesco lavorava a Zurigo e non aveva tante ferie. Io non avevo i soldi per andare fino a Roma o ad Assisi. Che fare?
 
 - Quando siamo partiti per la Francia. Abbiamo lasciato i nostri amici, Roma, la parrocchia di don Fabio Rosini, il gruppo di preghiera, le nostre famiglie, il tutto con un cucciolo d'uomo appena nato (la nostra Chiaretta!) di tre mesi!!! *Ce la facevamo addosso!*
 
@@ -56,17 +56,17 @@ Non importa a cosa sei chiamato. Quello che importa è se sei in **ascolto** e t
 
 È la paura che ci frega!
 
-Scrivo queste cose perché, ancora una volta, questo è stato un periodo di grande paura per me. Il Signore chiama a dare tutto. È un Dio geloso (me l'avevano sempre detto ma non immaginavo fosse di stampo siciliano 😚 Ho paura proprio perché conosco un minimo il Signore e so che non usa strade classiche per compiere la Sua volontà, Lui è creativo ... ah se lo è! 
+Scrivo queste cose perché, ancora una volta, questo è stato un periodo di grande paura per me. **Il Signore chiama a dare tutto**. È un Dio geloso... me l'avevano sempre detto ma non immaginavo fosse di stampo siciliano 😚 Ho paura proprio perché conosco un minimo il Signore e so che non usa strade classiche per compiere la Sua volontà, Lui è creativo ... ah se lo è! 
 
 La paura la potremmo anche chiamare **tentazione** perché è quella che ci tenta e mette in discussione che Dio ha solo cose grandi per noi, pensieri di felicità e di bellezza che raggiungono il cielo. Ehi! Noi siamo chiamati a cose grandi!!! 
 
 Lo sapevi? 
 
-O stai sempre a farti i conti in tasca, senza lanciarti ad amare sul serio la tua ragazza, vivendo una relazione *noncifacciamomale*, di reciproca difesa? Guarda che il wwf è solo per gli animali! E green-peace è per le balene! Tu di che associazione fai parte? **Puntate a cose grandi**, altrimenti che fai? Ti basta una relazione mediocre? O vuoi sperimentare un amore che sposta le montagne e lascia un segno nel mondo?! 
+O stai sempre a farti i conti in tasca? senza riuscire ad amare sul serio la tua ragazza, vivendo una relazione *noncifacciamomale*, di reciproca difesa? Guarda che il wwf è solo per gli animali! E green-peace è per le balene! Tu di che associazione fai parte? **Puntate a cose grandi**, altrimenti che fai? Ti basta una relazione mediocre? O vuoi sperimentare un amore che sposta le montagne e lascia un segno nel mondo?! 
 
 Punta al massimo. 
 
-Ne vale la pena! Date spazio ai desideri più grandi che avete! Esagerate! Ditevi le cose più grandi possibili ... inutile parlare di calcio ormai, tanto il mondiale se lo *semo* giocato.
+Ne vale la pena! Date spazio ai desideri più grandi che avete! Esagerate! Ditevi le cose più grandi possibili ... inutile parlare di calcio ormai, tanto il mondiale se lo *semo* giocato...
 
 La paura è la tentazione di pensare cose del tipo: "*Dio però a me non me la doveva fare sta cosa eh, proprio così buono non è! Il Signore se mi voleva così bene come dite voi, non mi doveva far perdere il lavoro. Se il Signore mi voleva bene, un uomo me lo faceva trovare, a Lui che gli costa, no?*" ecc, ecc.
 
@@ -88,9 +88,10 @@ Nella pratica ha voluto dire che, per avere i soldi per andare ad Assisi, ho lav
 
 Padre Giovanni mi ha sempre insegnato che Dio non ci da ciò che chiediamo, ma ciò che **crediamo**! E così è stato per me.
 
-Oggi dico che ho avuto soltanto una sola paura, la paura di amare e ancor prima di **lasciarmi amare**. Che sciocca sono stata! Per darle ascolto mi sono persa un sacco di occasioni, le sette tonnellate di gioia di Francesco e Chiara che ti cascano in testa ogni volta che entri in Porziuncola. Bastava credere davvero che Dio è mio Padre e fidarmi. Da oggi ascolterò le parole di don Fabio, voglio proprio godermelo questo sole di Dio!
+Oggi dico che ho avuto soltanto una sola paura: la paura di amare e ancor prima... di **lasciarmi amare**. Che sciocca sono stata! Per darle ascolto mi sono persa un sacco di occasioni, le sette tonnellate di gioia di Francesco e Chiara che ti cascano in testa ogni volta che entri in Porziuncola. Bastava credere davvero che Dio è mio Padre e fidarmi. Da oggi ascolterò le parole di don Fabio, voglio proprio godermelo questo sole di Dio!
 
 Il rischio è che tu possa essere felice.
+
 A venerdì prossimo!
 
 Ale
@@ -99,7 +100,7 @@ PS. San Francesco diceva *il contrario dell'amore è il possesso* ... ed il poss
 
 ---
 
-😘 Se questa newsletter ti piace, facciamola conoscere a tutti! Fai uno screenshot o condividi una frase che ti è piaciuta nelle storie di instagram taggando [5pani2pesci](https://www.    instagram.com/5pani2pesci/) -- oppure -- inoltra questa email ad  un amico! 
+😘 Se questa newsletter ti piace, facciamola conoscere a tutti! Fai uno screenshot o condividi una frase che ti è piaciuta nelle storie di instagram taggando [5pani2pesci](https://www.instagram.com/5pani2pesci/) -- oppure -- inoltra questa email ad  un amico! 
 
 La bellezza vale la pena condividerla!
 
