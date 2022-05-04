@@ -9,6 +9,6 @@ eleventyExcludeFromCollections: true
 {% set content = [css,ii.templateContent,"</div>"] | join %}
 {
     "date": "{{ii.date.toISOString().substring(0,10)}}",
-    "subject": "{{ii.data.title}}",
+    "subject": "{{ii.data.title | safe}}",
     "content": {{content | dump | safe | replace("\\n", "")}}
 }
