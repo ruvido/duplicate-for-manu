@@ -15,5 +15,5 @@ schedule = "00 01 * * *"
 # --------------------------------------
 # each worker can send 500 messages
 [functions."newsletter-send"]
-schedule = "*/20 06-23 * * *"
+schedule = "*/2 05-23 * * *"
 # --------------------------------------
