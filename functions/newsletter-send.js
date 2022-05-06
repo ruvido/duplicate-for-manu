@@ -2,7 +2,7 @@ const TESTEMAIL = false
 const myTestEmail = 'ruvido@gmail.com'
 const today = new Date().toISOString().substring(0,10)
 //// ----------------------------------------------/
-const { schedule } = require('@netlify/functions');
+//const { schedule } = require('@netlify/functions');
 //// POSTMARK--------------------------------------/
 const postmark = require("postmark")
 const emailToken =  process.env.POSTMARK_API_KEY
