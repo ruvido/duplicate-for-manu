@@ -1,4 +1,5 @@
 ---
+eleventyExcludeFromCollections: true
 title: "Title #00"
 date: 2022-05-06
 tags: 
