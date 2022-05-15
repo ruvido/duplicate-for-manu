@@ -1,17 +1,13 @@
 ---
-eleventyExcludeFromCollections: true
-title: "TITLE #X"
-date: 2022-04-29
+title: "Title #00"
+date: 2022-05-06
 tags: 
-  - kerigma
   - fede
-  - list possible tags!!
+  - cammino
 ---
 Carissimi
 
 bentornati ad un nuovo numero della ✨ newsletter di 5pani2pesci ✨ 
-
-Ma... *ovviamente*
 
 Qui si pensa e si opera al contrario 🙀
 
@@ -23,18 +19,15 @@ Se questa email ti è stata inviata da un amico, puoi [iscriverti  alla Newslett
 
 ---
 
-## TITLE
-### SUBtitle
+## Title
+### Subtitle
 
 
 Il rischio è che tu possa essere felice.
+
 A venerdì prossimo!
 
-Fra
-
----
-
-5pani2pesci è completamente finanziato da un **crowdfunding di Provvidenza**, per partecipare con una *donazione* o un *contributo mensile* segui il link: [Offri un Caffè](https://bit.ly/offri-un-caffe)
+Ale
 
 ---
 
@@ -42,3 +35,6 @@ Fra
 
 La bellezza vale la pena condividerla!
 
+---
+
+5pani2pesci è completamente finanziato da un **crowdfunding di Provvidenza**, per partecipare con una *donazione* o un *contributo mensile* segui il link: [Offri un Caffè](https://bit.ly/offri-un-caffe)

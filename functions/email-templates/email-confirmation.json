@@ -1,6 +1,6 @@
 {
     "from":       "5pani2pesci <no-reply@5p2p.it>",
     "subject":    "🙌  Ci sei quasi... conferma la tua email!",
-    "htmlContent": "<h1>Conferma la tua email 😄</h1><p><em><strong>clicca il link qui sotto</strong></em> per confermare il tuo indirizzo ed incomincia a ricevere i nostri messaggi</p><p>http://localhost:8888/email-confirmation.html?token=LINKTOKEN&amp;newsletter</p><p>a prestissimo 😄</p><p>Francesco e Alessandra</p><p><em>5pani2pesci</em></p>",
-    "textContent": "Conferma la tua email 😄\nclicca il link qui sotto per confermare il tuo indirizzo ed incomincia a ricevere i nostri messaggi\nhttp://localhost:8888/email-confirmation.html?token=LINKTOKEN&amp;newsletter\na prestissimo 😄\nFrancesco e Alessandra\n5pani2pesci\n"
+    "htmlContent": "<h1>Conferma la tua email 😄</h1><p><em><strong>clicca il link qui sotto</strong></em> per confermare il tuo indirizzo ed incomincia a ricevere i nostri messaggi</p><p>https://beta.5p2p.it/email-confirmation.html?token=LINKTOKEN&amp;newsletter</p><p>a prestissimo 😄</p><p>Francesco e Alessandra</p><p><em>5pani2pesci</em></p>",
+    "textContent": "Conferma la tua email 😄\nclicca il link qui sotto per confermare il tuo indirizzo ed incomincia a ricevere i nostri messaggi\nhttps://beta.5p2p.it/email-confirmation.html?token=LINKTOKEN&amp;newsletter\na prestissimo 😄\nFrancesco e Alessandra\n5pani2pesci\n"
 }
