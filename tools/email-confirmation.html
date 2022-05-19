@@ -20,15 +20,15 @@
                     confirmationState: false,
                     confirmationError: false,
                     pushConfirmation() {
-                            let payload = {}
+                            //let payload = {}
                             let updateData = {}
                             const queryString = window.location.search;
                             const urlParams = new URLSearchParams(queryString);
                             const key = 'token'
+							const token = urlParams.get(key)
                             if (urlParams.has(key)) {
                                     let today = new Date(Date.now() + 60*60*1000)
                                         .toISOString().substring(0,10)
-
 
                                     updateData.verified = true
                                     updateData.verifiedSince = today
@@ -40,23 +40,36 @@
                                                 }
                                         }
 
-                                    const token = urlParams.get(key)
-                                    payload.ref = token
-                                    payload.collection = "people"
-                                    payload.data = updateData
-                                    payload = JSON.stringify(payload)
-                                    console.log(payload)
+                                    //const token = urlParams.get(key)
+                                    //payload.ref = token
+                                    //payload.collection = "people"
+                                    //payload.data = updateData
+                                    //payload = JSON.stringify(payload)
+                                    //console.log(payload)
                                 }
 
 
-                            fetch(
-                                    "/.netlify/functions/update-user",
-                                    {
-                                            method: "POST",
-                                            body: payload,
+							//const postResp = await fetch(
+							fetch(
+									"/.netlify/functions/supabase-registration",
+									{
+											method: "POST",
+											body: JSON.stringify({
+													action: "verification",
+													token:  token
+												}),
                                             headers: {'Content-Type': 'application/json;charset=utf-8'}
-                                        }
-                                )
+										}
+								)
+//								.then( resp => resp.json())
+//                            fetch(
+//                                    "/.netlify/functions/update-user",
+//                                    {
+//                                            method: "POST",
+//                                            body: payload,
+//                                            headers: {'Content-Type': 'application/json;charset=utf-8'}
+//                                        }
+//                                )
                                 .then(resp => {
                                         console.log(resp)
                                         console.log(resp.ok)
