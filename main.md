@@ -6,7 +6,6 @@ layout: base-noNavbar.njk
 <article>
 
 <h1>{{title}}</h1>
-supabase
 
 ***5PANI2PESCI*** ritorna! 
 
