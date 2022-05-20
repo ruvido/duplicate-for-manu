@@ -6,6 +6,7 @@ layout: base-noNavbar.njk
 <article>
 
 <h1>{{title}}</h1>
+supabase
 
 ***5PANI2PESCI*** ritorna! 
 
@@ -122,11 +123,12 @@ function newsletterSubscription (){
             if (this.isEmail) {
                 this.isSubmitted = true
                 const postResp = await fetch(
-                        "/.netlify/functions/newsletter-subscription",
+                        "/.netlify/functions/supabase-registration",
                         {
                             method: "POST",
                             body: JSON.stringify({
-                                email: this.email
+								action: "registration",
+                                email:  this.email
                             })
                         }
                 )
