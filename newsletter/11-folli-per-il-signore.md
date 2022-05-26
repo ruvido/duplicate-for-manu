@@ -20,10 +20,11 @@ Qui si pensa e si opera al contrario 🙀
 
 Buona lettura
  
-
 Francesco
 
 Se questa email ti è stata inviata da un amico, puoi [iscriverti  alla Newsletter qui](https://5p2p.it).
+
+_Siccome saremo impegnati con Ora et Labora, venerdì prossimo non uscirà la newsletter!_
 
 ---
 
