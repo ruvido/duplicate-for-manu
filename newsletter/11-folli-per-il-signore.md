@@ -12,7 +12,7 @@ bentornati ad un nuovo numero della ✨ newsletter di 5pani2pesci ✨ Come molti
 
 Sarà un'esperienza molto intensa -- _austera_ come ci è stato detto una volta -- ma fertile per un incontro autentico con Dio. Non stiamo inventando nulla di nuovo, è la tradizione della chiesa che ci insegna quanto l'unione di **lavoro manuale**, **preghiera** e **fraternità** siano via _potentissima_ per entrare in relazione più intima con noi stessi e con Dio. Quindi -- breviario, tenda e zappa saranno le nostre armi 😅 Pregheremo e lavoreremo tanto, offrendo il  nostro lavoro per chi è rimasto a casa.
 
-Ma tutto questo non sarebbe possibile se non ci fossero centinaia di folli come noi in tutta Italia (e oltre) che ci aiutano con il loro supporto materiale ([qui per partecipare alla follia](https://bit.ly/offri-un-caffe))  e spirituale con rosari, messe e preghiere. Grazie!!! Senza di voi non si potrebbe fare.
+Ma tutto questo non sarebbe possibile, se non ci fossero centinaia di _folli_ come noi in tutta Italia (e oltre) che ci aiutano con un supporto materiale ([qui per partecipare alla follia](https://bit.ly/offri-un-caffe))  e spirituale con rosari, messe e preghiere. Grazie!!! Senza di voi non si potrebbe fare.
 
 Qui si pensa e si opera al contrario 🙀
 
