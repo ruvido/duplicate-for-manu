@@ -8,15 +8,15 @@ tags:
 ---
 Carissimi
 
-bentornati ad un nuovo numero della ✨ newsletter di 5pani2pesci ✨ Come molti di voi già sanno, la prossima settimana ospiteremo alla baita una ventina di ragazzi da tutta Italia per la seconda edizione di *Ora et Labora*.
+bentornati ad un nuovo numero della ✨ newsletter di 5pani2pesci ✨ Come molti di voi già sanno, la prossima settimana ospiteremo alla *baita* una ventina di ragazzi da tutta Italia per la seconda edizione di *Ora et Labora*.
 
-Sarà un'esperienza molto intensa -- _austera_ come ci è stato detto una volta -- ma fertile per un incontro autentico con Dio. Non stiamo inventando nulla di nuovo, è la tradizione della chiesa che ci insegna quanto l'unione di **lavoro manuale**, **preghiera** e **fraternità** siano via _potentissima_ per entrare in relazione più intima con noi stessi e con Dio. Quindi breviario, tenda e zappa saranno le nostre armi 😅 Pregheremo e lavoreremo tanto, offrendo il  nostro lavoro per chi è rimasto a casa.
+Sarà un'esperienza molto intensa -- _austera_ come ci è stato detto una volta -- ma fertile per un incontro autentico con Dio. Non stiamo inventando nulla di nuovo, è la tradizione della chiesa che ci insegna quanto l'unione di **lavoro manuale**, **preghiera** e **fraternità** siano via _potentissima_ per entrare in relazione più intima con noi stessi e con Dio. Quindi,  breviario, tenda e zappa saranno le nostre armi 😅 Pregheremo e lavoreremo tanto, offrendo il  nostro lavoro per chi è rimasto a casa.
 
-Tutto questo non sarebbe possibile se non ci fossero centinaia di folli come noi in tutta Italia (e oltre) che ci aiutano con il loro supporto materiale ([qui per partecipare alla follia](https://bit.ly/offri-un-caffe))  e spirituale con rosari, messe e preghiere. Grazie!!! Senza di voi non si potrebbe fare.
+Ma tutto questo non sarebbe possibile se non ci fossero centinaia di folli come noi in tutta Italia (e oltre) che ci aiutano con il loro supporto materiale ([qui per partecipare alla follia](https://bit.ly/offri-un-caffe))  e spirituale con rosari, messe e preghiere. Grazie!!! Senza di voi non si potrebbe fare.
 
 Qui si pensa e si opera al contrario 🙀
 
-... e questo numero della newsletter è tutto dedicato a voi 😘
+... e questo numero della newsletter è tutto dedicato per voi 😘
 
 Buona lettura
  
@@ -52,10 +52,9 @@ Adesso ho l’impressione che sia ancora peggio: non ci sono _solo_ i nostri fig
 
 Ed è bellissimo.
 
-Ora sì che mi sento di avere una famiglia numerosa 😄!! (In fondo, quattro figli era abbastanza la norma fino ad una generazione fa). 
-Sembra che alcune persone intorno a noi vedano i nostri figli e ne vadano anche tanti altri che portiamo nel cuore e con cui, quando ne siamo capaci, condividiamo un pezzetto di strada insieme. Ma che cosa stupenda! Una cosa davvero grande ha fatto il Signore! Una rivoluzione copernicana, un cambio di prospettiva.
+Ora sì che mi sento di avere una famiglia numerosa 😄!! (In fondo, quattro figli era abbastanza la norma fino ad una generazione fa). Sembra che alcune persone intorno a noi vedano i nostri figli e ne vadano anche tanti altri che portiamo nel cuore e con cui, quando ne siamo capaci, condividiamo un pezzetto di strada insieme. Ma che cosa stupenda! Una cosa davvero grande ha fatto il Signore! Una rivoluzione copernicana, un cambio di prospettiva.
 
-Nel quotidiano, pensiamo sempre a curarci "il nostro" -- sempre e solo le nostre esigenze -- come ipnotizzati dal nostro ombelico, camminiamo ricurvi su noi stessi come morti viventi (in fondo camminare guardando lo schermo del cellulare è solo l'espressione esteriore di come stiamo messi dentro...). Eppure, la gioia più grande per un uomo è proprio *de*-centrarsi -- **perdersi di vista** come diceva Don Fabio -- per aprirti al mondo intorno a te. Per aprirmi all'incontro con i fratelli che il Signore mi mette davanti. 
+Nel quotidiano pensiamo sempre a curarci "il nostro" -- sempre e solo le nostre esigenze -- come ipnotizzati dal nostro ombelico, camminiamo ricurvi su noi stessi come morti viventi (in fondo camminare guardando lo schermo del cellulare è solo l'espressione esteriore di come stiamo messi dentro...). Eppure, la gioia più grande per un uomo è proprio *de*-centrarsi -- **perdersi di vista** come diceva Don Fabio -- per aprirsi al mondo intorno a se. Per aprirmi all'incontro con i fratelli che il Signore mi mette davanti. 
 
 Ma come? Con tutti i problemi che ho, mi devo pure _accollare_ le situazioni degli altri? Follia! Sì follia per gli uomini, **genialità indiscussa per il Signore**. 
 
@@ -71,21 +70,17 @@ Quante cose vorrei ancora condividere... mannaggia a me che non ho il dono della
 
 **Non abbiate paura ad Amare seriamente!**
 
-Giocatevi tutta la vita con Cristo e scoprirete  
-che Lui l’ha già donata tutta per voi. La 
-solitudine, gli insulti, le gelosie e tutte le 
-cattiverie sono e rimarranno sempre cose molto 
-piccole davanti ad un cuore pieno di grazia.
+Giocatevi tutta la vita con Cristo e scoprirete che Lui l’ha già donata tutta per voi. La solitudine, gli insulti, le gelosie e tutte le cattiverie sono e rimarranno sempre cose molto piccole davanti ad un cuore pieno di grazia.
 
-Se vuoi essere felice devi solo aprire una porta, tutto il resto è un contorno. Questo è godersi la vita, altroché 😎
+Se vuoi essere felice devi solo aprire una porta -- tutto il resto è un contorno. 
+
+Questo è godersi la vita, altroché 😎
 
 Il rischio è che tu possa essere felice!
 
 Alessandra
 
-PS> Siamo felici per l’arrivo imminente di questa ciurma.  Pregate tanto per loro, pregate per i nostri figli che tra pochi
-giorni sosterranno gli esami a scuola e pregate per noi che
-rimaniamo vivi dopo questa settimana!!
+PS> Siamo felici per l’arrivo imminente di questa ciurma. Pregate tanto per loro, pregate per i nostri figli che tra pochi giorni sosterranno gli esami a scuola e pregate per noi che rimarremo vivi dopo questa settimana!!
 
 PPS> Vi porteremo nel cuore e offriremo il nostro lavoro come preghiera per chi è rimasto a casa. 
 
