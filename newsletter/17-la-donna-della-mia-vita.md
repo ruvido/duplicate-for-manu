@@ -11,8 +11,6 @@ Carissimi
 
 bentornati ad un nuovo numero della ✨ newsletter di 5pani2pesci ✨ Nel podcast di lunedì scorso abbiamo ascoltato [la poooootente storia di don Samuel](https://5p2p.buzzsprout.com/1674844/10933792-la-parola-che-ti-cambia-la-vita-come-don-samuel-e-diventato-don-samuel). 
 
-Non ci ha lasciati indifferenti. 
-
 Ed è per questo che oggi vorrei lasciarvi una *chicca*: un post scritto da me quasi 10 anni fa agli albori di 5pani2pesci. Racconta di come ho capito che Ale fosse la donna della mia vita, e di come Dio mi ha completamente ribaltato il modo di vedere la vita.
 
 È chiaro che prima di decidere di sposarci abbiamo fatto un cammino con una guida spirituale, abbiamo fatto i nostri passaggi, il nostro discernimento e abbiamo messo mano sui nostri nuclei di morte (eh sì! può sembrare strano ma anche noi qualche anno fa stavamo *dall'altra parte* nella stessa tua situazione di oggi 😆).
