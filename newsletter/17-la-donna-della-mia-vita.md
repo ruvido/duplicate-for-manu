@@ -76,7 +76,9 @@ Che gioia.
 
 Le mie storie fino a quel momento erano sempre state fallimentari e deludenti, ma ora capivo perchè. Non era un *bug* del sistema.
 
-Avevo cercato male, nei luoghi sbagliati, ma ora avevo la mappa. Ed incominciai a pensare a tutte le mie amiche e conoscenti per vedere se, per caso, qualcuna di loro potesse avvicinarsi ad alcuni di questi nuovi parametri. Dopo un breve rimuginare, la ricerca riportò un-solo-risultato ... **era lei**. 
+Avevo cercato male. Nei luoghi sbagliati e con il cuore da un'altra parte. Ma ora avevo la mappa. 
+
+Ed incominciai a pensare a tutte le mie amiche e conoscenti per vedere se, per caso, qualcuna di loro potesse avvicinarsi ad alcuni di questi nuovi parametri. Dopo un breve rimuginare, la ricerca riportò un-solo-risultato ... **era lei**. 
 
 *Non mi batteva forse il cuore, quando parlavo con lei? Non scorgevo una verità nuova nei nostri discorsi? Non stavamo forse entrambi guardando nella stessa direzione?* 
 
