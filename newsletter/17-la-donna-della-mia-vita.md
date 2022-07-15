@@ -9,13 +9,23 @@ tags:
 ---
 Carissimi
 
-bentornati ad un nuovo numero della ✨ newsletter di 5pani2pesci ✨ [Nel podcast di lunedì abbiamo ascoltato](https://5p2p.buzzsprout.com/1674844/10933792-la-parola-che-ti-cambia-la-vita-come-don-samuel-e-diventato-don-samuel) la poooootente storia di don Samuel. Non ci ha lasciati indifferenti. Ed è per questo oggi vorrei lasciarvi una *chicca*: un post scritto da me quasi 10 anni fa agli albori di 5pani2pesci. Racconta di come ho capito che Ale fosse la donna della mia vita, e di come Dio mi ha completamente ribaltato il modo di vedere la vita.
+bentornati ad un nuovo numero della ✨ newsletter di 5pani2pesci ✨ Nel podcast di lunedì scorso abbiamo ascoltato [la poooootente storia di don Samuel](https://5p2p.buzzsprout.com/1674844/10933792-la-parola-che-ti-cambia-la-vita-come-don-samuel-e-diventato-don-samuel). 
+
+Non ci ha lasciati indifferenti. 
+
+Ed è per questo che oggi vorrei lasciarvi una *chicca*: un post scritto da me quasi 10 anni fa agli albori di 5pani2pesci. Racconta di come ho capito che Ale fosse la donna della mia vita, e di come Dio mi ha completamente ribaltato il modo di vedere la vita.
 
 È chiaro che prima di decidere di sposarci abbiamo fatto un cammino con una guida spirituale, abbiamo fatto i nostri passaggi, il nostro discernimento e abbiamo messo mano sui nostri nuclei di morte (eh sì! può sembrare strano ma anche noi qualche anno fa stavamo *dall'altra parte* nella stessa tua situazione di oggi 😆).
 
-Ma c'è stato un momento per me, una *scintilla*, una stella cometa che ha brillato ed improvvisamente -- dopo tantissima confusione -- mi ha indicato la strada. Quel giorno ho capito. Ho capito cosa volevo, ho capito di non essere sbagliato ed ho capito che esisteva una strada anche per me.
+Ma c'è stato un momento per me, una *scintilla*, una stella cometa che ha brillato ed improvvisamente -- dopo tantissima confusione -- mi ha indicato la strada. 
 
-Questa consapevolezza non ha reso il cammino meno difficile, ma ha fatto luce. E se tra me e Ale le cose non fossero andate, quella luce rimaneva. E questa luce è arrivata mentre cercavo Dio. Allora quello che mi viene da dire è questo: se quella luce l'hai avuta, fai le scelte che devi fare, abbi coraggio, indaga e fai discernimento. Sii serio, c'è una occasione davanti a te. Ma se quella luce invece non ti è ancora arrivata, allora ti dico: rimani aperto. Come leggerai, nelle occasioni più assurde si apre una strada. Ma devi rimanere aperto.
+Quel giorno ho capito. 
+
+Ho capito cosa volevo, ho capito di non essere sbagliato ed ho capito che esisteva una strada anche per me.
+
+Questa consapevolezza non ha reso il cammino meno difficile, ma ha fatto luce. E se tra me e Ale le cose non fossero andate, quella luce sarebbe rimasta, perchè aveva un carattere *esistenziale* mentro ero alla riscoperta di Dio nella mia vita. 
+
+Quello che mi viene da dire è questo: se quella luce l'hai avuta, fai le scelte che devi fare, abbi coraggio, indaga e fai discernimento. Sii serio, c'è una **occasione** davanti a te. Ma se quella luce invece non ti è ancora arrivata, allora ti dico: rimani **aperto**. Come leggerai, è nelle situazioni più assurde che si apre una strada. Dio è presente nella vita di tutti, soprattutto quando lo senti più lontano, "sta alla porta e bussa" (Ap). Non sbarrare la porta del cuore. Non esistono facili soluzioni.
 
 Abbi fiducia.
 
