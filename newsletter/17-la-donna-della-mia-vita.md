@@ -86,8 +86,7 @@ Improvvisamente gli anni di differenza, la distanza geografica, l'assurdità ogg
 
 **È lei.** 
 
-E rimasi sveglio tutta la notte senza poter dormire ... il giorno dopo la chiamai e, timidamente, incominciammo la nostra scalata.
-In fondo... 
+E rimasi sveglio tutta la notte senza poter dormire ... il giorno dopo la chiamai e, timidamente, incominciammo la nostra scalata.   In fondo... 
 
 ... il rischio è che io possa essere felice!
 
