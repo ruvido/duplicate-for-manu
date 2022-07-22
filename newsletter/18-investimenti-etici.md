@@ -8,7 +8,7 @@ tags:
 ---
 Carissimi
 
-bentornati ad un nuovo numero della ✨ newsletter di 5pani2pesci ✨ Settimana densa di informazioni finanziarie! Nel podcast abbiamo prima [imparato le basi degli investimenti]() e poi mercoledì -- episodio speciale -- abbiamo parlato di [Bitcoin e criptovalute]().
+bentornati ad un nuovo numero della ✨ newsletter di 5pani2pesci ✨ Settimana densa di informazioni finanziarie! Nel podcast abbiamo prima [imparato le basi degli investimenti](https://5p2p.buzzsprout.com/1674844/10973416) e poi mercoledì -- episodio speciale -- abbiamo parlato di [Bitcoin e criptovalute](https://5p2p.buzzsprout.com/1674844/10984691).
 
 Ma perché abbiamo trattato questi argomenti? È assurdo!
 
@@ -16,7 +16,7 @@ La verità è che siamo responsabili del denaro che passa dalle nostre mani ed �
 
 L'obiettivo è entrare in una mentalità in cui non sono i soldi (e la loro scarsità) a governare la nostra vita, ma al contrario, la nostra presa di coscienza e discernimento, a guidare i passi della vita.
 
-La [maledizione economica]() non può avere l'ultima parola sulle nostre vite e più noi siamo informati e consapevoli, più saremo in grado di compiere scelte libere e non viziate dai soldi.
+La [maledizione economica](https://5p2p.buzzsprout.com/1674844/10369257) non può avere l'ultima parola sulle nostre vite e più noi siamo informati e consapevoli, più saremo in grado di compiere scelte libere e non viziate dai soldi.
 
 Oggi completiamo questo discorso, rispondendo ad una domanda che ci è stata posta più volte in questi giorni.
 
