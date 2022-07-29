@@ -7,17 +7,21 @@ tags:
 ---
 Carissimi
 
-bentornati ad un nuovo numero della ✨ newsletter di 5pani2pesci ✨ Oggi ho una buona e una cattiva notizia.
+bentornati ad un nuovo numero della ✨ newsletter di 5pani2pesci ✨ 
+
+Oggi ho una *buona* e una *cattiva* notizia.
 
 Iniziamo dalla buona 😆
 
-Fra pochi giorni si celabra il **Perdono di Assisi**, è una festa cara a tutti i Francescani e per noi in particolore. Infatti proprio durante la [Marcia Francescana del 2002](http://5p2p.it/2013/07/15/marcia2002.html)) (cammino che culmina proprio ad Assisi con la festa del Perdono) io ed Ale ci siamo incontrati per la prima volta -- *che te lo dico affa'!* 
+Fra pochi giorni si celebra il **Perdono di Assisi**. È una festa cara a tutti i Francescani e per noi in particolare. Infatti proprio durante la [Marcia Francescana del 2002](http://5p2p.it/2013/07/15/marcia2002.html)) (cammino che culmina proprio ad Assisi con la festa del Perdono) io ed Ale ci siamo incontrati per la prima volta -- *che te lo dico affa'!* 
 
-La buona notizia però non era questa 😅 ... ma  che il Perdono di Assisi può essere ricevuto da ognuno di noi anche non essendo fisicamente ad Assisi e senza aver partecipato alla marcia -- molto potente! In questa newsletter vi raccontiamo come fare 🙋
+La buona notizia però non era questa 😅 ... ma  che il Perdono di Assisi può essere ricevuto da ognuno di noi anche non essendo fisicamente ad Assisi e senza aver partecipato alla marcia -- molto potente! 
 
-La *brutta* notizia invece è che questo è l'ultimo numero della newsletter prima del *break estivo* -- come ogni anno nel mese di Agosto, fino all'inizio della scuola circa ci prendiamo una pausa per rimettere insieme il nostro lavoro, fare programmi futuri e ricaricarci come famiglia (*je la faremo??* 😅). Lo stesso anche per il podcast, il prossimo lunedì sará l'ultimo episodio per questa stagione.
+In questa newsletter vi raccontiamo come fare 🙋
 
-Quindi buon riposo anche a voi in questo tempo estivo, ricaricatevi, fate tutto quello che dovete fare e fate memoria delle cose belle che il Signore ha fatto per voi in questo tempo (sono tante, fidati).
+La *brutta* notizia invece è che questo è l'ultimo numero della newsletter prima del *break estivo*. Come ogni anno nel mese di Agosto, fino all'inizio della scuola circa, ci prendiamo una pausa per rimettere insieme il lavoro fatto, fare programmi futuri e ricaricarci come famiglia (*je la faremo??* 😅). Lo stesso vale anche per il podcast, il prossimo lunedì sarà l'ultimo episodio per questa stagione.
+
+Quindi -- buon riposo anche a voi in questo tempo estivo, ricaricatevi, fate tutto quello che dovete fare e fate memoria delle cose belle che il Signore ha fatto per voi in questo tempo (sono tante, fidati).
 
 Qui si pensa e si opera al contrario 🙀
 
@@ -38,7 +42,9 @@ Il 2 Agosto è un giorno speciale. Non solo perché i marciatori faranno il loro
 
 **Questa è la porta della vita eterna.**
 
-Infatti l'indulgenza plenaria rappresenta la remissione della pena temporale di tutti i peccati -- in pratica la tua anima rimessa a nuovo come al giorno del battesimo (!). Ognuno può acquisire l'indulgenza per se stesso o per un defunto come indica la Chiesa.
+Infatti l'indulgenza plenaria rappresenta la remissione della pena temporale di tutti i peccati -- in pratica *la tua anima rimessa a nuovo come al giorno del battesimo* (!). 
+
+Ognuno può acquisire l'indulgenza per se stesso o per un defunto, come indica la Chiesa.
 
 Non tutti sanno però che per ottenere il *Perdono di Assisi* non è né necessario aver partecipato alla marcia, né essere fisicamente ad Assisi. **Tutti possono ricevere il Perdono**. Infatti le condizioni sono le stesse come per tutte le altre indulgenze plenarie:
 
@@ -54,15 +60,13 @@ Queste tre preghiere non sono a caso ... infatti servono rispettivamente per ria
 
 L'indulgenza del *Perdono di Assisi* può essere ottenuta dai fedeli **dal mezzogiorno del 1 agosto alla mezzanotte del 2 agosto**.
 
-Non perdiamo questa occasione. Il rischio è che io possa essere felice!
+Non perdiamo questa occasione... il rischio è che tu possa essere felice!
 
 Buon perdono! 
 
 Ci vediamo dopo la pausa estiva 👍
 
 F
-
-PS Forse non sai che io ed Alessandra ci siamo incontrati la prima volta proprio alla [Marcia Francescana 2002](http://5p2p.it/2013/07/15/marcia2002.html). Trovi la storia nel link qui sopra.
 
 ---
 
