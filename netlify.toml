@@ -8,10 +8,10 @@ schedule = "0 14 * * *"
 
 # =[ NEWSLETTER ] =====================
 # reset email flag on fauna
-[functions."newsletter-isSent-false"]
-schedule = "*/20 02 * * *"
-[functions."newsletter-fix"]
-schedule = "00 01 * * *"
+# [functions."newsletter-isSent-false"]
+# schedule = "*/20 02 * * *"
+# [functions."newsletter-fix"]
+# schedule = "00 01 * * *"
 # --------------------------------------
 # each worker can send 500 messages
 #[functions."newsletter-send"]
