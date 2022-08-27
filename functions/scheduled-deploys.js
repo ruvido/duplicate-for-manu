@@ -1,5 +1,5 @@
 // scheduled-deploy.js
-const { schedule } = require('@netlify/functions');
+//const { schedule } = require('@netlify/functions');
 const fetch = require("node-fetch");
 const WEBHOOK_URL = process.env.BUILD_HOOK
 
