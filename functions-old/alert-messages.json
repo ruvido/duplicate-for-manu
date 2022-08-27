@@ -1,0 +1,5 @@
+{
+    "statusOk": "<strong>Perfetto!</strong> Ti abbiamo inviato una email, <strong>aprila</strong> per <strong>convalidare</strong> la tua iscrizione",
+    "statusFail": "Qualcosa non ha funzionato... riprova più tardi",
+    "emailExist": "<strong>Questa email è già registrata!</strong> Controlla la **Spam**  se non ricevi i nostri messaggi"
+}
