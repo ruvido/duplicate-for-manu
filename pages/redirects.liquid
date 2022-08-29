@@ -1,0 +1,15 @@
+---
+permalink: /_redirects
+eleventyExcludeFromCollections: true
+---
+# STATIC =============
+
+/newsletter /n
+
+# DYNAMIC ============
+
+{%- for page in collections.all -%}
+  {%- if page.url and page.data.redirectFrom %}
+{{ page.data.redirectFrom }}  {{ page.url }}
+  {%- endif -%}
+{%- endfor -%}

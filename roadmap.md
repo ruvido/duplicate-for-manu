@@ -17,8 +17,17 @@ layout: page
 
 
 #### MIGRATION (2nd stage)
-- ⭐ add newsletter archive
 - ⭐ add old blog posts  take care of *redirects*
+	- create an automatically generated tag page (eg /pages /posts etc)
+	- check dates
+	- fix ignored posts
+	- create automatic redirects file
+	- copy all old post over
+	- (keep old style css, or simply redirect to legacy.5p2p.it?)
+	- (fix old cross-post reference links? ie links inside a post)
+
+- ⭐ add newsletter archive
+- ⭐ add main page sections
 - archive first post text 
 - update footer
 - add "Offri un caffè" (donorbox)

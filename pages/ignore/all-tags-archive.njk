@@ -1,0 +1,45 @@
+---
+layout: base.njk
+type: archive
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - blog
+    - all
+    - postsByYear
+    - tagsList
+permalink: "/tags/{{ tag | slugify }}/" 
+---
+
+<div class="section-title extra-bold">
+    {{ tag }} (#{{ tag | slugify }})
+</div>
+<hr>
+{% set taglist = collections[ tag ] %}
+{% for post in taglist | reverse %}
+
+<div class="post-block">
+    <div class="post-meta post-meta-condensed">
+        <div class="meta-single">
+            {{ post.date | dateFull }}
+        </div>
+        <div class="meta-single">
+            {% for tag in post.data.tags %}
+            {% if not tag.includes("blog") %}
+            #<a class="meta-tag" href="/tags/{{ tag | slugify }}/">{{ tag }}</a>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+    <h3 class="post-title">
+        <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+    </h3>  
+    {% if post.data.excerpt|length %}
+    <div class="post-summary">
+        {{ post.data.excerpt }}
+    </div>
+    {% endif %}
+</div>
+{% endfor %}
