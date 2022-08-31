@@ -148,6 +148,6 @@ function newsletterSubscription (){
 }
 </script>
 
-<small>v. {{version}}</small>
+<small>v. {{version}} dev</small>
 
 
