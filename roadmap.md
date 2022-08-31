@@ -18,10 +18,10 @@ layout: page
 
 #### MIGRATION (2nd stage)
 - ⭐ add old blog posts  take care of *redirects*
+	x create automatic redirects file
 	- create an automatically generated tag page (eg /pages /posts etc)
 	- check dates
 	- fix ignored posts
-	- create automatic redirects file
 	- copy all old post over
 	- (keep old style css, or simply redirect to legacy.5p2p.it?)
 	- (fix old cross-post reference links? ie links inside a post)
